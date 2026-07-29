@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-ARG API_HOST=https://futballero.com
+ARG API_HOST=https://footballproject.org
 ARG USE_API_MOCK=0
 ARG IP_CHECK_HOST=https://api.country.is
 ARG GA_MEASUREMENT_ID=G-M3D3ZCREZJ

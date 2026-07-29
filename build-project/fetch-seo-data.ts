@@ -4,7 +4,7 @@ import { pickRandomSquadPlayers, selectFixtureIdsInWindow } from "./sitemap-sele
 import { ALL_LEAGUES } from "./tracked-leagues";
 import { SquadPlayer, FixtureRound, TeamEntry, LeagueEntry } from "./types";
 
-const API_BASE = "https://futballero.com";
+const API_BASE = "https://footballproject.org";
 const OUTPUT_DIR = path.resolve("public/seo");
 
 const LEAGUE_NAME_OVERRIDES: Record<number, string> = {
