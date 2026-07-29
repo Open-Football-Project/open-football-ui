@@ -205,7 +205,7 @@ describe("LiveNow Component", () => {
     );
 
     expect(mockUseLiveNowStatus).toHaveBeenCalledWith(
-      "https://futballero.com",
+      "https://footballproject.org",
       "0",
       "1234"
     );
