@@ -5,19 +5,13 @@ WORKDIR /app
 
 COPY package*.json ./
 
-ARG GH_TOKEN
 ARG API_HOST=https://futballero.com
 ARG USE_API_MOCK=0
 ARG IP_CHECK_HOST=https://api.country.is
 ARG GA_MEASUREMENT_ID=G-M3D3ZCREZJ
 ARG SHOW_BANNERS=false
 
-RUN apk add --no-cache git && \
-    git config --global url."https://${GH_TOKEN}@github.com/".insteadOf "git+ssh://git@github.com/" && \
-    git config --global url."https://${GH_TOKEN}@github.com/".insteadOf "https://github.com/" && \
-    npm ci && \
-    rm -f /root/.gitconfig && \
-    apk del git
+RUN npm ci
 
 COPY . .
 RUN rm -f .env
