@@ -1,4 +1,4 @@
-# 🖥️ MatchInsights UI
+# 🖥️ Open Football Project UI
 
 A React-based frontend application.
 
