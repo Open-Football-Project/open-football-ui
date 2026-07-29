@@ -1,0 +1,4 @@
+{
+  "jest.jestCommandLine": "npx vitest --reporter=verbose",
+  "jest.runMode": "on-demand"
+}

@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  @apply bg-transparent w-2;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-secondary-dark;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  @apply bg-transparent;
+}
+
+.scrollbar-hidden:hover::-webkit-scrollbar-thumb {
+  @apply bg-secondary-border;
+}
+
+body,
+html,
+#root {
+  background: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+:focus {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+  scroll-margin-top: 4rem;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.roving-container {
+  @apply focus-within:ring-2 focus-within:ring-brand-orange;
+}
+
+.roving-item {
+  @apply focus:outline-dotted focus:ring-0;
+}
+
+@keyframes pulseLiveAppBg {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.02);
+  }
+}
+
+.animate-pulseLiveAppBg {
+  animation: pulseLiveAppBg 6s infinite ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.animate-slide {
+  animation: slide 3s linear infinite;
+}

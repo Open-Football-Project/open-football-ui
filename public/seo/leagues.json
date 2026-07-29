@@ -1,0 +1,1119 @@
+[
+  {
+    "leagueId": 1,
+    "leagueName": "World Cup",
+    "teams": [
+      {
+        "teamId": 16,
+        "teamName": "Mexico",
+        "playerIds": [
+          2889,
+          291713,
+          750,
+          2881,
+          270774
+        ]
+      },
+      {
+        "teamId": 2,
+        "teamName": "France",
+        "playerIds": [
+          278,
+          25927,
+          343027,
+          1257,
+          22221
+        ]
+      },
+      {
+        "teamId": 26,
+        "teamName": "Argentina",
+        "playerIds": [
+          295513,
+          154,
+          319572,
+          2467,
+          2465
+        ]
+      },
+      {
+        "teamId": 15,
+        "teamName": "Switzerland",
+        "playerIds": [
+          406244,
+          48471,
+          2807,
+          2810,
+          25282
+        ]
+      },
+      {
+        "teamId": 6,
+        "teamName": "Brazil",
+        "playerIds": [
+          1165,
+          377122,
+          10097,
+          22224,
+          2410
+        ]
+      }
+    ],
+    "fixtureIds": [
+      1591865,
+      1591866
+    ]
+  },
+  {
+    "leagueId": 11,
+    "leagueName": "CONMEBOL Sudamericana",
+    "teams": [
+      {
+        "teamId": 120,
+        "teamName": "Botafogo",
+        "playerIds": []
+      },
+      {
+        "teamId": 435,
+        "teamName": "River Plate",
+        "playerIds": []
+      },
+      {
+        "teamId": 2365,
+        "teamName": "Atletico Torque",
+        "playerIds": [
+          197515,
+          634147,
+          634146,
+          311333,
+          92808
+        ]
+      },
+      {
+        "teamId": 1182,
+        "teamName": "Olimpia",
+        "playerIds": []
+      },
+      {
+        "teamId": 126,
+        "teamName": "Sao Paulo",
+        "playerIds": [
+          41188,
+          10040,
+          415147,
+          516821,
+          10081
+        ]
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 13,
+    "leagueName": "CONMEBOL Libertadores",
+    "teams": [
+      {
+        "teamId": 127,
+        "teamName": "Flamengo",
+        "playerIds": []
+      },
+      {
+        "teamId": 473,
+        "teamName": "Independ. Rivadavia",
+        "playerIds": []
+      },
+      {
+        "teamId": 2994,
+        "teamName": "U. Catolica",
+        "playerIds": [
+          6529,
+          656092,
+          195804,
+          362877,
+          11411
+        ]
+      },
+      {
+        "teamId": 1176,
+        "teamName": "Cerro Porteno",
+        "playerIds": []
+      },
+      {
+        "teamId": 1153,
+        "teamName": "Independiente del Valle",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": [
+      1535323,
+      1535324,
+      1535320,
+      1535319,
+      1535326,
+      1535329,
+      1535322,
+      1535325,
+      1535321,
+      1535317,
+      1535328,
+      1535315,
+      1535327,
+      1535316,
+      1535318,
+      1535314,
+      1547762,
+      1547760,
+      1547757,
+      1547764,
+      1547759,
+      1547763,
+      1547758,
+      1547761,
+      1547768,
+      1547767,
+      1547770,
+      1547769,
+      1547771,
+      1547765,
+      1547766,
+      1547772
+    ]
+  },
+  {
+    "leagueId": 15,
+    "leagueName": "FIFA Club World Cup",
+    "teams": [
+      {
+        "teamId": 50,
+        "teamName": "Manchester City",
+        "playerIds": [
+          19281,
+          266657,
+          36902,
+          293168,
+          162489
+        ]
+      },
+      {
+        "teamId": 211,
+        "teamName": "Benfica",
+        "playerIds": []
+      },
+      {
+        "teamId": 127,
+        "teamName": "Flamengo",
+        "playerIds": []
+      },
+      {
+        "teamId": 505,
+        "teamName": "Inter",
+        "playerIds": [
+          436238,
+          461830,
+          31173,
+          24953,
+          91488
+        ]
+      },
+      {
+        "teamId": 165,
+        "teamName": "Borussia Dortmund",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 29,
+    "leagueName": "World Cup - Qualification Africa",
+    "teams": [
+      {
+        "teamId": 28,
+        "teamName": "Tunisia",
+        "playerIds": []
+      },
+      {
+        "teamId": 32,
+        "teamName": "Egypt",
+        "playerIds": [
+          2664,
+          306,
+          69196,
+          550371,
+          550469
+        ]
+      },
+      {
+        "teamId": 1501,
+        "teamName": "Ivory Coast",
+        "playerIds": []
+      },
+      {
+        "teamId": 1503,
+        "teamName": "Gabon",
+        "playerIds": []
+      },
+      {
+        "teamId": 1532,
+        "teamName": "Algeria",
+        "playerIds": [
+          329163,
+          292924,
+          635,
+          2194,
+          4414
+        ]
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 30,
+    "leagueName": "World Cup - Qualification Asia",
+    "teams": [
+      {
+        "teamId": 1569,
+        "teamName": "Qatar",
+        "playerIds": [
+          42075,
+          42089,
+          2535,
+          175439,
+          136503
+        ]
+      },
+      {
+        "teamId": 23,
+        "teamName": "Saudi Arabia",
+        "playerIds": []
+      },
+      {
+        "teamId": 1567,
+        "teamName": "Iraq",
+        "playerIds": []
+      },
+      {
+        "teamId": 1563,
+        "teamName": "United Arab Emirates",
+        "playerIds": []
+      },
+      {
+        "teamId": 1552,
+        "teamName": "Oman",
+        "playerIds": [
+          542761,
+          177285,
+          145677,
+          612470,
+          575322
+        ]
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 31,
+    "leagueName": "World Cup - Qualification CONCACAF",
+    "teams": [
+      {
+        "teamId": 11,
+        "teamName": "Panama",
+        "playerIds": []
+      },
+      {
+        "teamId": 5530,
+        "teamName": "Curaçao",
+        "playerIds": [
+          38708,
+          163220,
+          37461,
+          36970,
+          36967
+        ]
+      },
+      {
+        "teamId": 2385,
+        "teamName": "Jamaica",
+        "playerIds": [
+          19866,
+          32451,
+          32368,
+          32373,
+          50725
+        ]
+      },
+      {
+        "teamId": 2386,
+        "teamName": "Haiti",
+        "playerIds": []
+      },
+      {
+        "teamId": 8171,
+        "teamName": "Suriname",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 32,
+    "leagueName": "World Cup - Qualification Europe",
+    "teams": [
+      {
+        "teamId": 1090,
+        "teamName": "Norway",
+        "playerIds": []
+      },
+      {
+        "teamId": 10,
+        "teamName": "England",
+        "playerIds": []
+      },
+      {
+        "teamId": 3,
+        "teamName": "Croatia",
+        "playerIds": []
+      },
+      {
+        "teamId": 1118,
+        "teamName": "Netherlands",
+        "playerIds": []
+      },
+      {
+        "teamId": 775,
+        "teamName": "Austria",
+        "playerIds": [
+          18830,
+          7722,
+          1095,
+          711,
+          7525
+        ]
+      }
+    ],
+    "fixtureIds": [
+      1487922,
+      1487924,
+      1487926,
+      1487929,
+      1487925,
+      1487923,
+      1487928,
+      1487927,
+      1537581,
+      1537579,
+      1537580,
+      1537578
+    ]
+  },
+  {
+    "leagueId": 39,
+    "leagueName": "Premier League",
+    "teams": [
+      {
+        "teamId": 42,
+        "teamName": "Arsenal",
+        "playerIds": [
+          127769,
+          643,
+          47315,
+          482903,
+          342243
+        ]
+      },
+      {
+        "teamId": 66,
+        "teamName": "Aston Villa",
+        "playerIds": []
+      },
+      {
+        "teamId": 35,
+        "teamName": "Bournemouth",
+        "playerIds": [
+          402434,
+          407806,
+          1125,
+          20093,
+          118307
+        ]
+      },
+      {
+        "teamId": 55,
+        "teamName": "Brentford",
+        "playerIds": []
+      },
+      {
+        "teamId": 51,
+        "teamName": "Brighton",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 40,
+    "leagueName": "Championship",
+    "teams": [
+      {
+        "teamId": 54,
+        "teamName": "Birmingham",
+        "playerIds": [
+          47521,
+          191971,
+          2909,
+          50738,
+          330206
+        ]
+      },
+      {
+        "teamId": 67,
+        "teamName": "Blackburn",
+        "playerIds": []
+      },
+      {
+        "teamId": 68,
+        "teamName": "Bolton",
+        "playerIds": [
+          584063,
+          123610,
+          284367,
+          19017,
+          69409
+        ]
+      },
+      {
+        "teamId": 69,
+        "teamName": "Derby",
+        "playerIds": []
+      },
+      {
+        "teamId": 70,
+        "teamName": "Middlesbrough",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 41,
+    "leagueName": "League One",
+    "teams": [
+      {
+        "teamId": 4686,
+        "teamName": "Stockport County",
+        "playerIds": []
+      },
+      {
+        "teamId": 53,
+        "teamName": "Reading",
+        "playerIds": []
+      },
+      {
+        "teamId": 61,
+        "teamName": "Wigan",
+        "playerIds": []
+      },
+      {
+        "teamId": 747,
+        "teamName": "Barnsley",
+        "playerIds": [
+          350083,
+          470082,
+          430829,
+          544665,
+          544666
+        ]
+      },
+      {
+        "teamId": 1356,
+        "teamName": "Blackpool",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": [
+      1564237,
+      1564236,
+      1564235,
+      1564243,
+      1564238,
+      1564241,
+      1564240,
+      1564239,
+      1564246,
+      1564242,
+      1564244,
+      1564245,
+      1564254,
+      1564249,
+      1564251,
+      1564250,
+      1564257,
+      1564247,
+      1564252,
+      1564253,
+      1564258,
+      1564255,
+      1564248,
+      1564256,
+      1564264,
+      1564260,
+      1564268,
+      1564259,
+      1564267,
+      1564269,
+      1564261,
+      1564262,
+      1564263,
+      1564265,
+      1564270,
+      1564266
+    ]
+  },
+  {
+    "leagueId": 42,
+    "leagueName": "League Two",
+    "teams": [
+      {
+        "teamId": 1339,
+        "teamName": "Rochdale",
+        "playerIds": [
+          266203,
+          19947,
+          538490,
+          339279,
+          412024
+        ]
+      },
+      {
+        "teamId": 1361,
+        "teamName": "Colchester",
+        "playerIds": []
+      },
+      {
+        "teamId": 1334,
+        "teamName": "Bristol Rovers",
+        "playerIds": []
+      },
+      {
+        "teamId": 1372,
+        "teamName": "Cheltenham",
+        "playerIds": []
+      },
+      {
+        "teamId": 1363,
+        "teamName": "Crewe",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": [
+      1563684,
+      1563683,
+      1563692,
+      1563688,
+      1563690,
+      1563685,
+      1563689,
+      1563691,
+      1563686,
+      1563687,
+      1563693,
+      1563694,
+      1563702,
+      1563695,
+      1563699,
+      1563701,
+      1563706,
+      1563700,
+      1563704,
+      1563705,
+      1563696,
+      1563697,
+      1563698,
+      1563703,
+      1563715,
+      1563717,
+      1563710,
+      1563713,
+      1563714,
+      1563716,
+      1563708,
+      1563709,
+      1563711,
+      1563712,
+      1563707,
+      1563718
+    ]
+  },
+  {
+    "leagueId": 61,
+    "leagueName": "Ligue 1",
+    "teams": [
+      {
+        "teamId": 108,
+        "teamName": "Auxerre",
+        "playerIds": [
+          511151,
+          322595,
+          152418,
+          215827,
+          193681
+        ]
+      },
+      {
+        "teamId": 77,
+        "teamName": "Angers",
+        "playerIds": []
+      },
+      {
+        "teamId": 91,
+        "teamName": "Monaco",
+        "playerIds": [
+          138835,
+          283026,
+          340152,
+          428084,
+          274296
+        ]
+      },
+      {
+        "teamId": 106,
+        "teamName": "Stade Brestois 29",
+        "playerIds": []
+      },
+      {
+        "teamId": 97,
+        "teamName": "Lorient",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 79,
+    "leagueName": "2. Bundesliga",
+    "teams": [
+      {
+        "teamId": 161,
+        "teamName": "VfL Wolfsburg",
+        "playerIds": []
+      },
+      {
+        "teamId": 180,
+        "teamName": "1. FC Heidenheim",
+        "playerIds": []
+      },
+      {
+        "teamId": 186,
+        "teamName": "FC St. Pauli",
+        "playerIds": [
+          6904,
+          138873,
+          308581,
+          27157,
+          203324
+        ]
+      },
+      {
+        "teamId": 166,
+        "teamName": "Hannover 96",
+        "playerIds": [
+          260798,
+          444959,
+          202771,
+          297142,
+          25365
+        ]
+      },
+      {
+        "teamId": 181,
+        "teamName": "SV Darmstadt 98",
+        "playerIds": [
+          202844,
+          177802,
+          26523,
+          24788,
+          25169
+        ]
+      }
+    ],
+    "fixtureIds": [
+      1576134,
+      1576139,
+      1576137,
+      1576136,
+      1576138,
+      1576142,
+      1576140,
+      1576141,
+      1576135,
+      1576148,
+      1576144,
+      1576147,
+      1576145,
+      1576151,
+      1576149,
+      1576146,
+      1576150,
+      1576143,
+      1576159,
+      1576152,
+      1576158,
+      1576156,
+      1576155,
+      1576160,
+      1576153,
+      1576157,
+      1576154
+    ]
+  },
+  {
+    "leagueId": 94,
+    "leagueName": "Primeira Liga",
+    "teams": [
+      {
+        "teamId": 15130,
+        "teamName": "Estrela",
+        "playerIds": []
+      },
+      {
+        "teamId": 224,
+        "teamName": "Guimaraes",
+        "playerIds": []
+      },
+      {
+        "teamId": 230,
+        "teamName": "Estoril",
+        "playerIds": []
+      },
+      {
+        "teamId": 762,
+        "teamName": "GIL Vicente",
+        "playerIds": []
+      },
+      {
+        "teamId": 226,
+        "teamName": "Rio Ave",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": [
+      1575447,
+      1575451,
+      1575454,
+      1575448,
+      1575449,
+      1575446,
+      1575452,
+      1575450,
+      1575453,
+      1575463,
+      1575456,
+      1575455,
+      1575462,
+      1575461,
+      1575460,
+      1575458,
+      1575459,
+      1575457,
+      1575466,
+      1575468,
+      1575469,
+      1575472,
+      1575470,
+      1575471,
+      1575464,
+      1575467,
+      1575465
+    ]
+  },
+  {
+    "leagueId": 135,
+    "leagueName": "Serie A Italy",
+    "teams": [
+      {
+        "teamId": 499,
+        "teamName": "Atalanta",
+        "playerIds": [
+          199837,
+          30544,
+          412893,
+          530,
+          30417
+        ]
+      },
+      {
+        "teamId": 500,
+        "teamName": "Bologna",
+        "playerIds": []
+      },
+      {
+        "teamId": 490,
+        "teamName": "Cagliari",
+        "playerIds": []
+      },
+      {
+        "teamId": 895,
+        "teamName": "Como",
+        "playerIds": []
+      },
+      {
+        "teamId": 502,
+        "teamName": "Fiorentina",
+        "playerIds": [
+          2799,
+          437094,
+          631204,
+          396637,
+          882
+        ]
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 140,
+    "leagueName": "La Liga",
+    "teams": [
+      {
+        "teamId": 531,
+        "teamName": "Athletic Club",
+        "playerIds": []
+      },
+      {
+        "teamId": 530,
+        "teamName": "Atletico Madrid",
+        "playerIds": [
+          323935,
+          18767,
+          303378,
+          428799,
+          29
+        ]
+      },
+      {
+        "teamId": 727,
+        "teamName": "Osasuna",
+        "playerIds": []
+      },
+      {
+        "teamId": 542,
+        "teamName": "Alaves",
+        "playerIds": [
+          608,
+          183751,
+          47309,
+          18740,
+          551461
+        ]
+      },
+      {
+        "teamId": 797,
+        "teamName": "Elche",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 239,
+    "leagueName": "Primera A",
+    "teams": [
+      {
+        "teamId": 1137,
+        "teamName": "Atletico Nacional",
+        "playerIds": []
+      },
+      {
+        "teamId": 1135,
+        "teamName": "Junior",
+        "playerIds": []
+      },
+      {
+        "teamId": 1142,
+        "teamName": "Deportes Tolima",
+        "playerIds": []
+      },
+      {
+        "teamId": 1139,
+        "teamName": "Santa Fe",
+        "playerIds": []
+      },
+      {
+        "teamId": 1138,
+        "teamName": "America de Cali",
+        "playerIds": [
+          13771,
+          16790,
+          659300,
+          13634,
+          667872
+        ]
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 250,
+    "leagueName": "Division Profesional - Apertura",
+    "teams": [
+      {
+        "teamId": 1182,
+        "teamName": "Olimpia",
+        "playerIds": []
+      },
+      {
+        "teamId": 1175,
+        "teamName": "Nacional Asuncion",
+        "playerIds": [
+          126649,
+          372022,
+          95201,
+          535743,
+          95251
+        ]
+      },
+      {
+        "teamId": 1176,
+        "teamName": "Cerro Porteno",
+        "playerIds": []
+      },
+      {
+        "teamId": 10487,
+        "teamName": "Sportivo Ameliano",
+        "playerIds": []
+      },
+      {
+        "teamId": 1187,
+        "teamName": "Sportivo Trinidense",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": [
+      1505080,
+      1505081,
+      1505082,
+      1505084,
+      1505079,
+      1505083,
+      1505085,
+      1505090,
+      1505089,
+      1505088,
+      1505087,
+      1505086
+    ]
+  },
+  {
+    "leagueId": 253,
+    "leagueName": "Major League Soccer",
+    "teams": [
+      {
+        "teamId": 9569,
+        "teamName": "Nashville SC",
+        "playerIds": [
+          15885,
+          326017,
+          405868,
+          50790,
+          266733
+        ]
+      },
+      {
+        "teamId": 1603,
+        "teamName": "Vancouver Whitecaps",
+        "playerIds": []
+      },
+      {
+        "teamId": 1596,
+        "teamName": "San Jose Earthquakes",
+        "playerIds": []
+      },
+      {
+        "teamId": 9568,
+        "teamName": "Inter Miami",
+        "playerIds": []
+      },
+      {
+        "teamId": 1616,
+        "teamName": "Los Angeles FC",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": []
+  },
+  {
+    "leagueId": 262,
+    "leagueName": "Liga MX",
+    "teams": [
+      {
+        "teamId": 2292,
+        "teamName": "CF Pachuca",
+        "playerIds": []
+      },
+      {
+        "teamId": 2280,
+        "teamName": "Club Tijuana",
+        "playerIds": []
+      },
+      {
+        "teamId": 2281,
+        "teamName": "Toluca",
+        "playerIds": []
+      },
+      {
+        "teamId": 2282,
+        "teamName": "Monterrey",
+        "playerIds": [
+          6063,
+          35669,
+          630772,
+          333425,
+          35536
+        ]
+      },
+      {
+        "teamId": 2295,
+        "teamName": "Cruz Azul",
+        "playerIds": []
+      }
+    ],
+    "fixtureIds": [
+      1550894,
+      1550895,
+      1550897,
+      1550896,
+      1550898,
+      1550899,
+      1550901,
+      1550900,
+      1550902,
+      1550903,
+      1550904,
+      1550906,
+      1550907,
+      1550908,
+      1550905,
+      1550909,
+      1550910,
+      1550911,
+      1550912,
+      1550914,
+      1550913,
+      1550915,
+      1550916,
+      1550917,
+      1550918,
+      1550919,
+      1550920,
+      1550921,
+      1550922,
+      1550923,
+      1550924,
+      1550925,
+      1550926,
+      1550927,
+      1550928,
+      1550929
+    ]
+  }
+]
