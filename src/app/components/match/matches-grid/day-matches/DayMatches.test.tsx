@@ -3,7 +3,7 @@ import { MutableRefObject } from "react";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { DayMatchesList } from "./DayMatches";
-import { ApiService } from "@matchinsights/core";
+import { ApiService } from "open-football-project-core";
 import { useRovingTabIndex } from "../../../../special-hooks/roving-tabindex/roving-tabindex";
 
 vi.mock("../../../../special-hooks/roving-tabindex/roving-tabindex", () => ({
@@ -16,8 +16,8 @@ vi.mock("../../../general/logo/Logo", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     getFormattedTime: vi.fn(() => "12:00"),

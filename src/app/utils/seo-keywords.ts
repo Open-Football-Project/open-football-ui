@@ -1,4 +1,4 @@
-import { NewsCardItem } from "@matchinsights/core";
+import { NewsCardItem } from "open-football-project-core";
 
 const STOP_WORDS_EN = new Set([
   'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',

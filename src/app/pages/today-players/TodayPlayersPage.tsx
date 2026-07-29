@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import { ApiService, PlayerPosition, translateLeague, useTodayPlayersStatus } from "@matchinsights/core";
+import { ApiService, PlayerPosition, translateLeague, useTodayPlayersStatus } from "open-football-project-core";
 
 import { BannerProps } from "../../common-props/BannerProps";
 import Controls from "../../components/general/controls/Controls";

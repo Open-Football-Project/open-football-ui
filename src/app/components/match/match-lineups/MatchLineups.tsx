@@ -4,7 +4,7 @@ import {
   buildMatchLineupsSvgString,
   MATCH_LINEUPS_SVG_W,
   MATCH_LINEUPS_SVG_H,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import Logo from "../../../components/general/logo/Logo";
 import NoData from "../../../components/general/no-data/NoData";
 import pitch from "../../../assets/images/pitch.png";

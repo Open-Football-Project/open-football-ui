@@ -12,7 +12,7 @@ import {
   SVGItemKind,
   translateCountry,
   translateLeague,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { useDownloadTrivia } from "../../../special-hooks/download-trivia/download-trivia";
 import { BannerProps } from "../../../common-props/BannerProps";
 import CountryBanners from "../../general/banners/country-banners/CountryBanners";

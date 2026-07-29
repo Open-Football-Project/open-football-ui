@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { MemoryRouter } from "react-router-dom";
 import { DetailsMainInfo } from "./DetailsMainInfo";
-import { ApiService } from "@matchinsights/core";
+import { ApiService } from "open-football-project-core";
 
 vi.mock("./team-details-info/TeamDetailsInfo", () => ({
   default: ({ team }: any) => (
@@ -12,8 +12,8 @@ vi.mock("./team-details-info/TeamDetailsInfo", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useCharteableMatchNow: vi.fn(() => ({
@@ -27,7 +27,7 @@ vi.mock("@matchinsights/core", async () => {
   };
 });
 
-import { useCharteableMatchNow, useTopGuysAvailable } from "@matchinsights/core";
+import { useCharteableMatchNow, useTopGuysAvailable } from "open-football-project-core";
 
 const mockApiService = {} as unknown as ApiService;
 

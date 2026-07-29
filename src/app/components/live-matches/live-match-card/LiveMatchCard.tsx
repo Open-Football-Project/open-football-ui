@@ -3,7 +3,7 @@ import {
   LiveMatch,
   useCharteableMatchNow,
   useTopGuysAvailable,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import Logo from "../../general/logo/Logo";
 import MatchButton from "../../general/match-button/MatchButton";
 import ChartButton from "../../general/chart-button/ChartButton";

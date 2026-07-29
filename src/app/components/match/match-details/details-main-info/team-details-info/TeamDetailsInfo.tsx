@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Team } from "@matchinsights/core";
+import { Team } from "open-football-project-core";
 import Logo from "../../../../general/logo/Logo";
 import { trackEvent, AnalyticsEvent } from "../../../../../utils/analytics/analytics";
 

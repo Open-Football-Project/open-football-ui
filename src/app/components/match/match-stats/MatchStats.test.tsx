@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, it } from "vitest";
 import MatchStats from "./MatchStats";
 
-import { mockTeamsStatistics } from "@matchinsights/core";
+import { mockTeamsStatistics } from "open-football-project-core";
 
 vi.mock("../../general/no-data/NoData", () => ({
   default: () => <div data-testid="no-data">No Data</div>,

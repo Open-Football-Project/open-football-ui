@@ -1,4 +1,4 @@
-import { BetMarketInfo, ChartPanel, ChartPanelType } from "@matchinsights/core";
+import { BetMarketInfo, ChartPanel, ChartPanelType } from "open-football-project-core";
 
 type TranslateFn = (key: string, options?: { defaultValue?: string }) => string;
 

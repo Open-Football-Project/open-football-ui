@@ -53,7 +53,7 @@ describe("Navbar", () => {
 
     fireEvent.click(screen.getByTestId("side-bar-menu"));
     expect(
-      screen.getByRole("heading", { name: /Futballero/i }),
+      screen.getByRole("heading", { name: /Open Football Project/i }),
     ).toBeInTheDocument();
     expect(document.body.style.overflow).toBe("hidden");
   });
@@ -67,7 +67,7 @@ describe("Navbar", () => {
 
     fireEvent.click(screen.getByTestId("side-bar-menu"));
     expect(
-      screen.getByRole("heading", { name: /Futballero/i }),
+      screen.getByRole("heading", { name: /Open Football Project/i }),
     ).toBeInTheDocument();
 
     fireEvent.click(screen.getByText("✕"));
@@ -84,7 +84,7 @@ describe("Navbar", () => {
     fireEvent.click(screen.getByTestId("side-bar-menu"));
     expect(document.body.style.overflow).toBe("hidden");
 
-    const sidebar = screen.getByRole("heading", { name: /Futballero/i })
+    const sidebar = screen.getByRole("heading", { name: /Open Football Project/i })
       .parentElement!.parentElement!;
 
     fireEvent.touchStart(sidebar, { touches: [{ clientX: 200 }] });
@@ -103,7 +103,7 @@ describe("Navbar", () => {
     fireEvent.click(screen.getByTestId("side-bar-menu"));
     expect(document.body.style.overflow).toBe("hidden");
 
-    const sidebar = screen.getByRole("heading", { name: /Futballero/i })
+    const sidebar = screen.getByRole("heading", { name: /Open Football Project/i })
       .parentElement!.parentElement!;
 
     fireEvent.touchStart(sidebar, { touches: [{ clientX: 200 }] });

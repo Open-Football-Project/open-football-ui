@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import PlayerHistoryPage from "./PlayerHistoryPage";
-import { usePlayerHistory, usePlayerInfo } from "@matchinsights/core";
+import { usePlayerHistory, usePlayerInfo } from "open-football-project-core";
 import { BannerProps } from "../../common-props/BannerProps";
 
 vi.mock("react-i18next", () => ({
@@ -17,8 +17,8 @@ vi.mock("react-router-dom", async () => {
   };
 });
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     usePlayerHistory: vi.fn(),

@@ -6,7 +6,7 @@ import {
   GuessTheTeamGameData,
   GuessTheTeamGameHint,
   leagueTranslationKey,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import fclogo from "../../../../app/assets/images/fclogo.png";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";

@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import MatchDetailsTabs from "./MatchDetailsTabs";
-import { TeamsLineups } from "@matchinsights/core";
+import { TeamsLineups } from "open-football-project-core";
 
 vi.mock("../../general/no-data/NoData", () => ({
   default: () => <div data-testid="no-data">No Data</div>,

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { LeaguesMenuGrid } from "./leagues-menu-grid/LeaguesMenuGrid";
-import { LeaguesGroups } from "@matchinsights/core";
+import { LeaguesGroups } from "open-football-project-core";
 import { FaCaretLeft } from "react-icons/fa6";
 import { LeaguesMenuOptions } from "./leagues-menu-options/LeaguesMenuOptions";
 import NoData from "../../general/no-data/NoData";
 import { GenericContentSkeleton } from "../../general/skeleton/Skeleton";
 import Controls from "../../general/controls/Controls";
 import { useTranslation } from "react-i18next";
-import { translateCountry } from "@matchinsights/core";
+import { translateCountry } from "open-football-project-core";
 
 export interface LeagueMenuSelectionOption {
   id: number;

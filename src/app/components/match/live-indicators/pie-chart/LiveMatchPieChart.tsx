@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { IndicatorResult } from "@matchinsights/core";
+import { IndicatorResult } from "open-football-project-core";
 
 import {
   LIVE_MATCH_INDICATORS_CHART_COLORS as CHART_COLORS,

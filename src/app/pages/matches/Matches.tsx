@@ -2,7 +2,7 @@ import SubHeader from "../../components/general/sub-header/SubHeader";
 import {
   ApiService,
   useMatchesStatus,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import NoData from "../../components/general/no-data/NoData";
 import { MatchListSkeleton } from "../../components/general/skeleton/Skeleton";
 import Controls from "../../components/general/controls/Controls";

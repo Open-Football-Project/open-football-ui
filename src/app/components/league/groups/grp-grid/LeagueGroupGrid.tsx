@@ -1,4 +1,4 @@
-import { LeagueGroup } from "@matchinsights/core";
+import { LeagueGroup } from "open-football-project-core";
 import LeagueGroupCard from "../grp-card/LeagueGroupCard";
 
 interface LeagueGroupGridProps {

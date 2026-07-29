@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import { svgToPng } from "../../converter/svg-png-converter/svg-png-converter";
-import { TriviaSvgResult } from "@matchinsights/core";
+import { TriviaSvgResult } from "open-football-project-core";
 
 export function useDownloadTrivia(getSvgData: () => TriviaSvgResult): {
   download: () => Promise<void>;

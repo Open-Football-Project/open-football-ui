@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { MarketOddsReason, SeasonFormReason, TodayPlayerScore, translatePlayerPosition } from "@matchinsights/core";
+import { MarketOddsReason, SeasonFormReason, TodayPlayerScore, translatePlayerPosition } from "open-football-project-core";
 
 import profile from "../../../assets/images/player.png";
 

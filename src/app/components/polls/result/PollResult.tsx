@@ -1,4 +1,4 @@
-import { Poll } from "@matchinsights/core";
+import { Poll } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface PollResultsCardProps {

@@ -7,7 +7,7 @@ import {
   useChartableLiveLeague,
   useLiveMatchesStatus,
   useValueBets,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import BettingToolWrapper from "../match/match-details/value-bets/wrapper/BettingToolWrapper";
 import MatchLiveIndicators from "../match/live-indicators/MatchLiveIndicators";
 import { LiveMatchCard } from "./live-match-card/LiveMatchCard";

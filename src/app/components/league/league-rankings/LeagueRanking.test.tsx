@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import LeagueRanking from "./LeagueRanking";
-import { LeagueRankingPlayer } from "@matchinsights/core";
+import { LeagueRankingPlayer } from "open-football-project-core";
 
 vi.mock("./rankin-player-card/RankingPlayerCard", () => ({
   default: ({ player }: any) => (

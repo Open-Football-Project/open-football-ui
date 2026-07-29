@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, afterEach, beforeEach } from "vitest";
 import { render, screen, act } from "@testing-library/react";
 import BannerDisplay from "./BannerDisplay";
-import { BannerType, BannerSize, AnyBanner } from "@matchinsights/core";
+import { BannerType, BannerSize, AnyBanner } from "open-football-project-core";
 
 const scriptBanner: AnyBanner = {
   id: "script-1", type: BannerType.Script,

@@ -1,6 +1,6 @@
 import NoData from "../../../../general/no-data/NoData";
 import { TinyCardSkeleton } from "../../../../general/skeleton/Skeleton";
-import { PositionAndPoints } from "@matchinsights/core";
+import { PositionAndPoints } from "open-football-project-core";
 import TinyCard from "../../../../general/tiny-card/TinyCard";
 
 interface RanksAndPointsProps {

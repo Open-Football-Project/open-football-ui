@@ -2,7 +2,7 @@ import {
   ApiService,
   useSeasonStats,
   useLastFiveMatchesEvents,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import MatchDetailsSlider, {
   SliderItem,
 } from "../match-details-slider/MatchDetailsSlider";

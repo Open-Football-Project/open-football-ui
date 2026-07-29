@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { TeamSquad } from "./TeamSquad";
-import { mockPlayers } from "@matchinsights/core";
+import { mockPlayers } from "open-football-project-core";
 import { MemoryRouter } from "react-router-dom";
 
 describe("TeamSquad", () => {

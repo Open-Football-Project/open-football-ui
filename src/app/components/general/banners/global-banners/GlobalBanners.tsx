@@ -1,4 +1,4 @@
-import { BannersService, useGlobalBanners } from "@matchinsights/core";
+import { BannersService, useGlobalBanners } from "open-football-project-core";
 import BannerDisplay from "../banner-display/BannerDisplay";
 import { getBannerSize } from "../../../../utils/getBannerSize";
 

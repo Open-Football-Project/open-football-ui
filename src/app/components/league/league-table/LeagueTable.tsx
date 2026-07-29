@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LeagueTeamInfo } from "@matchinsights/core";
+import { LeagueTeamInfo } from "open-football-project-core";
 import NoData from "../../../components/general/no-data/NoData";
 import { useTranslation } from "react-i18next";
 import { useRef } from "react";

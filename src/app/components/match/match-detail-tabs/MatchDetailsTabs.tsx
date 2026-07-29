@@ -6,7 +6,7 @@ import {
   TeamsLineups,
   MatchEvent,
   TwoTeamsStatistics,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import MatchLineups from "../match-lineups/MatchLineups";
 import { useTranslation } from "react-i18next";

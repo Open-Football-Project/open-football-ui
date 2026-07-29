@@ -3,7 +3,7 @@ import MatchDetailsSlider, {
 } from "../match-details-slider/MatchDetailsSlider";
 
 import HeadToHead from "../h2h/HeadToHead";
-import { H2HDetails } from "@matchinsights/core";
+import { H2HDetails } from "open-football-project-core";
 
 interface MatchDetailsThirdRowProps {
   h2hDetails: H2HDetails[];

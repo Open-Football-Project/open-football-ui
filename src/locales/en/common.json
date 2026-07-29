@@ -58,10 +58,10 @@
     "chartsbtn": "Football Live Charts",
     "leaguesbycountry": "Football Leagues by Country",
     "todaymatches": "Today's Matches",
-    "bottomhead": "Futballero - Stay in the game, wherever you are.",
-    "bottomtext": "From Premier League clashes to La Liga showdowns and Copa Libertadores thrillers, Futballero puts global football at your fingertips with live scores and stats.",
+    "bottomhead": "Open Football Project - Stay in the game, wherever you are.",
+    "bottomtext": "From Premier League clashes to La Liga showdowns and Copa Libertadores thrillers, Open Football Project puts global football at your fingertips with live scores and stats.",
     "matchesbtn": "Check Matches",
-    "aboutbtn": "About Futballero",
+    "aboutbtn": "About Open Football Project",
     "androidbtn": "Get the Android App",
     "worldcupcta": "World Cup Fixtures, Tables & Stats"
   },
@@ -786,7 +786,7 @@
   },
   "feedback": {
     "head": "Share Your Impressions",
-    "subhead": "Help us improve Futballero. Your feedback shapes what comes next.",
+    "subhead": "Help us improve Open Football Project. Your feedback shapes what comes next.",
     "favoriteTeam": "Favorite Team",
     "favoriteTeamPlaceholder": "e.g. Arsenal, River Plate...",
     "league": "Favorite League",

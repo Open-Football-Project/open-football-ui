@@ -1,4 +1,4 @@
-import { LeagueFixture, useLeagueFixtureBinaryTree } from "@matchinsights/core";
+import { LeagueFixture, useLeagueFixtureBinaryTree } from "open-football-project-core";
 import BracketTree from "./BracketTree";
 import DownloadBracketButton from "../download-bracket-button/DownloadBracketButton";
 

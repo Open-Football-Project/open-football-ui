@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { BetMarketInfo } from "@matchinsights/core";
+import { BetMarketInfo } from "open-football-project-core";
 import { marketToPanel, translateOutcomeLabel } from "./market-to-panel";
 
 const translationDict: Record<string, string> = {

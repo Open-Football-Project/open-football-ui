@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { FaSquareCheck, FaRegSquare } from "react-icons/fa6";
-import { BetMarketInfo } from "@matchinsights/core";
+import { BetMarketInfo } from "open-football-project-core";
 
 interface OddsMarketMenuProps {
   markets: BetMarketInfo[];

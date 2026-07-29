@@ -5,7 +5,7 @@ import {
   buildLiveIndicatorsDonutsSvgString,
   LIVE_MATCH_DONUTS_SVG_W,
   LIVE_MATCH_DONUTS_SVG_H,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { FaXTwitter } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 import { useCallback, useState } from "react";
@@ -55,7 +55,7 @@ const buildShareText = (
     formatIndicatorLine(control, homeTeamName, awayTeamName, t),
     formatIndicatorLine(goalThreat, homeTeamName, awayTeamName, t),
     ``,
-    `#Football #LiveFootball #Futballero`,
+    `#Football #LiveFootball #FootballProject`,
   ].join("\n");
 
 const MatchLiveIndicators = ({

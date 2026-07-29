@@ -4,7 +4,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { MutableRefObject } from "react";
 import { MemoryRouter } from "react-router-dom";
 import { LeagueFixtureComponent } from "./LeagueFixtureComponent";
-import { ApiService, LeagueFixture, mockLeagueFixture } from "@matchinsights/core";
+import { ApiService, LeagueFixture, mockLeagueFixture } from "open-football-project-core";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 import { useRovingTabIndex } from "../../../special-hooks/roving-tabindex/roving-tabindex";
 
@@ -26,8 +26,8 @@ vi.mock("../../../converter/svg-png-converter/svg-png-converter", () => ({
   svgToPng: vi.fn(),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     getFormattedDate: (date: string) => `FormattedDate(${date})`,
@@ -205,7 +205,7 @@ describe("LeagueFixtureComponent – share on X", () => {
     );
   });
 
-  it("includes the league name and futballero.com in the tweet text", () => {
+  it("includes the league name and footballproject.org in the tweet text", () => {
     render(
       <MemoryRouter>
         <LeagueFixtureComponent
@@ -222,7 +222,7 @@ describe("LeagueFixtureComponent – share on X", () => {
     const url = vi.mocked(window.open).mock.calls[0][0] as string;
     const text = decodeURIComponent(url.split("text=")[1]);
     expect(text).toContain("La Liga");
-    expect(text).toContain("futballero.com");
+    expect(text).toContain("footballproject.org");
   });
 
   it("updates tweet text when navigating to a different round", () => {
@@ -285,7 +285,7 @@ describe("LeagueFixtureComponent – download", () => {
     await waitFor(() =>
       expect(svgToPng).toHaveBeenCalledWith(
         expect.any(Object),
-        "futballero-la-liga-fixtures.png",
+        "footballproject-la-liga-fixtures.png",
         620,
         500,
       ),

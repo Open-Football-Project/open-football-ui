@@ -3,7 +3,7 @@ import { MutableRefObject } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { describe, it, expect,vi, afterEach } from "vitest";
 import { LeagueTable } from "./LeagueTable";
-import { LeagueTeamInfo } from "@matchinsights/core";
+import { LeagueTeamInfo } from "open-football-project-core";
 import * as rovingTabIndex from "../../../special-hooks/roving-tabindex/roving-tabindex";
 
 const mockTeams: LeagueTeamInfo[] = [

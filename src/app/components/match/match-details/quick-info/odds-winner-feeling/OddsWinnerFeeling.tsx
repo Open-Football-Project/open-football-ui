@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { OddsWinnerFeeling } from "@matchinsights/core";
+import { OddsWinnerFeeling } from "open-football-project-core";
 import NoData from "../../../../general/no-data/NoData";
 import { OddsFeelingSkeleton } from "../../../../general/skeleton/Skeleton";
 import ArrowStatusTile from "../../../../general/status-tile/ArrowStatusTile";

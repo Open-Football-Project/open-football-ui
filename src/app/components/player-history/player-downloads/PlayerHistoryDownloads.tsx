@@ -14,7 +14,7 @@ import {
   QuizMixSvgStrategy,
   buildPlayerHistorySvgString,
   getPlayerHistorySvgDimensions,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 import playerSilhouette from "../../../assets/images/player.png";

@@ -1,4 +1,4 @@
-# Claude Code Instructions: match-insights-ui
+# Claude Code Instructions: open-football-ui
 
 ## Development method: TDCG
 
@@ -25,6 +25,6 @@ Every feature or behavior change follows this loop. Do not skip steps. Ask befor
 
 ## Project
 
-Web frontend (React, TypeScript, Vite) for the footballproject platform — live scores, match insights, odds, and stats for fans. Consumes the API and shares core hooks/logic with the mobile app via `@matchinsights/core`.
+Web frontend (React, TypeScript, Vite) for the footballproject platform — live scores, match insights, odds, and stats for fans. Consumes the API and shares core hooks/logic with the mobile app via `open-football-project-core`.
 
 Method reference: [`TDCG/README.md`](TDCG/README.md)

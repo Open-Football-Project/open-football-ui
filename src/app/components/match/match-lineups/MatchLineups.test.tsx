@@ -2,7 +2,7 @@ import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import MatchLineups from "./MatchLineups";
-import { mockLineups, buildMatchLineupsSvgString } from "@matchinsights/core";
+import { mockLineups, buildMatchLineupsSvgString } from "open-football-project-core";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 
 vi.mock("../../general/logo/Logo", () => ({
@@ -15,8 +15,8 @@ vi.mock("../../general/no-data/NoData", () => ({
   default: () => <div data-testid="no-data">No Data</div>,
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     buildMatchLineupsSvgString: vi.fn().mockReturnValue("<svg>mock</svg>"),

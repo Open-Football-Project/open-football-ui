@@ -4,7 +4,8 @@ import {
   buildTeamStatsSvgString,
   getTeamStatsSvgH,
   TEAM_STATS_SVG_W,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 import { SocialSharing } from "../social-sharing/SocialSharing";
@@ -50,7 +51,7 @@ const TeamStats = ({ title, statistics, logo }: StatChartProps) => {
     const lines = [
       `📊 ${title}`,
       ...statistics.map((stat) => `${statLabel(stat.name)}: ${stat.value}`),
-      `futballero.com`,
+      SITE_DOMAIN,
     ];
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(lines.join("\n"))}`,
@@ -71,7 +72,7 @@ const TeamStats = ({ title, statistics, logo }: StatChartProps) => {
       });
       const doc = new DOMParser().parseFromString(svgString, "image/svg+xml");
       const svgEl = doc.documentElement as unknown as SVGSVGElement;
-      const filename = `futballero-${title.replace(/\s+/g, "-").toLowerCase()}-stats.png`;
+      const filename = `footballproject-${title.replace(/\s+/g, "-").toLowerCase()}-stats.png`;
       await svgToPng(
         svgEl,
         filename,

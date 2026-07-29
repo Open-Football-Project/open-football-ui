@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "./navigation/Navbar";
 import Footer from "./footer/Footer";
 
-import { bannersServiceWrapper, webStorage } from "@matchinsights/core";
+import { bannersServiceWrapper, webStorage } from "open-football-project-core";
 
 import MatchDetail from "../pages/match-details/MatchDetail";
 import About from "../pages/about/About";
@@ -28,7 +28,7 @@ import TodayPlayersPage from "../pages/today-players/TodayPlayersPage";
 
 import { Toaster } from "sonner";
 import ScrollToTopButton from "../utils/scroll-to-top/ScrollToTopButton";
-import { useApiService } from "@matchinsights/core";
+import { useApiService } from "open-football-project-core";
 import { BannerProps } from "../common-props/BannerProps";
 
 const apiHost = import.meta.env.VITE_API_HOST;

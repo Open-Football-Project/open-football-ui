@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import PollsCard from "./PollsCard";
-import { AvailablePoll, VotingPoll } from "@matchinsights/core";
+import { AvailablePoll, VotingPoll } from "open-football-project-core";
 
 describe("PollsCard component", () => {
   const availablePoll: AvailablePoll = {

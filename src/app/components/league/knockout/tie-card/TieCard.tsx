@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Tie } from "@matchinsights/core";
+import { Tie } from "open-football-project-core";
 import Logo from "../../../general/logo/Logo";
 
 interface TieCardProps {

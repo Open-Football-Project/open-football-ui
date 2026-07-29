@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react";
 import { describe, it, vi } from "vitest";
 import Footer from "./Footer";
-import { BannersService, FutballeroUIStorage } from "@matchinsights/core";
+import { BannersService, FootballProjectUIStorage } from "open-football-project-core";
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
   };
@@ -19,7 +19,7 @@ vi.mock("../../components/general/banners/country-banners/CountryBanners", () =>
 }));
 
 const mockBannersService = { bannersManager: vi.fn() } as unknown as BannersService;
-const mockStorage = {} as FutballeroUIStorage;
+const mockStorage = {} as FootballProjectUIStorage;
 const mockCountryApiHost = "https://api.country.is";
 
 describe("Footer", () => {

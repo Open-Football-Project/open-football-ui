@@ -8,7 +8,7 @@ import {
   HEADER_H,
   FOOTER_H,
   SLOT_H,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { svgToPng } from "../../../../converter/svg-png-converter/svg-png-converter";
 
 interface DownloadBracketButtonProps {

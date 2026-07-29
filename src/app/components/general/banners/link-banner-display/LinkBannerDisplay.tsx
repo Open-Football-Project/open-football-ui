@@ -1,4 +1,4 @@
-import { LinkBanner } from "@matchinsights/core";
+import { LinkBanner } from "open-football-project-core";
 
 interface Props {
   banner: LinkBanner;

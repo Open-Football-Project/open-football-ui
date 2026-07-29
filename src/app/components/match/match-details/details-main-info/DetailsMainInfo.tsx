@@ -8,7 +8,7 @@ import {
   Team,
   useCharteableMatchNow,
   useTopGuysAvailable,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { Link } from "react-router-dom";
 import TeamDetailsInfo from "./team-details-info/TeamDetailsInfo";
 
@@ -25,7 +25,8 @@ import {
   buildMatchInfoSvgString,
   getMatchInfoSvgH,
   MATCH_INFO_SVG_W,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 
 import { svgToPng } from "../../../../converter/svg-png-converter/svg-png-converter";
 import { SocialSharing } from "../../../general/social-sharing/SocialSharing";
@@ -92,7 +93,7 @@ export const DetailsMainInfo = ({
       resultLine,
       `🏆 ${leagueNameLabel}`,
       `📅 ${getFormattedDate(date)}, ${getFormattedTime(date)}`,
-      "futballero.com",
+      SITE_DOMAIN,
     ];
 
     window.open(
@@ -142,7 +143,7 @@ export const DetailsMainInfo = ({
       const slug = (s: string) =>
         s.replace(/\s+/g, "-").toLowerCase();
 
-      const filename = `futballero-${slug(
+      const filename = `footballproject-${slug(
         homeTeam.name,
       )}-vs-${slug(awayTeam.name)}.png`;
 

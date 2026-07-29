@@ -12,7 +12,7 @@ import {
   useTeamDetail,
   TeamDetails,
   ApiService,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import { useTranslation } from "react-i18next";
 import VideoContentComponent from "../../components/general/video-content/VideoContentComponent";

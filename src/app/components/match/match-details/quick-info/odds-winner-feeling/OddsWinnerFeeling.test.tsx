@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import OddsWinnerFeelingComponent from "./OddsWinnerFeeling";
-import { OddsWinnerFeeling } from "@matchinsights/core";
+import { OddsWinnerFeeling } from "open-football-project-core";
 
 vi.mock("../../../../general/no-data/NoData", () => ({
   default: ({ loading }: { loading?: boolean }) => (

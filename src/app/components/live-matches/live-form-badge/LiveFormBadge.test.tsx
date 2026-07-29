@@ -2,7 +2,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { LiveFormBadge } from "./LiveFormBadge";
-import { LiveHomeAwayForm } from "@matchinsights/core";
+import { LiveHomeAwayForm } from "open-football-project-core";
 
 vi.mock("react-icons/fa6", () => ({
   FaFire: () => <span data-testid="icon-fire" />,

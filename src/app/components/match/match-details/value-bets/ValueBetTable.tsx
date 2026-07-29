@@ -1,4 +1,4 @@
-import { ValueBetMarket } from "@matchinsights/core";
+import { ValueBetMarket } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface ValueBetTableProps {

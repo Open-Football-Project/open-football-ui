@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
-import { BetMarketInfo } from "@matchinsights/core";
+import { BetMarketInfo } from "open-football-project-core";
 import OddsMarketMenu from "./OddsMarketMenu";
 
 const markets: BetMarketInfo[] = [

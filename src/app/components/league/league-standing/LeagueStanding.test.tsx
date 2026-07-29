@@ -1,7 +1,7 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import LeagueStanding from "./LeagueStanding";
-import { mockLeagueInfo } from "@matchinsights/core";
+import { mockLeagueInfo } from "open-football-project-core";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 
 vi.mock("react-i18next", () => ({
@@ -68,7 +68,7 @@ describe("LeagueStanding – download", () => {
     await waitFor(() =>
       expect(svgToPng).toHaveBeenCalledWith(
         expect.any(Object),
-        "futballero-premier-lg.-standings.png",
+        "footballproject-premier-lg.-standings.png",
         expect.any(Number),
         expect.any(Number),
       ),
@@ -84,7 +84,7 @@ describe("LeagueStanding – download", () => {
     await waitFor(() =>
       expect(svgToPng).toHaveBeenCalledWith(
         expect.any(Object),
-        "futballero-premier-lg.-standings.png",
+        "footballproject-premier-lg.-standings.png",
         expect.any(Number),
         expect.any(Number),
       ),

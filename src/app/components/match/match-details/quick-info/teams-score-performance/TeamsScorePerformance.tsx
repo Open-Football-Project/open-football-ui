@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { TeamsScorePerformance } from "@matchinsights/core";
+import { TeamsScorePerformance } from "open-football-project-core";
 import NoData from "../../../../general/no-data/NoData";
 import { ArrowStatusTileSkeleton } from "../../../../general/skeleton/Skeleton";
 import ArrowStatusTile from "../../../../general/status-tile/ArrowStatusTile";

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { useTranslation } from "react-i18next";
-import { ChartPanel, ChartPanelType } from "@matchinsights/core";
+import { ChartPanel, ChartPanelType } from "open-football-project-core";
 import { MomentumOscillatorChart } from "../../charts/momentum-oscillator/MomentumOscillator";
 import { PercentageChart } from "../../charts/percentage-chart/PercentageChart";
 import { OddsChart } from "../../charts/odds/OddsChart";

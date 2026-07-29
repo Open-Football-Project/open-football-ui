@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { ApiService, OnDayMatch } from "@matchinsights/core";
+import { ApiService, OnDayMatch } from "open-football-project-core";
 import MatchCard from "../../match-card/MatchCard";
 import { useRovingTabIndex } from "../../../../special-hooks/roving-tabindex/roving-tabindex";
 

@@ -10,8 +10,8 @@ const mocks = vi.hoisted(() => ({
   seo: vi.fn(({ children }: any) => <>{children}</>),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useLiveNowStatus: mocks.useLiveNowStatus,

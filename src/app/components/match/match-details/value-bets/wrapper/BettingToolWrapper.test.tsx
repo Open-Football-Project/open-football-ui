@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, vi } from "vitest";
 import BettingToolWrapper from "./BettingToolWrapper";
-import { ValueBetsResponse } from "@matchinsights/core";
+import { ValueBetsResponse } from "open-football-project-core";
 
 vi.mock("../ValueBetTable", () => ({
   default: ({ market }: { market: { betName: string } }) => (

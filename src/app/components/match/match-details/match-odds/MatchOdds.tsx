@@ -1,4 +1,4 @@
-import { Bet } from "@matchinsights/core";
+import { Bet } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 import MatchDetailsSlider, {
   SliderItem,

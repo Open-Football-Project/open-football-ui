@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import TeamsScorePerformanceComponent from "./TeamsScorePerformance";
-import { TeamsScorePerformance } from "@matchinsights/core";
+import { TeamsScorePerformance } from "open-football-project-core";
 
 vi.mock("../../../../general/no-data/NoData", () => ({
   default: ({ loading }: { loading?: boolean }) => (

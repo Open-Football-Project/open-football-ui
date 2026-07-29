@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import CompositeBannerDisplay from "./CompositeBannerDisplay";
-import { BannerType, BannerSize, CompositeBanner } from "@matchinsights/core";
+import { BannerType, BannerSize, CompositeBanner } from "open-football-project-core";
 
 const compositeBanner: CompositeBanner = {
   id: "composite-1",

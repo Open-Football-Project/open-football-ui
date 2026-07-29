@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { FixtureChartsResponse, LiveChartableMatch } from "@matchinsights/core";
+import { FixtureChartsResponse, LiveChartableMatch } from "open-football-project-core";
 import {
   getLiveFixturesIdsSet,
   solveIndicatorMatchesDropList,

@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import LeagueGroupGrid from "./LeagueGroupGrid";
-import { LeagueGroup } from "@matchinsights/core";
+import { LeagueGroup } from "open-football-project-core";
 
 vi.mock("../grp-card/LeagueGroupCard", () => ({
   default: ({ group }: { group: LeagueGroup }) => (

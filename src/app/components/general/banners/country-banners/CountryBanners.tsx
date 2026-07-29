@@ -1,4 +1,4 @@
-import { useCountryBanners, useCountryExtraBanners } from "@matchinsights/core";
+import { useCountryBanners, useCountryExtraBanners } from "open-football-project-core";
 import BannerDisplay from "../banner-display/BannerDisplay";
 import { getBannerSize } from "../../../../utils/getBannerSize";
 import { BannerProps } from "../../../../common-props/BannerProps";

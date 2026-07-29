@@ -4,7 +4,7 @@ import {
   LiveMatchIndicatorsDonut,
   LiveMatchIndicatorsDonutVerdictColors,
   LiveMatchIndicatorsDonutVerdictThresholds,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 export const LIVE_MATCH_INDICATORS_BRAND: DonutsBrandColor = {
   orange: "#FF6B00",

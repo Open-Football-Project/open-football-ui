@@ -2,7 +2,7 @@ import { useState } from "react";
 import { trackEvent, AnalyticsEvent } from "../../../utils/analytics/analytics";
 import PlayerTransfers from "../player-transfers/PlayerTransfers";
 import PlayerTrophies from "../player-trophies/PlayerTrophies";
-import { PlayerTransferInfo, PlayerTrophyInfo } from "@matchinsights/core";
+import { PlayerTransferInfo, PlayerTrophyInfo } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface Props {

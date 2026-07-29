@@ -3,8 +3,8 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import Landing from "./Landing";
 import { BannerProps } from "../../common-props/BannerProps";
-import { useTodayMatches } from "@matchinsights/core";
-import { DayMatches } from "@matchinsights/core";
+import { useTodayMatches } from "open-football-project-core";
+import { DayMatches } from "open-football-project-core";
 
 vi.mock("../../main/seo/Seo", () => {
   return {
@@ -25,8 +25,8 @@ vi.mock("react-i18next", () => ({
   }),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useNewsInfo: vi.fn(() => ({

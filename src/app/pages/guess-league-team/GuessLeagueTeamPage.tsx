@@ -4,7 +4,7 @@ import {
   useGuessTheTeam,
   useLeaguePage,
   translateLeague,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import NoData from "../../components/general/no-data/NoData";
 import { GenericContentSkeleton } from "../../components/general/skeleton/Skeleton";

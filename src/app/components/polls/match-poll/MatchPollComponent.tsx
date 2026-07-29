@@ -4,7 +4,7 @@ import {
   webStorage,
   AvailablePoll,
   Poll,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 import PollsCard from "../poll-card/PollsCard";
 import PollResult from "../result/PollResult";

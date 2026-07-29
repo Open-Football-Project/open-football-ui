@@ -1,7 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import AllLeagues from "./AllLeagues";
-import { LeaguesGroups } from "@matchinsights/core";
+import { LeaguesGroups } from "open-football-project-core";
 import { BannerProps } from "../../common-props/BannerProps";
 
 vi.mock("../../components/league/leagues-menu/LeaguesMenu", () => ({

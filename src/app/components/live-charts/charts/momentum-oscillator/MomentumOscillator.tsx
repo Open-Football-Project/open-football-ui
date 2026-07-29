@@ -3,7 +3,7 @@ import {
   LiveChartPoint,
   MomentumOscillatorBrandColor,
   spreadMinutesToX,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 const PADDING_X = 20;
 const PADDING_Y = 30;

@@ -8,7 +8,7 @@ import {
   useChartableLiveLeague,
   useLiveMatchesStatus,
   useValueBets,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import { MemoryRouter } from "react-router-dom";
 
@@ -52,9 +52,9 @@ vi.mock("../match/live-indicators/MatchLiveIndicators", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual<typeof import("@matchinsights/core")>(
-    "@matchinsights/core"
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual<typeof import("open-football-project-core")>(
+    "open-football-project-core"
   );
 
   return {

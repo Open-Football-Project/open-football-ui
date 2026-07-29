@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useRef, useState } from "react";
-import { BetOddsPoint, spreadMinutesToX, resolveLabelOverlap } from "@matchinsights/core";
+import { BetOddsPoint, spreadMinutesToX, resolveLabelOverlap } from "open-football-project-core";
 
 const PADDING_X = 20;
 const PADDING_Y = 30;

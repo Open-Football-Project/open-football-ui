@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { AnyBanner, BannerSize, BannerType } from "@matchinsights/core";
+import { AnyBanner, BannerSize, BannerType } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 import ScriptBannerDisplay from "../script-banner-display/ScriptBannerDisplay";
 import LinkBannerDisplay from "../link-banner-display/LinkBannerDisplay";

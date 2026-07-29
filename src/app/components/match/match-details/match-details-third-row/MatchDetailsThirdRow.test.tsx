@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import MatchDetailsThirdRow from "./MatchDetailsThirdRow";
-import { H2HDetails } from "@matchinsights/core";
+import { H2HDetails } from "open-football-project-core";
 
 vi.mock("../match-details-slider/MatchDetailsSlider", () => {
   return {
