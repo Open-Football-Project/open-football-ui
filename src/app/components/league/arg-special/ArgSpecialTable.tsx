@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArgLeagueEntry } from "@matchinsights/core";
+import { ArgLeagueEntry } from "open-football-project-core";
 import NoData from "../../../components/general/no-data/NoData";
 import { useTranslation } from "react-i18next";
 

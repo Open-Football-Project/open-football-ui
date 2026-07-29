@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import userEvent from "@testing-library/user-event";
 import MatchPollComponent from "./MatchPollComponent";
-import { useMatchPollsState } from "@matchinsights/core";
+import { useMatchPollsState } from "open-football-project-core";
 import { showSuccess, showError } from "../../../utils/toast/toast";
 
 vi.mock("../poll-card/PollsCard", () => ({
@@ -29,8 +29,8 @@ vi.mock("../result/PollResult", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useMatchPollsState: vi.fn(() => ({

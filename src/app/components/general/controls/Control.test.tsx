@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import Controls from "./Controls";
 import { describe, it, expect, vi } from "vitest";
-import { getLocalISODate } from "@matchinsights/core";
+import { getLocalISODate } from "open-football-project-core";
 
 describe("Controls component", () => {
   const drop0Options = [

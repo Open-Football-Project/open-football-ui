@@ -14,7 +14,7 @@ import {
   cleanLeagueName,
   leagueTranslationKey,
   useLiveNowStatus,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { BannerProps } from "../../common-props/BannerProps";
 
 const apiHost = import.meta.env.VITE_API_HOST;

@@ -2,7 +2,7 @@ import {
   ApiService,
   useTeamDetail,
   useGuessThePlayer,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import NoData from "../../components/general/no-data/NoData";
 import { GenericContentSkeleton } from "../../components/general/skeleton/Skeleton";
 import SubHeader from "../../components/general/sub-header/SubHeader";

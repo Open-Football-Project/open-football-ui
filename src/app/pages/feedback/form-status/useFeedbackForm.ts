@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ApiService, FeedbackRequest } from "@matchinsights/core";
+import { ApiService, FeedbackRequest } from "open-football-project-core";
 import { trackEvent, AnalyticsEvent } from "../../../utils/analytics/analytics";
 
 export enum FormStatus {

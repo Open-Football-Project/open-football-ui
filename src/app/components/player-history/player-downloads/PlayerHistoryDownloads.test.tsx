@@ -6,8 +6,8 @@ vi.mock("../../../converter/svg-png-converter/svg-png-converter", () => ({
   svgToPng: vi.fn().mockResolvedValue(undefined),
 }));
 
-vi.mock("@matchinsights/core", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@matchinsights/core")>();
+vi.mock("open-football-project-core", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("open-football-project-core")>();
   return {
     ...actual,
     buildPlayerHistorySvgString: vi.fn(() => "<svg></svg>"),

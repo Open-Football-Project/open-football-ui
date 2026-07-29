@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import ArgSpecialTable from "./ArgSpecialTable";
-import { ArgLeagueEntry } from "@matchinsights/core";
+import { ArgLeagueEntry } from "open-football-project-core";
 import { MemoryRouter } from "react-router-dom";
 import { vi } from "vitest";
 

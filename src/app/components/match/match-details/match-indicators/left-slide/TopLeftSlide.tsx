@@ -2,7 +2,7 @@ import {
   TeamForm,
   TeamsRestStatus,
   TeamsScorePerformance,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import LastFiveMatches from "../../quick-info/last-five-matches/LastFiveMatches";
 

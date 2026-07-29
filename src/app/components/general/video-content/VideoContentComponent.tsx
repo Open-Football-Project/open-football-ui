@@ -1,4 +1,4 @@
-import { VideoContent } from "@matchinsights/core";
+import { VideoContent } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface VideoContentProps {

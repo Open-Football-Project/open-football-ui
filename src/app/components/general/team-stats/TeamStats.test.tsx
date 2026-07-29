@@ -2,7 +2,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import StatsChart from "./TeamStats";
-import { TeamStatistic } from "@matchinsights/core";
+import { TeamStatistic } from "open-football-project-core";
 
 vi.mock("../../../converter/svg-png-converter/svg-png-converter", () => ({
   svgToPng: vi.fn().mockResolvedValue(undefined),
@@ -66,7 +66,7 @@ describe("team stats social sharing", () => {
     expect(buttons).toHaveLength(2);
   });
 
-  it("share button opens twitter with team title and futballero.com", () => {
+  it("share button opens twitter with team title and footballproject.org", () => {
     render(<StatsChart title="Test Stats" statistics={sampleStats} />);
     fireEvent.click(screen.getAllByRole("button")[0]);
 
@@ -77,7 +77,7 @@ describe("team stats social sharing", () => {
     );
     const text = decodeURIComponent(getShareUrl().split("text=")[1]);
     expect(text).toContain("Test Stats");
-    expect(text).toContain("futballero.com");
+    expect(text).toContain("footballproject.org");
   });
 
   it("share text includes all stat labels and values", () => {

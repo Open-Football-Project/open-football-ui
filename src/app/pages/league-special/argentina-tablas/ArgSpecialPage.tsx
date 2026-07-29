@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 import leagueSeoData from "../../../main/seo/league-metadata";
 import ArgSpecialTable from "../../../components/league/arg-special/ArgSpecialTable";
-import { ApiService, useLeaguePage } from "@matchinsights/core";
+import { ApiService, useLeaguePage } from "open-football-project-core";
 import { BannerProps } from "../../../common-props/BannerProps";
 
 interface ArgSpecialPageProps {

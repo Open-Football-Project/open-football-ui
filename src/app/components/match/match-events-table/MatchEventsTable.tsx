@@ -8,7 +8,7 @@ import {
 import { IoSquare } from "react-icons/io5";
 import { SocialSharing } from "../../general/social-sharing/SocialSharing";
 import { BsDot } from "react-icons/bs";
-import { MatchEvent } from "@matchinsights/core";
+import { MatchEvent, SITE_DOMAIN } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 import {
@@ -17,7 +17,7 @@ import {
   MATCH_EVENTS_SVG_W,
   MatchEventDetail,
   MatchEventType,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 interface MatchEventsTableProps {
   homeTeamName: string;
@@ -155,7 +155,7 @@ const MatchEventsTable = ({
             : "\uD83D\uDFE5";
         return `${emoji} ${time} ${label} (${side})`;
       }),
-      "futballero.com",
+      SITE_DOMAIN,
     ];
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(lines.join("\n"))}`,
@@ -180,7 +180,7 @@ const MatchEventsTable = ({
       const doc = new DOMParser().parseFromString(svgString, "image/svg+xml");
       const svgEl = doc.documentElement as unknown as SVGSVGElement;
       const slug = (name: string) => name.replace(/\s+/g, "-").toLowerCase();
-      const filename = `futballero-${slug(homeTeamName)}-vs-${slug(awayTeamName)}-events.png`;
+      const filename = `footballproject-${slug(homeTeamName)}-vs-${slug(awayTeamName)}-events.png`;
       await svgToPng(
         svgEl,
         filename,

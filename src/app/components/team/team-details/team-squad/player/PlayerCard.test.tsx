@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { TeamPlayer } from "@matchinsights/core";
+import { TeamPlayer } from "open-football-project-core";
 import { PlayerCard } from "./PlayerCard";
 
 describe("PlayerCard", () => {

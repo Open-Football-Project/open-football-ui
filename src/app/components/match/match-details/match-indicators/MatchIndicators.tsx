@@ -6,7 +6,7 @@ import {
   useOddsFeeling,
   useHeadToHead,
   h2hToIndicator,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import { TopLeftSlide } from "./left-slide/TopLeftSlide";
 import { TopRightSlide } from "./right-slide/TopRightSlide";

@@ -3,15 +3,15 @@ import { render, screen, waitFor, fireEvent } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { MemoryRouter } from "react-router-dom";
 import TeamFixtureComponent from "./TeamFixtureComponent";
-import { mockTeamFixture } from "@matchinsights/core";
+import { mockTeamFixture } from "open-football-project-core";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 
 vi.mock("../../../converter/svg-png-converter/svg-png-converter", () => ({
   svgToPng: vi.fn(),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     buildFixtureSvgString: vi.fn().mockReturnValue("<svg/>"),
@@ -165,7 +165,7 @@ describe("TeamFixtureComponent – share on X", () => {
     const text = decodeURIComponent(url.split("text=")[1]);
     expect(text).toContain("Manchester United");
     expect(text).toContain("Manchester United 1-3 Liverpool");
-    expect(text).toContain("futballero.com");
+    expect(text).toContain("footballproject.org");
   });
 
   it("includes upcoming matches as 'vs' lines in next tweet text", async () => {
@@ -187,7 +187,7 @@ describe("TeamFixtureComponent – share on X", () => {
     const url = vi.mocked(window.open).mock.calls[0][0] as string;
     const text = decodeURIComponent(url.split("text=")[1]);
     expect(text).toContain("Manchester United vs Arsenal");
-    expect(text).toContain("futballero.com");
+    expect(text).toContain("footballproject.org");
   });
 });
 

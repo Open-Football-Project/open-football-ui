@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { LeagueRankingPlayer } from "@matchinsights/core";
+import { LeagueRankingPlayer } from "open-football-project-core";
 import NoData from "../../../general/no-data/NoData";
 import LeagueRanking from "../LeagueRanking";
 import { useTranslation } from "react-i18next";

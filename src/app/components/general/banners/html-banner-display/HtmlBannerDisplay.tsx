@@ -1,4 +1,4 @@
-import { HtmlBanner } from "@matchinsights/core";
+import { HtmlBanner } from "open-football-project-core";
 
 interface Props {
   banner: HtmlBanner;

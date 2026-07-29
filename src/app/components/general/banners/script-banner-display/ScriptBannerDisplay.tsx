@@ -1,4 +1,4 @@
-import { ScriptBanner } from "@matchinsights/core";
+import { ScriptBanner } from "open-football-project-core";
 import BannerLoader from "../../banner-loader/BannerLoader";
 
 interface Props {

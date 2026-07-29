@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { LiveMatchCard } from "./LiveMatchCard";
-import { ApiService, LiveMatch } from "@matchinsights/core";
+import { ApiService, LiveMatch } from "open-football-project-core";
 
 vi.mock("../../general/logo/Logo", () => ({
   default: ({ src }: { src?: string }) => (
@@ -10,8 +10,8 @@ vi.mock("../../general/logo/Logo", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useCharteableMatchNow: vi.fn(() => ({
@@ -25,7 +25,7 @@ vi.mock("@matchinsights/core", async () => {
   };
 });
 
-import { useCharteableMatchNow, useTopGuysAvailable } from "@matchinsights/core";
+import { useCharteableMatchNow, useTopGuysAvailable } from "open-football-project-core";
 
 const mockApiService = {} as unknown as ApiService;
 

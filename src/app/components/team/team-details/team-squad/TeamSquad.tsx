@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { TeamPlayer } from "@matchinsights/core";
+import { TeamPlayer } from "open-football-project-core";
 import { PlayerCard } from "./player/PlayerCard";
 import { Link } from "react-router-dom";
 

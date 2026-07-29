@@ -8,8 +8,8 @@ vi.mock("../../league-table/LeagueTable", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     leagueGroupTranslation: vi.fn(),
@@ -22,7 +22,7 @@ vi.mock("react-i18next", () => ({
   }),
 }));
 
-import { leagueGroupTranslation, LeagueGroup } from "@matchinsights/core";
+import { leagueGroupTranslation, LeagueGroup } from "open-football-project-core";
 
 const mockGroup: LeagueGroup = {
   label: "Group A",

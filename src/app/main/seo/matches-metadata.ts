@@ -1,5 +1,5 @@
 import { TFunction } from "i18next";
-import { translateCountry } from "@matchinsights/core";
+import { translateCountry } from "open-football-project-core";
 
 const matchesSeoData = (
   selectedDate: string,

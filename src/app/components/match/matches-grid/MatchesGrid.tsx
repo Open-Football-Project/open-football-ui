@@ -16,7 +16,8 @@ import {
   getFixtureSvgH,
   FIXTURE_SVG_W,
   dayMatchesToFixtureRound,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 
 interface MatchesGridProps {
   leagueMatches: DayMatches[];
@@ -57,7 +58,7 @@ const LeagueMatchesCard = ({
 
       const svgEl = doc.documentElement as unknown as SVGSVGElement;
 
-      const filename = `futballero-${leagueDisplayName
+      const filename = `footballproject-${leagueDisplayName
         .replace(/\s+/g, "-")
         .toLowerCase()}-matches.png`;
 
@@ -78,7 +79,7 @@ const LeagueMatchesCard = ({
           : `${m.homeTeamName} vs ${m.awayTeamName}`,
       );
 
-    const text = [header, ...lines, "futballero.com"].join("\n");
+    const text = [header, ...lines, SITE_DOMAIN].join("\n");
 
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,

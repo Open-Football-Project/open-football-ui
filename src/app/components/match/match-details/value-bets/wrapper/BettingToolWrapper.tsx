@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ValueBetsResponse, ValueBetMarket } from "@matchinsights/core";
+import { ValueBetsResponse, ValueBetMarket } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 import { trackEvent, AnalyticsEvent } from "../../../../../utils/analytics/analytics";
 import ValueBetTable from "../ValueBetTable";

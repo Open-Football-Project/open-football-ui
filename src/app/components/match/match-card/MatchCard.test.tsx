@@ -11,8 +11,8 @@ vi.mock("../../general/logo/Logo", () => ({
   ),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     getFormattedDate: vi.fn(() => "21/10"),
@@ -32,7 +32,7 @@ import {
   ApiService,
   useCharteableMatchNow,
   useTopGuysAvailable,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 const mockApiService = {} as unknown as ApiService;
 

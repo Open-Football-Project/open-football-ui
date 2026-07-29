@@ -1,4 +1,4 @@
-import { AvailablePollOption } from "@matchinsights/core";
+import { AvailablePollOption } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface PollCardProps {

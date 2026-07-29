@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { TeamForm } from "@matchinsights/core";
+import { TeamForm } from "open-football-project-core";
 import NoData from "../../../..//general/no-data/NoData";
 import { LastFiveMatchesSkeleton } from "../../../../general/skeleton/Skeleton";
 

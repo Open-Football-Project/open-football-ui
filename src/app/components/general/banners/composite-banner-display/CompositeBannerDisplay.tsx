@@ -1,4 +1,4 @@
-import { CompositeBanner, BannerType } from "@matchinsights/core";
+import { CompositeBanner, BannerType } from "open-football-project-core";
 import LinkBannerDisplay from "../link-banner-display/LinkBannerDisplay";
 import ScriptBannerDisplay from "../script-banner-display/ScriptBannerDisplay";
 import HtmlBannerDisplay from "../html-banner-display/HtmlBannerDisplay";

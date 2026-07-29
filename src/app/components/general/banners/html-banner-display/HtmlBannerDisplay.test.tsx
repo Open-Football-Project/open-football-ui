@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import HtmlBannerDisplay from "./HtmlBannerDisplay";
-import { BannerType, BannerSize } from "@matchinsights/core";
+import { BannerType, BannerSize } from "open-football-project-core";
 
 describe("HtmlBannerDisplay", () => {
   it("renders the html content", () => {

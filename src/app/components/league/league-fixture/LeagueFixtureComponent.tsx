@@ -19,7 +19,8 @@ import {
   FIXTURE_SVG_W,
   cleanLeagueName,
   leagueTranslationKey,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 
 import { useRovingTabIndex } from "../../../special-hooks/roving-tabindex/roving-tabindex";
 
@@ -135,7 +136,7 @@ export const LeagueFixtureComponent = ({
 
       const svgEl = doc.documentElement as unknown as SVGSVGElement;
 
-      const filename = `futballero-${leagueNameLabel
+      const filename = `footballproject-${leagueNameLabel
         .replace(/\s+/g, "-")
         .toLowerCase()}-fixtures.png`;
 
@@ -171,7 +172,7 @@ export const LeagueFixtureComponent = ({
       header,
       roundNameDisplayedFormat(round.name),
       ...lines,
-      "futballero.com",
+      SITE_DOMAIN,
     ].join("\n");
 
     window.open(

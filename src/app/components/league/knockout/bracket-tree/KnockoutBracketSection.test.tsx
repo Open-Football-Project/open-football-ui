@@ -1,10 +1,10 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import KnockoutBracketSection from "./KnockoutBracketSection";
-import { useLeagueFixtureBinaryTree, BracketNode, LeagueFixture } from "@matchinsights/core";
+import { useLeagueFixtureBinaryTree, BracketNode, LeagueFixture } from "open-football-project-core";
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual<typeof import("@matchinsights/core")>("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual<typeof import("open-football-project-core")>("open-football-project-core");
   return {
     ...actual,
     useLeagueFixtureBinaryTree: vi.fn(),

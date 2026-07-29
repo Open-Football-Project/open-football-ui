@@ -58,10 +58,10 @@
     "chartsbtn": "Gráficos en Vivo",
     "leaguesbycountry": "Ligas de Fútbol por País",
     "todaymatches": "Partidos de Hoy",
-    "bottomhead": "Futballero – Mantente en el partido, estés donde estés.",
-    "bottomtext": "De la Premier League a la Copa Libertadores, Futballero te acerca el fútbol mundial con resultados y estadísticas en vivo.",
+    "bottomhead": "Open Football Project – Mantente en el partido, estés donde estés.",
+    "bottomtext": "De la Premier League a la Copa Libertadores, Open Football Project te acerca el fútbol mundial con resultados y estadísticas en vivo.",
     "matchesbtn": "Consultar partidos",
-    "aboutbtn": "Acerca de Futballero",
+    "aboutbtn": "Acerca de Open Football Project",
     "androidbtn": "Descargar App Android",
     "worldcupcta": "Copa del Mundo: Partidos, Posiciones y Estadísticas"
   },
@@ -814,7 +814,7 @@
   },
   "feedback": {
     "head": "Contanos qué pensás",
-    "subhead": "Ayudanos a mejorar Futballero. Tu opinión define lo que viene.",
+    "subhead": "Ayudanos a mejorar Open Football Project. Tu opinión define lo que viene.",
     "favoriteTeam": "Tu equipo favorito?",
     "favoriteTeamPlaceholder": "ej. Barcelona, River Plate...",
     "league": "Tu liga favorita?",

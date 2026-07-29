@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 import ValueBetTable from "./ValueBetTable";
-import { ValueBetMarket } from "@matchinsights/core";
+import { ValueBetMarket } from "open-football-project-core";
 
 const market: ValueBetMarket = {
   betName: "Match Winner",

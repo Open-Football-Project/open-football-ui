@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import SubHeader from "./SubHeader";
 import { MemoryRouter } from "react-router-dom";
-import { ApiService } from "@matchinsights/core";
+import { ApiService } from "open-football-project-core";
 
 vi.mock("react-router-dom", async () => {
   const actual = await vi.importActual("react-router-dom");
@@ -20,8 +20,8 @@ vi.mock("../banners/global-banners/GlobalBanners", () => ({
   default: () => <div data-testid="banner-display" />,
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useNewsInfo: vi.fn(() => ({

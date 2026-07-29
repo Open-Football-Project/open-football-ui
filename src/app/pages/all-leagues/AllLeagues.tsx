@@ -6,7 +6,7 @@ import {
   ApiService,
   LeaguesGroups,
   useAllLeagues,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import SubHeader from "../../components/general/sub-header/SubHeader";
 import { useTranslation } from "react-i18next";
 import { BannerProps } from "../../common-props/BannerProps";

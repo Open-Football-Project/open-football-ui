@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach, Mock } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import TeamDetailsPage from "./TeamDetailsPage";
-import { useTeamDetail } from "@matchinsights/core";
+import { useTeamDetail } from "open-football-project-core";
 import { BannerProps } from "../../common-props/BannerProps";
 
 const mocks = vi.hoisted(() => ({
@@ -49,8 +49,8 @@ vi.mock("../../components/general/banners/country-banners/CountryBanners", () =>
   default: () => null,
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useTeamDetail: vi.fn(),

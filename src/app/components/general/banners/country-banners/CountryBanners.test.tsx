@@ -1,14 +1,14 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import CountryBanners from "./CountryBanners";
-import { BannerType, BannerSize } from "@matchinsights/core";
+import { BannerType, BannerSize } from "open-football-project-core";
 import { BannerProps } from "../../../../common-props/BannerProps";
 
 const mockUseCountryBanners = vi.fn();
 const mockUseCountryExtraBanners = vi.fn();
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useCountryBanners: (...args: any[]) => mockUseCountryBanners(...args),

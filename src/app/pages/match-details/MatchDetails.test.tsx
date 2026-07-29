@@ -87,9 +87,9 @@ vi.mock(
   })
 );
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual<typeof import("@matchinsights/core")>(
-    "@matchinsights/core"
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual<typeof import("open-football-project-core")>(
+    "open-football-project-core"
   );
 
   return {
@@ -102,7 +102,7 @@ vi.mock("@matchinsights/core", async () => {
   };
 });
 
-import { MatchDetails } from "@matchinsights/core";
+import { MatchDetails } from "open-football-project-core";
 
 const mockApiService = {};
 

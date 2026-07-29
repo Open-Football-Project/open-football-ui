@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Logo from "../../general/logo/Logo";
 import teamLogoDefault from "../../../assets/images/fclogo.png";
 
-import { PlayerTransferInfo } from "@matchinsights/core";
+import { PlayerTransferInfo } from "open-football-project-core";
 import NoData from "../../general/no-data/NoData";
-import { getFormattedDate } from "@matchinsights/core";
+import { getFormattedDate } from "open-football-project-core";
 
 interface PlayerTransfersProps {
   transfers: PlayerTransferInfo[];

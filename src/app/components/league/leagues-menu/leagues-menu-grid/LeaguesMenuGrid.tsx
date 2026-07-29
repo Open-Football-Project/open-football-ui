@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { LeagueBasicInfo } from "@matchinsights/core";
+import { LeagueBasicInfo } from "open-football-project-core";
 import Logo from "../../../../components/general/logo/Logo";
 import { useTranslation } from "react-i18next";
-import { leagueTranslationKey, cleanLeagueName } from "@matchinsights/core";
+import { leagueTranslationKey, cleanLeagueName } from "open-football-project-core";
 import {
   trackEvent,
   AnalyticsEvent,

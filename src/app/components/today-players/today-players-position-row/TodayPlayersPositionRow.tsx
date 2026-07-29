@@ -1,4 +1,4 @@
-import { PlayerPosition, TodayPlayerScore } from "@matchinsights/core";
+import { PlayerPosition, TodayPlayerScore } from "open-football-project-core";
 
 import TodayPlayersSlider from "../today-players-slider/TodayPlayersSlider";
 

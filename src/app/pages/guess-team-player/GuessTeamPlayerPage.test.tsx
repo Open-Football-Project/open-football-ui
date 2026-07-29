@@ -16,8 +16,8 @@ vi.mock("react-router-dom", async (importOriginal) => {
   };
 });
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useTeamDetail: vi.fn(),
@@ -54,7 +54,7 @@ vi.mock("../../main/seo/team-metadata", () => ({
   default: vi.fn(),
 }));
 
-import { useTeamDetail, useGuessThePlayer } from "@matchinsights/core";
+import { useTeamDetail, useGuessThePlayer } from "open-football-project-core";
 
 const mockUseTeamDetail = (overrides = {}) => {
   (useTeamDetail as Mock).mockReturnValue({

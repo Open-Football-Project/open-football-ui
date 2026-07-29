@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { LeaguesMenuGrid } from "./LeaguesMenuGrid";
-import { mockLeaguesGroups } from "@matchinsights/core";
+import { mockLeaguesGroups } from "open-football-project-core";
 import { MemoryRouter } from "react-router-dom";
 
 vi.mock("../../../../components/general/logo/Logo", () => ({

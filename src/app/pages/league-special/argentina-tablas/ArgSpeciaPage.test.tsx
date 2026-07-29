@@ -2,11 +2,11 @@ import { render, screen, waitFor } from "@testing-library/react";
 import ArgSpecialPage from "./ArgSpecialPage";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { vi } from "vitest";
-import { ArgSpecial } from "@matchinsights/core";
+import { ArgSpecial } from "open-football-project-core";
 import { BannerProps } from "../../../common-props/BannerProps";
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useLeaguePage: vi.fn(),
@@ -41,7 +41,7 @@ vi.mock("../../../components/general/no-data/NoData", () => ({
   ),
 }));
 
-import { useLeaguePage } from "@matchinsights/core";
+import { useLeaguePage } from "open-football-project-core";
 
 describe("ArgSpecialPage", () => {
   const mockApiService: any = {};

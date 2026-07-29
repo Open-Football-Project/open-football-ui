@@ -70,7 +70,7 @@ const Navbar = () => {
           to="/"
           className="ml-3 text-lg font-bold text-white tracking-wide hover:text-brand-bluelight transition-colors duration-200 shrink-0 lg:hidden"
         >
-          Futballero
+          Open Football Project
         </Link>
 
         <div className="flex-1 flex justify-center">
@@ -167,7 +167,7 @@ const Navbar = () => {
         onTouchEnd={handleTouchEnd}
       >
         <div className="p-4 flex justify-between items-center border-b border-white/20">
-          <h2 className="text-base font-bold text-white">Futballero</h2>
+          <h2 className="text-base font-bold text-white">Open Football Project</h2>
           <button className="text-sm text-white" onClick={closeSideBar}>
             ✕
           </button>

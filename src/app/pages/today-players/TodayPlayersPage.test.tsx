@@ -22,9 +22,9 @@ vi.mock("../../utils/analytics/analytics", async () => {
   };
 });
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual<typeof import("@matchinsights/core")>(
-    "@matchinsights/core",
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual<typeof import("open-football-project-core")>(
+    "open-football-project-core",
   );
   return {
     ...actual,

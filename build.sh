@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e  # exit immediately if a command fails
 
-echo "🏗️  Starting Futballero build..."
+echo "🏗️  Starting Open Football Project build..."
 
 # 1. Clean old build (optional)
 rm -rf dist

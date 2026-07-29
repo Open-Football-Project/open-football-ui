@@ -8,7 +8,7 @@ import {
   useChartsPageStatus,
   useCharteableOddsStatus,
   useBetMarkets,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import { HiMenu } from "react-icons/hi";
 import Panels from "../../components/live-charts/panels/Panels";

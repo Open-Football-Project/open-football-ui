@@ -1,7 +1,7 @@
-import { BannersService, FutballeroUIStorage } from "@matchinsights/core";
+import { BannersService, FootballProjectUIStorage } from "open-football-project-core";
 
 export interface BannerProps {
   bannersService: BannersService;
-  storage: FutballeroUIStorage;
+  storage: FootballProjectUIStorage;
   countryApiHost: string;
 }

@@ -3,7 +3,7 @@ import { navigationData } from "./navigationData";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import { cleanLeagueName, leagueTranslationKey } from "@matchinsights/core";
+import { cleanLeagueName, leagueTranslationKey } from "open-football-project-core";
 
 interface SideNavMenuProps {
   closeSideNavMenu: () => void;

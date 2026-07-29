@@ -1,4 +1,4 @@
-import { OddsWinnerFeeling, IndicatorResult } from "@matchinsights/core";
+import { OddsWinnerFeeling, IndicatorResult } from "open-football-project-core";
 import OddsWinnerFeelingComponent from "../../quick-info/odds-winner-feeling/OddsWinnerFeeling";
 import TinyCard from "../../../../general/tiny-card/TinyCard";
 import { LiveMatchPieChart } from "../../../live-indicators/pie-chart/LiveMatchPieChart";

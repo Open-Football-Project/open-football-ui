@@ -1,12 +1,12 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import GlobalBanners from "./GlobalBanners";
-import { BannerType, BannerSize } from "@matchinsights/core";
+import { BannerType, BannerSize } from "open-football-project-core";
 
 const mockUseGlobalBanners = vi.fn();
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useGlobalBanners: (...args: any[]) => mockUseGlobalBanners(...args),

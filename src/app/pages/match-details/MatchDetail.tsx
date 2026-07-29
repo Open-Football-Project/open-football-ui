@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { MatchDetails } from "@matchinsights/core";
-import { ApiService } from "@matchinsights/core";
+import { MatchDetails } from "open-football-project-core";
+import { ApiService } from "open-football-project-core";
 import NoData from "../../components/general/no-data/NoData";
 import { MatchDetailSkeleton } from "../../components/general/skeleton/Skeleton";
 import { DetailsMainInfo } from "../../components/match/match-details/details-main-info/DetailsMainInfo";
@@ -18,7 +18,7 @@ import {
   useMatchDetail,
   useHeadToHead,
   useValueBets,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import BettingToolWrapper from "../../components/match/match-details/value-bets/wrapper/BettingToolWrapper";
 import VideoContentComponent from "../../components/general/video-content/VideoContentComponent";
 import { useTranslation } from "react-i18next";

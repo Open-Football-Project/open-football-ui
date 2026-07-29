@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { BracketNode, LEAGUE_CUP_ROUNDS } from "@matchinsights/core";
+import { BracketNode, LEAGUE_CUP_ROUNDS } from "open-football-project-core";
 import NoData from "../../../general/no-data/NoData";
 import TieCard from "../tie-card/TieCard";
 import TiePrediction from "../tie-prediction/TiePrediction";

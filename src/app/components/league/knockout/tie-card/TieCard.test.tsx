@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import TieCard from "./TieCard";
-import { Tie } from "@matchinsights/core";
+import { Tie } from "open-football-project-core";
 
 vi.mock("../../../general/logo/Logo", () => ({
   default: ({ src }: { src: string }) => (

@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { TodayPlayerScore } from "@matchinsights/core";
+import { TodayPlayerScore } from "open-football-project-core";
 
 import TodayPlayerCard from "./TodayPlayerCard";
 

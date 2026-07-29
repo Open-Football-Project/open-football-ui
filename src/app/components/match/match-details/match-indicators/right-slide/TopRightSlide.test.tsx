@@ -3,7 +3,7 @@
 import { render, screen } from "@testing-library/react";
 import { TopRightSlide } from "./TopRightSlide";
 import { vi } from "vitest";
-import { IndicatorResult } from "@matchinsights/core";
+import { IndicatorResult } from "open-football-project-core";
 
 vi.mock("../../quick-info/odds-winner-feeling/OddsWinnerFeeling", () => ({
   default: vi.fn(({ loading, homeTeam, awayTeam }) => (

@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import PlayerHeader from "./PlayerHistoryHeader";
 import { MemoryRouter } from "react-router-dom";
-import { PlayerMainInfo } from "@matchinsights/core";
+import { PlayerMainInfo } from "open-football-project-core";
 
 describe("PlayerHeader Component", () => {
   const player: PlayerMainInfo = {

@@ -41,4 +41,17 @@ describe("buildFooterHtml", () => {
     expect(html).toContain('id="seo-footer"');
     expect(html).not.toContain('href="/league/');
   });
+
+  it("includes the copyright notice under the new brand", () => {
+    const html = buildFooterHtml(leagues);
+    expect(html).toContain("footballproject.org");
+  });
+
+  it("links to the X and GitHub accounts, and not to Instagram or Facebook", () => {
+    const html = buildFooterHtml(leagues);
+    expect(html).toContain('href="https://x.com/openfootballpro"');
+    expect(html).toContain('href="https://github.com/Open-Football-Project"');
+    expect(html).not.toContain("instagram.com");
+    expect(html).not.toContain("facebook.com");
+  });
 });

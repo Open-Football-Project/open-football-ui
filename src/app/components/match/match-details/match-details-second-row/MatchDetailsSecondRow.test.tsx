@@ -1,10 +1,10 @@
 import { describe, it, expect, vi, beforeEach, Mock } from "vitest";
 import { render, screen, waitFor } from "@testing-library/react";
 import { MatchDetailsSecondRow } from "./MatchDetailsSecondRow";
-import { ApiService } from "@matchinsights/core";
+import { ApiService } from "open-football-project-core";
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useLastFiveMatchesEvents: vi.fn(),
@@ -39,7 +39,7 @@ vi.mock("../summaries/match-events/MatchEvents", () => ({
   ),
 }));
 
-import { useSeasonStats, useLastFiveMatchesEvents } from "@matchinsights/core";
+import { useSeasonStats, useLastFiveMatchesEvents } from "open-football-project-core";
 
 describe("MatchDetailsSecondRow", () => {
   const mockApiService = {} as ApiService;

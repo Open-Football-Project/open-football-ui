@@ -4,7 +4,8 @@ import {
   ApiService,
   BannersService,
   SubheaderLink,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 import Logo from "../logo/Logo";
 import GlobalBanners from "../banners/global-banners/GlobalBanners";
 import ShareButton, { buildSharedResource } from "../share-button/ShareButton";
@@ -36,7 +37,7 @@ export default function SubHeader({
     }
   };
 
-  const sharedResource = buildSharedResource(title || "futballero.com");
+  const sharedResource = buildSharedResource(title || SITE_DOMAIN);
 
   return (
     <div className="w-full mb-4">

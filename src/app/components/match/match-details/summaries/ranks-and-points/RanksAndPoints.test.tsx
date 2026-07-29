@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { RanksAndPoints } from "./RanksAndPoints";
-import { PositionAndPoints } from "@matchinsights/core";
+import { PositionAndPoints } from "open-football-project-core";
 
 vi.mock("react-i18next", () => ({
   useTranslation: () => ({

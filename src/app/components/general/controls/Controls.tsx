@@ -1,4 +1,4 @@
-import { getLocalISODate, DayTimeRange } from "@matchinsights/core";
+import { getLocalISODate, DayTimeRange } from "open-football-project-core";
 
 interface SelectOption {
   id: string;

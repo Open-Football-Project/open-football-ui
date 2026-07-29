@@ -3,7 +3,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import MatchesGrid from "./MatchesGrid";
-import type { ApiService, DayMatches, OnDayMatch } from "@matchinsights/core";
+import type { ApiService, DayMatches, OnDayMatch } from "open-football-project-core";
 import { svgToPng } from "../../../converter/svg-png-converter/svg-png-converter";
 
 vi.mock("../../general/logo/Logo", () => ({
@@ -22,8 +22,8 @@ vi.mock("../../../converter/svg-png-converter/svg-png-converter", () => ({
   svgToPng: vi.fn(),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     buildFixtureSvgString: vi.fn().mockReturnValue("<svg/>"),
@@ -183,7 +183,7 @@ describe("MatchesGrid – share on X", () => {
     );
   });
 
-  it("includes the correct league name and futballero.com in tweet text", () => {
+  it("includes the correct league name and footballproject.org in tweet text", () => {
     render(
       <MemoryRouter>
         <MatchesGrid
@@ -198,7 +198,7 @@ describe("MatchesGrid – share on X", () => {
     const url = vi.mocked(window.open).mock.calls[0][0] as string;
     const text = decodeURIComponent(url.split("text=")[1]);
     expect(text).toContain("Premier League");
-    expect(text).toContain("futballero.com");
+    expect(text).toContain("footballproject.org");
   });
 
   it("uses 'vs' for upcoming matches and score for finished ones", () => {
@@ -256,7 +256,7 @@ describe("MatchesGrid – download", () => {
     await waitFor(() =>
       expect(svgToPng).toHaveBeenCalledWith(
         expect.any(Object),
-        "futballero-premier-lg.-matches.png",
+        "footballproject-premier-lg.-matches.png",
         620,
         500,
       ),
@@ -278,7 +278,7 @@ describe("MatchesGrid – download", () => {
     await waitFor(() =>
       expect(svgToPng).toHaveBeenCalledWith(
         expect.any(Object),
-        "futballero-la-liga-matches.png",
+        "footballproject-la-liga-matches.png",
         620,
         500,
       ),

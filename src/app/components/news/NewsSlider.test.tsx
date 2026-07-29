@@ -10,15 +10,15 @@ vi.mock("./news-state/news-state", () => ({
   default: vi.fn(),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useNewsState: mocks.useNewsState,
   };
 });
 
-import { mockNewsData } from "@matchinsights/core";
+import { mockNewsData } from "open-football-project-core";
 
 describe("NewsSlider (feature)", () => {
   const next = vi.fn();

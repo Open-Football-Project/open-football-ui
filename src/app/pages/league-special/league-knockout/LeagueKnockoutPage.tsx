@@ -14,7 +14,7 @@ import {
   useLeaguePage,
   cleanLeagueName,
   leagueTranslationKey,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 import { BannerProps } from "../../../common-props/BannerProps";
 

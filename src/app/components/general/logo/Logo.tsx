@@ -38,7 +38,7 @@ const Logo = ({
     <img
       data-testid="team-logo"
       src={src}
-      alt={name ?? "futballero image"}
+      alt={name ?? "football project image"}
       loading="lazy"
       className={customImageClass ?? `w-7 h-7 object-contain mx-2 bg-white`}
       onError={() => setError(true)}

@@ -1,4 +1,4 @@
-import { LiveHomeAwayForm } from "@matchinsights/core";
+import { LiveHomeAwayForm } from "open-football-project-core";
 import { FaFire, FaSnowflake, FaMinus } from "react-icons/fa6";
 
 const dotColour = (result: string) => {

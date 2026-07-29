@@ -1,4 +1,4 @@
-import { ChartPanel } from "@matchinsights/core";
+import { ChartPanel } from "open-football-project-core";
 import IndicatorsPanel from "./indicators-panel/IndicatorsPanel";
 
 interface Props {

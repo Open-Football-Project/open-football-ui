@@ -9,7 +9,8 @@ import {
   SvgLeagueTableColDefinition,
   cleanLeagueName,
   leagueTranslationKey,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 
 import NoData from "../../../components/general/no-data/NoData";
 import { LeagueStandingSkeleton } from "../../../components/general/skeleton/Skeleton";
@@ -50,7 +51,7 @@ function buildStandingsShareText(
         ]
       : [];
 
-  return [header, ...top, ...relegation, `futballero.com`].join("\n");
+  return [header, ...top, ...relegation, SITE_DOMAIN].join("\n");
 }
 
 interface LeagueStandingProps {
@@ -222,7 +223,7 @@ export default function LeagueStanding({
       );
       const doc = new DOMParser().parseFromString(svgString, "image/svg+xml");
       const svgEl = doc.documentElement as unknown as SVGSVGElement;
-      const filename = `futballero-${name.replace(/\s+/g, "-").toLowerCase()}-standings.png`;
+      const filename = `footballproject-${name.replace(/\s+/g, "-").toLowerCase()}-standings.png`;
       await svgToPng(
         svgEl,
         filename,

@@ -1,4 +1,4 @@
-import { LeagueRankingPlayer } from "@matchinsights/core";
+import { LeagueRankingPlayer } from "open-football-project-core";
 import RankingPlayerCard from "./rankin-player-card/RankingPlayerCard";
 
 interface LeagueRankingProps {

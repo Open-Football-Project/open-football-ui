@@ -11,7 +11,7 @@ import {
   PlayerSvgLabel,
   PlayerSvgLabels,
   obscurePlayerName,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import profile from "../../../../assets/images/player.png";
 import { svgToPng } from "../../../../converter/svg-png-converter/svg-png-converter";
 import { DownloadOrQuiz } from "../../../general/download-or-quiz/DownloadOrQuiz";

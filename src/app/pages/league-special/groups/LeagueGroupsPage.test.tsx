@@ -2,8 +2,8 @@ import { describe, it, expect, vi, beforeEach, Mock } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter, Routes, Route } from "react-router-dom";
 import LeagueGroupsPage from "./LeagueGroupsPage";
-import { useLeaguePage } from "@matchinsights/core";
-import { LeagueInfo, ApiService } from "@matchinsights/core";
+import { useLeaguePage } from "open-football-project-core";
+import { LeagueInfo, ApiService } from "open-football-project-core";
 import { BannerProps } from "../../../common-props/BannerProps";
 
 vi.mock("react-router-dom", async () => {
@@ -14,8 +14,8 @@ vi.mock("react-router-dom", async () => {
   };
 });
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useLeaguePage: vi.fn(),

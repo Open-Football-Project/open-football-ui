@@ -7,7 +7,8 @@ import {
   getFixtureSvgH,
   FIXTURE_SVG_W,
   teamFixtureMatchesToFixtureRound,
-} from "@matchinsights/core";
+  SITE_DOMAIN,
+} from "open-football-project-core";
 import MatchCard from "../../match/match-card/MatchCard";
 import { useTranslation } from "react-i18next";
 import { SocialSharing } from "../../general/social-sharing/SocialSharing";
@@ -55,7 +56,7 @@ const TeamFixtureComponent = ({
       const labelSlug = label.replace(/\s+/g, "-").toLowerCase();
       await svgToPng(
         svgEl,
-        `futballero-${slug}-${labelSlug}.png`,
+        `footballproject-${slug}-${labelSlug}.png`,
         FIXTURE_SVG_W,
         getFixtureSvgH(round),
       );
@@ -73,7 +74,7 @@ const TeamFixtureComponent = ({
           ? `${m.homeTeamName} ${m.homeTeamScore}-${m.awayTeamScore} ${m.awayTeamName}`
           : `${m.homeTeamName} vs ${m.awayTeamName}`,
       );
-    const text = [header, label, ...lines, "futballero.com"].join("\n");
+    const text = [header, label, ...lines, SITE_DOMAIN].join("\n");
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
       "_blank",

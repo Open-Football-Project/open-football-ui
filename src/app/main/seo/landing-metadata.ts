@@ -1,5 +1,5 @@
 import { TFunction } from "i18next";
-import { NewsCardItem, DayMatches } from "@matchinsights/core";
+import { NewsCardItem, DayMatches } from "open-football-project-core";
 
 const PUBLISHER = {
   "@type": "Organization",

@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import ScriptBannerDisplay from "./ScriptBannerDisplay";
-import { BannerType, BannerSize } from "@matchinsights/core";
+import { BannerType, BannerSize } from "open-football-project-core";
 
 describe("ScriptBannerDisplay", () => {
   it("renders a banner container with the correct script src", () => {

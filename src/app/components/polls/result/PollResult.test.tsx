@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import PollResult from "./PollResult";
-import { Poll, PollVotingOption } from "@matchinsights/core";
+import { Poll, PollVotingOption } from "open-football-project-core";
 
 const poll: Poll = {
   fixtureId: 1334,

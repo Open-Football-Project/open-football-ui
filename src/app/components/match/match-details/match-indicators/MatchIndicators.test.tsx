@@ -2,8 +2,8 @@ import { render, screen } from "@testing-library/react";
 import { vi } from "vitest";
 import { MatchIndicators } from "./MatchIndicators";
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useOddsFeeling: vi.fn(),
@@ -40,7 +40,7 @@ import {
   useRestStatus,
   useTeamLeaguesStats,
   useHeadToHead,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import { TopRightSlide } from "./right-slide/TopRightSlide";
 
 describe("MatchDetailsTopRow", () => {

@@ -4,7 +4,7 @@ import landingSeoData from "../../main/seo/landing-metadata";
 import { extractKeywords } from "../../utils/seo-keywords";
 
 import { useTranslation } from "react-i18next";
-import { useNewsInfo, useTodayMatches, ApiService } from "@matchinsights/core";
+import { useNewsInfo, useTodayMatches, ApiService } from "open-football-project-core";
 
 import worldcupicon from "../../assets/images/wc.png";
 import NewsSlider from "../../components/news/NewsSlider";

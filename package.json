@@ -17,7 +17,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@matchinsights/core": "github:Open-Football-Project/open-football-ui-core",
+    "open-football-project-core": "github:Open-Football-Project/open-football-ui-core",
     "@tanstack/react-query": "^5.82.0",
     "class-variance-authority": "^0.7.1",
     "date-fns": "^4.1.0",

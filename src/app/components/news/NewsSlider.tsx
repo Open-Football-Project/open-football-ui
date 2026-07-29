@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { NewsCardItem, useNewsState } from "@matchinsights/core";
+import { NewsCardItem, useNewsState } from "open-football-project-core";
 import { useEffect, useState } from "react";
 
 interface NewsSliderProps {

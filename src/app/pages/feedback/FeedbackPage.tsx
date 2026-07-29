@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { ApiService } from "@matchinsights/core";
+import { ApiService } from "open-football-project-core";
 import Seo from "../../main/seo/Seo";
 import feedbackSeoData from "../../main/seo/feedback-metadata";
 import useFeedbackForm, { FeedbackField, FormStatus } from "./form-status/useFeedbackForm";

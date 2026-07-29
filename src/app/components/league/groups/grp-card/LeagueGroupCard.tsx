@@ -1,6 +1,6 @@
-import { LeagueGroup } from "@matchinsights/core";
+import { LeagueGroup } from "open-football-project-core";
 import { LeagueTable } from "../../league-table/LeagueTable";
-import { leagueGroupTranslation } from "@matchinsights/core";
+import { leagueGroupTranslation } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface LeagueGroupCardProps {

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import TeamInfo from "./TeamInfo";
-import type { TeamDetails } from "@matchinsights/core";
-import { LeagueBasicInfo } from "@matchinsights/core";
+import type { TeamDetails } from "open-football-project-core";
+import { LeagueBasicInfo } from "open-football-project-core";
 import { MemoryRouter } from "react-router-dom";
 
 describe("TeamInfo", () => {

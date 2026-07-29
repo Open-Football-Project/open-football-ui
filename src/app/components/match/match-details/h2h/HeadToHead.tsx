@@ -1,8 +1,8 @@
 import NoData from "../../../general/no-data/NoData";
 import { TinyCardGroupSkeleton } from "../../../general/skeleton/Skeleton";
 import TinyCard from "../../../general/tiny-card/TinyCard";
-import { H2HDetails } from "@matchinsights/core";
-import { getFormattedDate } from "@matchinsights/core";
+import { H2HDetails } from "open-football-project-core";
+import { getFormattedDate } from "open-football-project-core";
 import { useTranslation } from "react-i18next";
 
 interface HeadToHeadProps {

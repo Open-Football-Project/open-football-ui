@@ -18,8 +18,8 @@ vi.mock("../../general/banners/country-banners/CountryBanners", () => ({
   default: () => null,
 }));
 
-vi.mock("@matchinsights/core", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@matchinsights/core")>();
+vi.mock("open-football-project-core", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("open-football-project-core")>();
   return {
     ...actual,
     buildTeamTriviaSvg: vi.fn(() => ({
@@ -172,7 +172,7 @@ describe("GuessTheTeam", () => {
   });
 
   it("download button triggers SVG generation and is not disabled by default", async () => {
-    const { buildTeamTriviaSvg } = await import("@matchinsights/core");
+    const { buildTeamTriviaSvg } = await import("open-football-project-core");
 
     render(
       <MemoryRouter>

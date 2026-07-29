@@ -7,8 +7,8 @@ const mocks = vi.hoisted(() => ({
   useMatchesStatus: vi.fn(),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useMatchesStatus: mocks.useMatchesStatus,

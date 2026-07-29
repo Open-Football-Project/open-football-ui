@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { IndicatorResult } from "@matchinsights/core";
+import { IndicatorResult } from "open-football-project-core";
 import { LiveMatchPieChart } from "./LiveMatchPieChart";
 
 vi.mock("react-i18next", () => ({

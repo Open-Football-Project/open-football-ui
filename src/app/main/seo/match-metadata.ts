@@ -1,5 +1,5 @@
 import { TFunction } from "i18next";
-import { Venue } from "@matchinsights/core";
+import { Venue } from "open-football-project-core";
 
 const venueLocationName = (
   venue: Venue | undefined,

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 import { MomentumOscillatorChart } from "./MomentumOscillator";
-import { MomentumOscillatorBrandColor } from "@matchinsights/core";
+import { MomentumOscillatorBrandColor } from "open-football-project-core";
 
 const points = [
   { minute: 5, value: 20, capturedAt: "2026-06-24T15:05:00Z" },

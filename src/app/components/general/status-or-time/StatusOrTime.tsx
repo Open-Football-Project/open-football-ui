@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { getFormattedDate, getFormattedTime } from "@matchinsights/core";
+import { getFormattedDate, getFormattedTime } from "open-football-project-core";
 
 interface StatusOrTimeProps {
   isFinished: boolean;

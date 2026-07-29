@@ -2,15 +2,15 @@ import { describe, it, expect, vi, beforeEach, Mock } from "vitest";
 import { render, screen, waitFor } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import LeaguePage from "./LeaguePage";
-import { ApiService } from "@matchinsights/core";
+import { ApiService } from "open-football-project-core";
 import { BannerProps } from "../../common-props/BannerProps";
 import {
   mockLeagueInfo,
   mockLeagueFixture,
   mockLeagueRankingPlayers,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
-import { useLeaguePage } from "@matchinsights/core";
+import { useLeaguePage } from "open-football-project-core";
 
 vi.mock("../../components/general/sub-header/SubHeader", () => ({
   default: ({ title, optionalLinks }: any) => (
@@ -75,8 +75,8 @@ vi.mock("../../components/general/banners/country-banners/CountryBanners", () =>
   default: () => null,
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useLeaguePage: vi.fn(),

@@ -7,7 +7,7 @@ import {
   PlayerMainInfo,
   translateCountry,
   translatePlayerPosition,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 interface PlayerHeaderProps {
   player: PlayerMainInfo;

@@ -1,11 +1,11 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import DownloadBracketButton from "./DownloadBracketButton";
-import { collectRounds, buildBracketSvgString, BracketNode, RoundLayout } from "@matchinsights/core";
+import { collectRounds, buildBracketSvgString, BracketNode, RoundLayout } from "open-football-project-core";
 import { svgToPng } from "../../../../converter/svg-png-converter/svg-png-converter";
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual<typeof import("@matchinsights/core")>("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual<typeof import("open-football-project-core")>("open-football-project-core");
   return {
     ...actual,
     collectRounds: vi.fn(),

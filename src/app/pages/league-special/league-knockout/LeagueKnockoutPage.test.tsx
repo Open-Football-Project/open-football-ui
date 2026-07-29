@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 
 import LeagueKnockoutPage from "./LeagueKnockoutPage";
-import { ApiService, LeagueFixture, LeagueInfo, useLeaguePage } from "@matchinsights/core";
+import { ApiService, LeagueFixture, LeagueInfo, useLeaguePage } from "open-football-project-core";
 import { BannerProps } from "../../../common-props/BannerProps";
 
 type LeaguePageResult = ReturnType<typeof useLeaguePage>;
@@ -27,8 +27,8 @@ vi.mock("react-i18next", () => ({
   }),
 }));
 
-vi.mock("@matchinsights/core", async () => {
-  const actual = await vi.importActual("@matchinsights/core");
+vi.mock("open-football-project-core", async () => {
+  const actual = await vi.importActual("open-football-project-core");
   return {
     ...actual,
     useLeaguePage: vi.fn(),

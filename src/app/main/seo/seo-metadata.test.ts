@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import type { TFunction } from "i18next";
 
-vi.mock("@matchinsights/core", () => ({
+vi.mock("open-football-project-core", () => ({
   translateCountry: (_rawCountry: string, _t: any) => "World",
 }));
 

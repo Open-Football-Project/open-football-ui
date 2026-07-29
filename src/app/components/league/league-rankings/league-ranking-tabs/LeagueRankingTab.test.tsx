@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import LeagueRankingTab from "./LeagueRankingTab";
-import { LeagueRankingPlayer } from "@matchinsights/core";
+import { LeagueRankingPlayer } from "open-football-project-core";
 
 vi.mock("../LeagueRanking", () => ({
   default: ({ players }: any) => (

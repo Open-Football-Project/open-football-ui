@@ -14,7 +14,7 @@ import {
   useLeaguePage,
   cleanLeagueName,
   leagueTranslationKey,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 import VideoContentComponent from "../../components/general/video-content/VideoContentComponent";
 import { BannerProps } from "../../common-props/BannerProps";
 import CountryBanners from "../../components/general/banners/country-banners/CountryBanners";

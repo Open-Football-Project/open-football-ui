@@ -1,7 +1,7 @@
 import {
   FixtureChartsResponse,
   LiveChartableMatch,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 const STALE_MINUTES = 15;
 const LIVE_MARKER = "🔴";

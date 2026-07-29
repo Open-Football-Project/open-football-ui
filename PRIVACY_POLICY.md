@@ -1,8 +1,8 @@
-# Futballero Privacy Policy
+# Open Football Project Privacy Policy
 
 *Last updated: March 14, 2026*
 
-Futballero ("the App") is a football match information app. This Privacy Policy explains our data practices.
+Open Football Project ("the App") is a football match information app. This Privacy Policy explains our data practices.
 
 ## Data Collection
 
@@ -18,4 +18,4 @@ This App is not directed at children under 13 and does not knowingly collect dat
 
 ## Contact
 
-For any questions regarding this Privacy Policy, contact us at: contact@futballero.com
+For any questions regarding this Privacy Policy, contact us at: open.football.project@gmail.com

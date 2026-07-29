@@ -1,6 +1,6 @@
 import NoData from "../../../../general/no-data/NoData";
 import { TinyCardGroupSkeleton } from "../../../../general/skeleton/Skeleton";
-import { LastFiveMatchesEvents } from "@matchinsights/core";
+import { LastFiveMatchesEvents } from "open-football-project-core";
 import TinyCard from "../../../../general/tiny-card/TinyCard";
 import { useTranslation } from "react-i18next";
 

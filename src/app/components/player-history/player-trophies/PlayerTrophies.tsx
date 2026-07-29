@@ -5,7 +5,7 @@ import {
   translateCountry,
   translateLeague,
   PlayerTrophyInfo,
-} from "@matchinsights/core";
+} from "open-football-project-core";
 
 interface PlayerTrophiesProps {
   trophies: PlayerTrophyInfo[];

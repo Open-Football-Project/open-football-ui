@@ -2,7 +2,7 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import MatchEventsTable from "./MatchEventsTable";
-import { MatchEvent } from "@matchinsights/core";
+import { MatchEvent } from "open-football-project-core";
 
 vi.mock("../../../assets/some-logo.png", () => ({
   default: "mock-logo.png",
@@ -150,7 +150,7 @@ describe("MatchEventsTable social sharing", () => {
     expect(buttons).toHaveLength(2);
   });
 
-  it("share button opens twitter with team names and futballero.com", () => {
+  it("share button opens twitter with team names and footballproject.org", () => {
     render(<MatchEventsTable {...baseProps} events={mockEvents} />);
     fireEvent.click(screen.getAllByRole("button")[0]);
 
@@ -162,7 +162,7 @@ describe("MatchEventsTable social sharing", () => {
     const text = decodeURIComponent(getShareUrl().split("text=")[1]);
     expect(text).toContain("Home FC");
     expect(text).toContain("Away FC");
-    expect(text).toContain("futballero.com");
+    expect(text).toContain("footballproject.org");
   });
 
   it("share text only includes goals and cards, not VAR", () => {
