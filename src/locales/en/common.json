@@ -61,9 +61,9 @@
     "bottomhead": "Open Football Project - Stay in the game, wherever you are.",
     "bottomtext": "From Premier League clashes to La Liga showdowns and Copa Libertadores thrillers, Open Football Project puts global football at your fingertips with live scores and stats.",
     "matchesbtn": "Check Matches",
-    "aboutbtn": "About Open Football Project",
+    "aboutbtn": "Open Football Project",
     "androidbtn": "Get the Android App",
-    "worldcupcta": "World Cup Fixtures, Tables & Stats"
+    "todayplayerscta": "Today's Players"
   },
   "livepage": {
     "h1": "Real-Time Match Timeline, Stats & Lineups",
@@ -208,17 +208,17 @@
     "loading": "Loading"
   },
   "about": {
-    "head": "About Futballero",
+    "head": "About Open Football Project",
     "t0": "Your Global Football Companion",
-    "text0": "Futballero delivers real-time football coverage from Europe’s elite leagues and emerging tournaments across the Americas. Follow Premier League icons like Manchester United, Liverpool and Arsenal, enjoy La Liga showdowns between Real Madrid and FC Barcelona, and track Serie A giants such as Juventus, Inter Milan and AC Milan. Futballero keeps you connected.",
+    "text0": "Open Football Project delivers real-time football coverage from Europe’s elite leagues and emerging tournaments across the Americas. Follow Premier League icons like Manchester United, Liverpool and Arsenal, enjoy La Liga showdowns between Real Madrid and FC Barcelona, and track Serie A giants such as Juventus, Inter Milan and AC Milan. Open Football Project keeps you connected.",
     "t1": "Global Football at Your Fingertips",
     "text1": "Our platform spans top competitions worldwide, from the Championship, League One and League Two to the Bundesliga, Ligue 1, Primeira Liga, MLS, Liga Profesional Argentina, Brasileirão Serie A, Serie A, Serie B and La Liga. Every league offers live tables, match schedules, scorers, assists, cards and full team stats updated in real time.",
-    "t2": "Built for Fans, Designed for Insight",
-    "text2": "Futballero is your live match companion with instant updates, detailed lineups, substitutions and full performance analytics. Track form, compare clubs and check upcoming fixtures across hundreds of international competitions.",
+    "t2": "Free, Open Source, Built for Fans",
+    "text2": "Open Football Project is a fully open-source platform — website, mobile app and API all public on GitHub under the MIT license. It's your live match companion with instant updates, detailed lineups, substitutions and full performance analytics, built in small, test-driven cycles anyone can review or contribute to.",
     "t3": "Our Mission",
-    "text3": "Every fan deserves fast and reliable football data. Our mission is to make global football easier to understand and more enjoyable to follow. Whether you are checking Premier League scores, revisiting Copa Argentina highlights or tracking your MLS team, Futballero converts complex statistics into clear visuals that reveal the stories behind the numbers.",
-    "t4": "Join the Game",
-    "text4": "Football never stops and neither do we. From the FA Cup to the Copa del Rey and from the Bundesliga to Serie A, Futballero gives you the flow of the global game in a quick and smooth experience. Explore Matches, live games or discover Leagues organized by country and competition."
+    "text3": "Every fan deserves fast and reliable football data, free from paywalls and clutter. Our mission is to make global football easier to understand and more enjoyable to follow. Whether you are checking Premier League scores, revisiting Copa Argentina highlights or tracking your MLS team, Open Football Project converts complex statistics into clear visuals that reveal the stories behind the numbers.",
+    "t4": "Contribute & Support the Project",
+    "text4": "Open Football Project runs independently, with no corporate backing — and it grows through its community. Found a bug or have an idea? Contributions are welcome at github.com/Open-Football-Project. If the project's useful to you, you can also support its development directly — see the donation options below. Football never stops, and neither do we."
   },
   "leaguespage": {
     "head": "All Football Leagues by Country & International Competitions",

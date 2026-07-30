@@ -61,9 +61,9 @@
     "bottomhead": "Open Football Project – Mantente en el partido, estés donde estés.",
     "bottomtext": "De la Premier League a la Copa Libertadores, Open Football Project te acerca el fútbol mundial con resultados y estadísticas en vivo.",
     "matchesbtn": "Consultar partidos",
-    "aboutbtn": "Acerca de Open Football Project",
+    "aboutbtn": "Open Football Project",
     "androidbtn": "Descargar App Android",
-    "worldcupcta": "Copa del Mundo: Partidos, Posiciones y Estadísticas"
+    "todayplayerscta": "Jugadores de Hoy"
   },
   "livepage": {
     "h1": "Estadísticas, alineaciones y minuto a minuto en tiempo real.",
@@ -208,17 +208,17 @@
     "loading": "Cargando"
   },
   "about": {
-    "head": "Acerca de Futballero",
+    "head": "Acerca de Open Football Project",
     "t0": "Fútbol Global a Tu Alcance",
-    "text0": "Futballero ofrece cobertura de fútbol en tiempo real desde las ligas élite de Europa y los torneos emergentes de las Américas. Sigue a los íconos de la Premier League como Manchester United, Liverpool y Arsenal, disfruta los choques de La Liga entre Real Madrid y FC Barcelona, y sigue a los gigantes de la Serie A como Juventus, Inter de Milán y AC Milan. Futballero te mantiene conectado.",
+    "text0": "Open Football Project ofrece cobertura de fútbol en tiempo real desde las ligas élite de Europa y los torneos emergentes de las Américas. Sigue a los íconos de la Premier League como Manchester United, Liverpool y Arsenal, disfruta los choques de La Liga entre Real Madrid y FC Barcelona, y sigue a los gigantes de la Serie A como Juventus, Inter de Milán y AC Milan. Open Football Project te mantiene conectado.",
     "t1": "Fútbol Mundial, Siempre Contigo",
     "text1": "Nuestra plataforma abarca las principales competiciones del mundo, desde Championship, League One y League Two hasta la Bundesliga, la Ligue 1, la Primeira Liga, la MLS, la Liga Profesional Argentina, el Brasileirão Serie A, la Serie A, la Serie B y La Liga. Cada liga incluye posiciones en vivo, calendarios, goleadores, asistencias, tarjetas y estadísticas completas de los equipos actualizadas al instante.",
-    "t2": "Hecho para los Fans, Diseñado para la Información",
-    "text2": "Futballero es tu compañero de partidos en vivo con actualizaciones instantáneas, alineaciones detalladas, sustituciones y análisis completos del rendimiento. Sigue la forma de los equipos, compáralos y descubre los próximos partidos en cientos de competiciones internacionales.",
+    "t2": "Gratis, de Código Abierto y Hecho para los Fans",
+    "text2": "Open Football Project es una plataforma completamente de código abierto: sitio web, app móvil y API públicos en GitHub bajo licencia MIT. Es tu compañero de partidos en vivo con actualizaciones instantáneas, alineaciones detalladas, sustituciones y análisis completos del rendimiento, construido en ciclos pequeños guiados por pruebas que cualquiera puede revisar o mejorar.",
     "t3": "Nuestra Misión",
-    "text3": "Todo aficionado merece datos de fútbol rápidos y precisos. Nuestra misión es facilitar la exploración del fútbol mundial y hacer su experiencia más disfrutable. Ya sea que consultes los marcadores de la Premier League, repases la Copa Argentina o sigas la MLS, Futballero convierte estadísticas complejas en visuales claras que muestran las historias detrás de los números.",
-    "t4": "Sé Parte del Juego",
-    "text4": "El fútbol nunca se detiene y nosotros tampoco. Desde la FA Cup y la Copa del Rey hasta la Bundesliga y la Serie A, Futballero te muestra el pulso del juego mundial en una experiencia rápida y fluida. Consulta Partidos o explora Ligas por país y competición."
+    "text3": "Todo aficionado merece datos de fútbol rápidos y confiables, sin muros de pago ni ruido. Nuestra misión es facilitar la exploración del fútbol mundial y hacer la experiencia más disfrutable. Ya sea que consultes los marcadores de la Premier League, repases la Copa Argentina o sigas a tu equipo de la MLS, Open Football Project convierte estadísticas complejas en visuales claras que muestran las historias detrás de los números.",
+    "t4": "Contribuí y Apoyá el Proyecto",
+    "text4": "Open Football Project se mantiene de forma independiente, sin respaldo corporativo, y crece gracias a su comunidad. ¿Encontraste un error o tenés una idea? Los aportes son bienvenidos en github.com/Open-Football-Project. Si el proyecto te resulta útil, también podés apoyar su desarrollo directamente —mirá las opciones de donación más abajo. El fútbol nunca se detiene, y nosotros tampoco."
   },
   "leaguespage": {
     "head": "Ligas de Fútbol por País y Competiciones Internacionales",
