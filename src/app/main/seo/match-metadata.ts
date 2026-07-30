@@ -17,13 +17,13 @@ const matchSeoData = (
   t: TFunction<"translation", undefined>,
   venue?: Venue
 ) => {
-  const pageUrl = `https://futballero.com/match/${fixtureId}`;
+  const pageUrl = `https://footballproject.org/match/${fixtureId}`;
 
   return {
     title: t("matchseo.title", { homeTeam, awayTeam }),
     description: t("matchseo.description", { homeTeam, awayTeam }),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -47,8 +47,8 @@ const matchSeoData = (
       },
       organizer: {
         "@type": "Organization",
-        name: "Futballero",
-        url: "https://futballero.com",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
       },
     },
   };

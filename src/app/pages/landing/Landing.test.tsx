@@ -139,9 +139,11 @@ describe("Landing Page", () => {
     });
   });
 
-  it("renders world cup link", () => {
+  it("renders today's players link", () => {
     renderLanding();
-    expect(screen.getByTestId("world-cup-link")).toBeDefined();
+    const link = screen.getByTestId("today-players-link");
+    expect(link).toBeDefined();
+    expect(link.getAttribute("href")).toBe("/today-players");
   });
 
   it("renders the hero section", () => {

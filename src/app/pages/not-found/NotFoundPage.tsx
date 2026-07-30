@@ -6,9 +6,9 @@ export default function NotFoundPage() {
 
   return (
     <Seo
-      title="404 - Page Not Found | Futballero"
+      title="404 - Page Not Found | Open Football Project"
       description="This page does not exist."
-      url={`https://futballero.com${pathname}`}
+      url={`https://footballproject.org${pathname}`}
       robots="noindex, nofollow"
     >
       <section className="flex flex-col items-center justify-center text-center px-6 py-32">

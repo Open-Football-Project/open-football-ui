@@ -4,13 +4,13 @@ const liveNowSeoData = (
   urlPath: string | undefined,
   t: TFunction<"translation", undefined>
 ) => {
-  const pageUrl = urlPath ? `https://futballero.com/live/${urlPath}` : "https://futballero.com/live";
+  const pageUrl = urlPath ? `https://footballproject.org/live/${urlPath}` : "https://footballproject.org/live";
 
   return {
     title: t("livenowseo.title"),
     description: t("livenowseo.description"),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",

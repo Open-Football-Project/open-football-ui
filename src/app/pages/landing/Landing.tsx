@@ -6,7 +6,7 @@ import { extractKeywords } from "../../utils/seo-keywords";
 import { useTranslation } from "react-i18next";
 import { useNewsInfo, useTodayMatches, ApiService } from "open-football-project-core";
 
-import worldcupicon from "../../assets/images/wc.png";
+import todayPlayersIcon from "../../assets/images/player.png";
 import NewsSlider from "../../components/news/NewsSlider";
 import MatchesGrid from "../../components/match/matches-grid/MatchesGrid";
 import NoData from "../../components/general/no-data/NoData";
@@ -54,40 +54,25 @@ const Landing = ({ bannerProps, apiService }: LandingProps) => {
 
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <a
-                data-testid="world-cup-link"
-                href="/league/1"
-                className="inline-flex items-center gap-3 bg-brand-yellow text-brand-gray px-6 py-3 rounded-2xl font-bold text-lg hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
-              >
-                <img
-                  src={worldcupicon}
-                  alt=""
-                  className="w-5 h-5 object-contain"
-                />
-                {t("home.worldcupcta")}
-              </a>
-
-              <a
                 data-testid="play-store-link"
                 href="https://play.google.com/store/apps/details?id=com.futballero"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-full sm:inline-flex sm:w-auto items-center justify-center gap-2 bg-green-500 text-black px-6 py-3 rounded-2xl font-bold text-lg hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
+                className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-green-500 text-black px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
               >
                 📱 {t("home.androidbtn")}
               </a>
-            </div>
 
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
               <a
                 href="/live"
-                className="w-full sm:w-auto text-center bg-red-800 text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
+                className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-red-800 text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
               >
                 🔴 {t("home.livebtn")}
               </a>
 
               <a
                 href="/leaguesall"
-                className="w-full sm:w-auto text-center bg-brand-royalblue text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
+                className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-brand-royalblue text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
               >
                 ⚽ {t("home.leaguesbtn")}
               </a>
@@ -95,9 +80,18 @@ const Landing = ({ bannerProps, apiService }: LandingProps) => {
               <a
                 data-testid="charts-link"
                 href="/charts"
-                className="w-full sm:w-auto text-center bg-brand-gray text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
+                className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-brand-gray text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
               >
                 📈 {t("home.chartsbtn")}
+              </a>
+
+              <a
+                data-testid="today-players-link"
+                href="/today-players"
+                className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-brand-yellow text-brand-gray px-6 py-3 rounded-2xl font-semibold hover:opacity-90 transition-all duration-200 shadow-md hover:shadow-lg"
+              >
+                <img src={todayPlayersIcon} alt="" className="w-5 h-5 object-contain" />
+                {t("home.todayplayerscta")}
               </a>
             </div>
           </div>

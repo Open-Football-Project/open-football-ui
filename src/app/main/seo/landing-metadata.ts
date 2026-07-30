@@ -3,9 +3,9 @@ import { NewsCardItem, DayMatches } from "open-football-project-core";
 
 const PUBLISHER = {
   "@type": "Organization",
-  name: "Futballero",
-  url: "https://futballero.com/",
-  logo: { "@type": "ImageObject", url: "https://futballero.com/logo.png" },
+  name: "Open Football Project",
+  url: "https://footballproject.org/",
+  logo: { "@type": "ImageObject", url: "https://footballproject.org/logo.png" },
 };
 
 const buildNewsJsonLd = (news: NewsCardItem[]) => ({
@@ -59,7 +59,7 @@ const landingSeoData = (
     "@type": "WebPage",
     name: t("landingSeo.jsonld.name"),
     description: t("landingSeo.jsonld.description"),
-    url: "https://futballero.com/",
+    url: "https://footballproject.org/",
     publisher: PUBLISHER,
   };
 
@@ -70,8 +70,8 @@ const landingSeoData = (
   return {
     title: t("landingSeo.title"),
     description: t("landingSeo.description"),
-    url: "https://futballero.com/",
-    image: "https://futballero.com/logo.png",
+    url: "https://footballproject.org/",
+    image: "https://footballproject.org/logo.png",
     jsonLd: jsonLdParts.length === 1 ? webPageJsonLd : jsonLdParts,
   };
 };

@@ -6,14 +6,14 @@ const matchesSeoData = (
   rawCountry: string,
   t: TFunction<"translation", undefined>
 ) => {
-  const pageUrl = "https://futballero.com/matches";
+  const pageUrl = "https://footballproject.org/matches";
   const country = translateCountry(rawCountry, t);
 
   return {
     title: t("matchesseo.title", { selectedDate, country }),
     description: t("matchesseo.description"),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -23,8 +23,8 @@ const matchesSeoData = (
       url: pageUrl,
       publisher: {
         "@type": "Organization",
-        name: "Futballero",
-        url: "https://futballero.com",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
       },
     },
   };

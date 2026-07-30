@@ -4,7 +4,7 @@ import * as path from "path";
 import { ALL_LEAGUES } from "./tracked-leagues";
 import { LeagueEntry } from "./types";
 
-const HOSTNAME = "https://futballero.com";
+const HOSTNAME = "https://footballproject.org";
 const lastmod = new Date().toISOString();
 
 function readLeaguesData(): LeagueEntry[] {

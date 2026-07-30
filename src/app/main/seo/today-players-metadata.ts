@@ -5,14 +5,14 @@ const todayPlayersSeoData = (
   t: TFunction<"translation", undefined>
 ) => {
   const pageUrl = urlPath
-    ? `https://futballero.com/today-players/${urlPath}`
-    : "https://futballero.com/today-players";
+    ? `https://footballproject.org/today-players/${urlPath}`
+    : "https://footballproject.org/today-players";
 
   return {
     title: t("todayplayersseo.title"),
     description: t("todayplayersseo.description"),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",

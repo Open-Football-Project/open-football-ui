@@ -56,11 +56,11 @@ const TeamDetailsPage = ({
     <Seo {...teamSeoData(Number(id), teamDetails?.teamName ?? "Football", t)}>
       <Breadcrumb
         items={[
-          { name: "Home", url: "https://futballero.com/" },
-          { name: "Leagues", url: "https://futballero.com/leaguesall" },
+          { name: "Home", url: "https://footballproject.org/" },
+          { name: "Leagues", url: "https://footballproject.org/leaguesall" },
           {
             name: teamDetails?.teamName ?? "Team",
-            url: `https://futballero.com/team/${id}`,
+            url: `https://footballproject.org/team/${id}`,
           },
         ]}
       />

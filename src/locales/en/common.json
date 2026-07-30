@@ -61,9 +61,9 @@
     "bottomhead": "Open Football Project - Stay in the game, wherever you are.",
     "bottomtext": "From Premier League clashes to La Liga showdowns and Copa Libertadores thrillers, Open Football Project puts global football at your fingertips with live scores and stats.",
     "matchesbtn": "Check Matches",
-    "aboutbtn": "About Open Football Project",
+    "aboutbtn": "Open Football Project",
     "androidbtn": "Get the Android App",
-    "worldcupcta": "World Cup Fixtures, Tables & Stats"
+    "todayplayerscta": "Today's Players"
   },
   "livepage": {
     "h1": "Real-Time Match Timeline, Stats & Lineups",
@@ -208,17 +208,17 @@
     "loading": "Loading"
   },
   "about": {
-    "head": "About Futballero",
+    "head": "About Open Football Project",
     "t0": "Your Global Football Companion",
-    "text0": "Futballero delivers real-time football coverage from Europe’s elite leagues and emerging tournaments across the Americas. Follow Premier League icons like Manchester United, Liverpool and Arsenal, enjoy La Liga showdowns between Real Madrid and FC Barcelona, and track Serie A giants such as Juventus, Inter Milan and AC Milan. Futballero keeps you connected.",
+    "text0": "Open Football Project delivers real-time football coverage from Europe’s elite leagues and emerging tournaments across the Americas. Follow Premier League icons like Manchester United, Liverpool and Arsenal, enjoy La Liga showdowns between Real Madrid and FC Barcelona, and track Serie A giants such as Juventus, Inter Milan and AC Milan. Open Football Project keeps you connected.",
     "t1": "Global Football at Your Fingertips",
     "text1": "Our platform spans top competitions worldwide, from the Championship, League One and League Two to the Bundesliga, Ligue 1, Primeira Liga, MLS, Liga Profesional Argentina, Brasileirão Serie A, Serie A, Serie B and La Liga. Every league offers live tables, match schedules, scorers, assists, cards and full team stats updated in real time.",
-    "t2": "Built for Fans, Designed for Insight",
-    "text2": "Futballero is your live match companion with instant updates, detailed lineups, substitutions and full performance analytics. Track form, compare clubs and check upcoming fixtures across hundreds of international competitions.",
+    "t2": "Free, Open Source, Built for Fans",
+    "text2": "Open Football Project is a fully open-source platform — website, mobile app and API all public on GitHub under the MIT license. It's your live match companion with instant updates, detailed lineups, substitutions and full performance analytics, built in small, test-driven cycles anyone can review or contribute to.",
     "t3": "Our Mission",
-    "text3": "Every fan deserves fast and reliable football data. Our mission is to make global football easier to understand and more enjoyable to follow. Whether you are checking Premier League scores, revisiting Copa Argentina highlights or tracking your MLS team, Futballero converts complex statistics into clear visuals that reveal the stories behind the numbers.",
-    "t4": "Join the Game",
-    "text4": "Football never stops and neither do we. From the FA Cup to the Copa del Rey and from the Bundesliga to Serie A, Futballero gives you the flow of the global game in a quick and smooth experience. Explore Matches, live games or discover Leagues organized by country and competition."
+    "text3": "Every fan deserves fast and reliable football data, free from paywalls and clutter. Our mission is to make global football easier to understand and more enjoyable to follow. Whether you are checking Premier League scores, revisiting Copa Argentina highlights or tracking your MLS team, Open Football Project converts complex statistics into clear visuals that reveal the stories behind the numbers.",
+    "t4": "Contribute & Support the Project",
+    "text4": "Open Football Project runs independently, with no corporate backing — and it grows through its community. Found a bug or have an idea? Contributions are welcome at github.com/Open-Football-Project. If the project's useful to you, you can also support its development directly — see the donation options below. Football never stops, and neither do we."
   },
   "leaguespage": {
     "head": "All Football Leagues by Country & International Competitions",
@@ -631,68 +631,68 @@
     "promedios": "Promedios Table"
   },
   "aboutseo": {
-    "title": "About Futballero | Your Football Companion",
-    "description": "Discover Futballero, your all-in-one football app for live scores...",
+    "title": "About Open Football Project | Your Football Companion",
+    "description": "Discover Open Football Project, your all-in-one football app for live scores...",
     "jsonld": {
-      "name": "About Futballero",
-      "description": "Futballero is a football app designed to bring fans closer...",
-      "publisherName": "Futballero"
+      "name": "About Open Football Project",
+      "description": "Open Football Project is a football app designed to bring fans closer...",
+      "publisherName": "Open Football Project"
     }
   },
   "guessPlayerSeo": {
-    "title": "{{teamName}} — Player Quiz | Futballero",
+    "title": "{{teamName}} — Player Quiz | Open Football Project",
     "description": "Player Quiz for {{teamName}}! Test your football knowledge by identifying players based on clues, transfers, and achievements. A fun interactive quiz for true fans.",
     "jsonld": {
-      "name": "{{teamName}} Player Quiz | Futballero",
+      "name": "{{teamName}} Player Quiz | Open Football Project",
       "description": "Interactive football quiz for fans of {{teamName}}. Guess the correct player from hints, transfers, and achievements.",
-      "publisherName": "Futballero",
+      "publisherName": "Open Football Project",
       "quizName": "Player Quiz",
       "quizGenre": "Sports Trivia",
-      "author": "Futballero"
+      "author": "Open Football Project"
     }
   },
   "guessTeamSeo": {
-    "title": "{{leagueName}} Team Quiz | Futballero",
+    "title": "{{leagueName}} Team Quiz | Open Football Project",
     "description": "{{leagueName}} Team Quiz! Test your football knowledge by identifying clubs based on players, trophies, stadiums, and historic stats.",
     "jsonld": {
-      "name": "{{leagueName}} Team Quiz | Futballero",
+      "name": "{{leagueName}} Team Quiz | Open Football Project",
       "description": "{{leagueName}} Interactive football quiz where fans guess the correct team using hints like star players, stadiums, achievements, and history.",
-      "publisherName": "Futballero",
+      "publisherName": "Open Football Project",
       "quizName": "Team Quiz",
       "quizGenre": "Sports Trivia",
-      "author": "Futballero"
+      "author": "Open Football Project"
     }
   },
   "landingSeo": {
-    "title": "Live Football Scores & Results | Futballero – Leagues, Fixtures & Stats",
-    "description": "Follow global football leagues and competitions with Futballero. Get live scores, fixtures, stats, and match updates for Premier League, La Liga, Serie A, Bundesliga, and more.",
+    "title": "Live Football Scores & Results | Open Football Project – Leagues, Fixtures & Stats",
+    "description": "Follow global football leagues and competitions with Open Football Project. Get live scores, fixtures, stats, and match updates for Premier League, La Liga, Serie A, Bundesliga, and more.",
     "jsonld": {
-      "name": "Futballero",
-      "description": "Futballero is your football companion. Track live matches, league standings, and player stats across top leagues and international competitions.",
-      "publisherName": "Futballero"
+      "name": "Open Football Project",
+      "description": "Open Football Project is your football companion. Track live matches, league standings, and player stats across top leagues and international competitions.",
+      "publisherName": "Open Football Project"
     }
   },
   "leagueSeo": {
-    "title": "{{leagueName}} – Live Scores, Standings & Fixtures | Futballero",
-    "description": "{{leagueName}} live scores, standings, fixtures and top scorers on Futballero.",
+    "title": "{{leagueName}} – Live Scores, Standings & Fixtures | Open Football Project",
+    "description": "{{leagueName}} live scores, standings, fixtures and top scorers on Open Football Project.",
     "jsonld": {
-      "name": "{{leagueName}} standings & fixtures | Futballero",
+      "name": "{{leagueName}} standings & fixtures | Open Football Project",
       "description": "Live and past football league matches including standings, top scorers, assists, cards, and detailed stats.",
       "locationName": "Worldwide",
-      "organizerName": "Futballero"
+      "organizerName": "Open Football Project"
     }
   },
   "leaguesAllSeo": {
-    "title": "All Football Leagues & Competitions – Live Scores, Standings & Fixtures | Futballero",
+    "title": "All Football Leagues & Competitions – Live Scores, Standings & Fixtures | Open Football Project",
     "description": "Browse and explore football leagues from around the world. Access standings, fixtures, and match stats from international and domestic leagues including England, Spain, Italy, USA, Brazil, Germany, France, Argentina and more.",
     "jsonld": {
       "name": "All Football Leagues",
       "description": "List of football leagues from around the world with links to standings, fixtures, and match stats.",
-      "publisherName": "Futballero"
+      "publisherName": "Open Football Project"
     }
   },
   "livenowseo": {
-    "title": "Live Football Scores – Match Stats, Lineups & Timeline | Futballero",
+    "title": "Live Football Scores – Match Stats, Lineups & Timeline | Open Football Project",
     "description": "Live football scores, match updates, formations, and detailed stats from leagues worldwide.",
     "jsonld": {
       "name": "Live Football Matches",
@@ -700,7 +700,7 @@
     }
   },
   "chartsseo": {
-    "title": "Live Football Odds & Match Charts – Momentum, Control & Goal Threat | Futballero",
+    "title": "Live Football Odds & Match Charts – Momentum, Control & Goal Threat | Open Football Project",
     "description": "Track live football odds movement and real-time momentum, control and goal threat charts as matches unfold.",
     "jsonld": {
       "name": "Live Football Odds and Match Charts",
@@ -708,7 +708,7 @@
     }
   },
   "todayplayersseo": {
-    "title": "Today's Players – Pre-Match Watchlist by Fixture | Futballero",
+    "title": "Today's Players – Pre-Match Watchlist by Fixture | Open Football Project",
     "description": "See which players are most likely to matter in today's matches, based on bookmaker odds and season form, before kickoff.",
     "jsonld": {
       "name": "Today's Players – Pre-Match Watchlist",
@@ -747,35 +747,35 @@
     }
   },
   "matchseo": {
-    "title": "{{homeTeam}} vs {{awayTeam}} – Live Score, Stats & Match Details | Futballero",
-    "description": "{{homeTeam}} vs {{awayTeam}} – live score, stats, lineups and match details on Futballero.",
+    "title": "{{homeTeam}} vs {{awayTeam}} – Live Score, Stats & Match Details | Open Football Project",
+    "description": "{{homeTeam}} vs {{awayTeam}} – live score, stats, lineups and match details on Open Football Project.",
     "jsonld": {
-      "name": "{{homeTeam}} vs {{awayTeam}} match details & stats | Futballero",
+      "name": "{{homeTeam}} vs {{awayTeam}} match details & stats | Open Football Project",
       "description": "Detailed football match stats including teams, scores, venue, league, season, results, and performance insights.",
       "location": "Worldwide"
     }
   },
   "matchesseo": {
-    "title": "{{country}} Football Matches {{selectedDate}} – Live Scores & Results | Futballero",
+    "title": "{{country}} Football Matches {{selectedDate}} – Live Scores & Results | Open Football Project",
     "description": "Explore football matches from top leagues and tournaments worldwide. Stay updated with real-time scores, results, and in-depth match statistics from competitions across the globe.",
     "jsonld": {
-      "name": "{{country}} football matches {{selectedDate}} | Futballero",
+      "name": "{{country}} football matches {{selectedDate}} | Open Football Project",
       "description": "Live and completed football matches from international and club tournaments, including scores, insights, and performance stats.",
       "location": "Worldwide"
     }
   },
   "teamseo": {
-    "title": "{{teamName}} – Fixtures, Results & Squad Stats | Futballero",
-    "description": "Follow {{teamName}}'s fixtures, results, squad and stats on Futballero.",
+    "title": "{{teamName}} – Fixtures, Results & Squad Stats | Open Football Project",
+    "description": "Follow {{teamName}}'s fixtures, results, squad and stats on Open Football Project.",
     "jsonld": {
-      "name": "{{teamName}} team details | Futballero",
+      "name": "{{teamName}} team details | Open Football Project",
       "description": "Detailed football team information including squad, venue, past and upcoming matches, player stats, and performance insights.",
       "location": "Worldwide"
     }
   },
   "playerseo": {
     "title": "{{playerName}} History | Transfers & Trophies",
-    "description": "Explore {{playerName}}'s complete football history, including transfers, trophies, and career highlights on Futballero.",
+    "description": "Explore {{playerName}}'s complete football history, including transfers, trophies, and career highlights on Open Football Project.",
     "jsonld": {
       "description": "Professional football career history of {{playerName}}, including transfers and trophies.",
       "knows": {
@@ -808,11 +808,11 @@
     "fieldRequired": "Required Field"
   },
   "feedbackseo": {
-    "title": "Share Your Feedback | Futballero",
-    "description": "Share your impressions about Futballero. Tell us what you love and what could be improved.",
+    "title": "Share Your Feedback | Open Football Project",
+    "description": "Share your impressions about Open Football Project. Tell us what you love and what could be improved.",
     "jsonld": {
-      "name": "Futballero Feedback",
-      "description": "Share your impressions and help improve Futballero, the free global football stats platform."
+      "name": "Open Football Project Feedback",
+      "description": "Share your impressions and help improve Open Football Project, the free global football stats platform."
     }
   },
   "toast": {

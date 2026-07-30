@@ -10,7 +10,7 @@ vi.mock("react-helmet-async", () => ({
 const base = {
   title: "Test Page",
   description: "A test description",
-  url: "https://futballero.com/test",
+  url: "https://footballproject.org/test",
 };
 
 describe("Seo robots prop", () => {

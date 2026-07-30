@@ -4,13 +4,13 @@ const chartsSeoData = (
   urlPath: string | undefined,
   t: TFunction<"translation", undefined>
 ) => {
-  const pageUrl = urlPath ? `https://futballero.com/charts/${urlPath}` : "https://futballero.com/charts";
+  const pageUrl = urlPath ? `https://footballproject.org/charts/${urlPath}` : "https://footballproject.org/charts";
 
   return {
     title: t("chartsseo.title"),
     description: t("chartsseo.description"),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",
