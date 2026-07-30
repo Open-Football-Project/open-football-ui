@@ -5,13 +5,13 @@ const guessThePlayerGameSeoData = (
   teamName: string,
   t: TFunction<"translation", undefined>
 ) => {
-  const pageUrl = `https://futballero.com/guess/team/player/${teamId}`;
+  const pageUrl = `https://footballproject.org/guess/team/player/${teamId}`;
 
   return {
     title: t("guessPlayerSeo.title", { teamName }),
     description: t("guessPlayerSeo.description", { teamName }),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -23,7 +23,7 @@ const guessThePlayerGameSeoData = (
       publisher: {
         "@type": "Organization",
         name: t("guessPlayerSeo.jsonld.publisherName"),
-        url: "https://futballero.com",
+        url: "https://footballproject.org",
       },
 
       mainEntity: {
@@ -33,7 +33,7 @@ const guessThePlayerGameSeoData = (
         applicationCategory: "WebApplication",
         operatingSystem: "All",
         url: pageUrl,
-        image: "https://futballero.com/logo.png",
+        image: "https://footballproject.org/logo.png",
         author: {
           "@type": "Organization",
           name: t("guessPlayerSeo.jsonld.author"),

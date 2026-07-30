@@ -92,11 +92,11 @@ export default function PlayerHistoryPage({
     >
       <Breadcrumb
         items={[
-          { name: "Home", url: "https://futballero.com/" },
-          { name: "Leagues", url: "https://futballero.com/leaguesall" },
+          { name: "Home", url: "https://footballproject.org/" },
+          { name: "Leagues", url: "https://footballproject.org/leaguesall" },
           {
             name: playerHistory?.player?.name ?? "Player",
-            url: `https://futballero.com/player/${playerId}`,
+            url: `https://footballproject.org/player/${playerId}`,
           },
         ]}
       />

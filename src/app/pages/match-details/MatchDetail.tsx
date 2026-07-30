@@ -68,7 +68,7 @@ export default function MatchDetail({
       <Seo
         title={t("matchdetails.title")}
         description={t("matchdetails.head")}
-        url={`https://futballero.com/match/${id ?? ""}`}
+        url={`https://footballproject.org/match/${id ?? ""}`}
         robots="noindex, nofollow"
       >
         <NoData loading={loadingMatchDetail} skeleton={<MatchDetailSkeleton />} />
@@ -80,7 +80,7 @@ export default function MatchDetail({
       <Seo
         title={t("matchdetails.title")}
         description={t("matchdetails.head")}
-        url={`https://futballero.com/match/${id ?? ""}`}
+        url={`https://footballproject.org/match/${id ?? ""}`}
         robots="noindex, nofollow"
       >
         <div className="w-full px-2 sm:px-12 py-6">
@@ -113,9 +113,9 @@ export default function MatchDetail({
   return (
     <Seo {...matchSeoData(Number(id), homeTeam.name, awayTeam.name, date, t, venue)}>
       <Breadcrumb items={[
-        { name: "Home", url: "https://futballero.com/" },
-        { name: "Matches", url: "https://futballero.com/matches" },
-        { name: `${homeTeam.name} vs ${awayTeam.name}`, url: `https://futballero.com/match/${id}` },
+        { name: "Home", url: "https://footballproject.org/" },
+        { name: "Matches", url: "https://footballproject.org/matches" },
+        { name: `${homeTeam.name} vs ${awayTeam.name}`, url: `https://footballproject.org/match/${id}` },
       ]} />
       <div className="w-full justify-between px-2 sm:px-12 py-6 space-y-6">
         <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">

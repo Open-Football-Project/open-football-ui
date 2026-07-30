@@ -660,67 +660,67 @@
     "promedios": "Tabla de Promedios"
   },
   "aboutseo": {
-    "title": "Sobre Futballero | Tu app de fútbol",
-    "description": "Descubre Futballero, tu aplicación de futbol con resultados en vivo...",
+    "title": "Sobre Open Football Project | Tu app de fútbol",
+    "description": "Descubre Open Football Project, tu aplicación de futbol con resultados en vivo...",
     "jsonld": {
-      "name": "Sobre Futballero",
-      "description": "Futballero es una app diseñada por fanáticos para los fanáticos..."
+      "name": "Sobre Open Football Project",
+      "description": "Open Football Project es una app diseñada por fanáticos para los fanáticos..."
     }
   },
   "guessPlayerSeo": {
-    "title": "{{teamName}} | Quiz de Jugadores | Futballero",
+    "title": "{{teamName}} | Quiz de Jugadores | Open Football Project",
     "description": "{{teamName}} | Pon a prueba tus conocimientos identificando a los jugadores según pistas, traspasos y logros.",
     "jsonld": {
-      "name": "Quiz de Jugadores de {{teamName}} | Futballero",
+      "name": "Quiz de Jugadores de {{teamName}} | Open Football Project",
       "description": "Quiz interactivo para los aficionados de {{teamName}}. Adivina el jugador correcto usando pistas, traspasos y logros.",
-      "publisherName": "Futballero",
+      "publisherName": "Open Football Project",
       "quizName": "Quiz de Jugadores",
       "quizGenre": "Trivia Deportiva",
-      "author": "Futballero"
+      "author": "Open Football Project"
     }
   },
   "guessTeamSeo": {
-    "title": "{{leagueName}} | Quiz de Equipos | Futballero",
+    "title": "{{leagueName}} | Quiz de Equipos | Open Football Project",
     "description": "Quiz de Equipos de {{leagueName}}. Pon a prueba tus conocimientos identificando clubes según jugadores, trofeos, estadios y estadísticas históricas.",
     "jsonld": {
-      "name": "Quiz de Equipos de {{leagueName}} | Futballero",
+      "name": "Quiz de Equipos de {{leagueName}} | Open Football Project",
       "description": "Quiz interactivo para los aficionados de {{leagueName}}. Adivina el equipo correcto usando pistas como jugadores destacados, estadios y logros.",
-      "publisherName": "Futballero",
+      "publisherName": "Open Football Project",
       "quizName": "Quiz de Equipos",
       "quizGenre": "Trivia Deportiva",
-      "author": "Futballero"
+      "author": "Open Football Project"
     }
   },
   "landingSeo": {
-    "title": "Resultados de Fútbol en Vivo | Futballero – Ligas, Fixtures y Estadísticas",
+    "title": "Resultados de Fútbol en Vivo | Open Football Project – Ligas, Fixtures y Estadísticas",
     "description": "Sigue las ligas y competiciones de fútbol de todo el mundo. Consulta resultados en vivo, calendarios, estadísticas y actualizaciones de partidos de la Premier League, La Liga, Serie A, Bundesliga y más.",
     "jsonld": {
-      "name": "Futballero",
-      "description": "Futballero es tu mejor compañero. Sigue partidos en vivo, clasificaciones de ligas y estadísticas de jugadores de las mejores ligas y competiciones internacionales.",
-      "publisherName": "Futballero"
+      "name": "Open Football Project",
+      "description": "Open Football Project es tu mejor compañero. Sigue partidos en vivo, clasificaciones de ligas y estadísticas de jugadores de las mejores ligas y competiciones internacionales.",
+      "publisherName": "Open Football Project"
     }
   },
   "leagueSeo": {
-    "title": "{{leagueName}} – Resultados en Vivo, Clasificación y Calendario | Futballero",
-    "description": "{{leagueName}} – resultados en vivo, clasificación, calendario y goleadores en Futballero.",
+    "title": "{{leagueName}} – Resultados en Vivo, Clasificación y Calendario | Open Football Project",
+    "description": "{{leagueName}} – resultados en vivo, clasificación, calendario y goleadores en Open Football Project.",
     "jsonld": {
-      "name": "{{leagueName}} Clasificación y calendario | Futballero",
+      "name": "{{leagueName}} Clasificación y calendario | Open Football Project",
       "description": "Partidos de liga en vivo y pasados, incluyendo clasificaciones, goleadores, asistencias, tarjetas y estadísticas detalladas.",
       "locationName": "En todo el mundo",
-      "organizerName": "Futballero"
+      "organizerName": "Open Football Project"
     }
   },
   "leaguesAllSeo": {
-    "title": "Todas las Ligas y Competiciones de Fútbol – Resultados, Clasificaciones y Calendarios | Futballero",
+    "title": "Todas las Ligas y Competiciones de Fútbol – Resultados, Clasificaciones y Calendarios | Open Football Project",
     "description": "Explora y descubre ligas de fútbol de todo el mundo. Accede a clasificaciones, calendarios y estadísticas de partidos de ligas internacionales y nacionales, incluyendo Inglaterra, España, Italia, Estados Unidos, Brasil, Alemania, Francia, Argentina y más.",
     "jsonld": {
       "name": "Todas las Ligas de Fútbol",
       "description": "Listado de ligas de fútbol de todo el mundo con enlaces a clasificaciones, calendarios y estadísticas de partidos.",
-      "publisherName": "Futballero"
+      "publisherName": "Open Football Project"
     }
   },
   "livenowseo": {
-    "title": "Fútbol en Vivo – Estadísticas, Alineaciones y Cronología | Futballero",
+    "title": "Fútbol en Vivo – Estadísticas, Alineaciones y Cronología | Open Football Project",
     "description": "Marcadores en vivo, actualizaciones de partidos, formaciones y estadísticas detalladas de ligas de todo el mundo.",
     "jsonld": {
       "name": "Partidos de Fútbol en Vivo",
@@ -728,7 +728,7 @@
     }
   },
   "chartsseo": {
-    "title": "Cuotas y Gráficos de Fútbol en Vivo – Momentum, Control y Amenaza de Gol | Futballero",
+    "title": "Cuotas y Gráficos de Fútbol en Vivo – Momentum, Control y Amenaza de Gol | Open Football Project",
     "description": "Sigue el movimiento de las cuotas en vivo y los gráficos de momentum, control y amenaza de gol en tiempo real durante los partidos.",
     "jsonld": {
       "name": "Cuotas y Gráficos de Fútbol en Vivo",
@@ -736,7 +736,7 @@
     }
   },
   "todayplayersseo": {
-    "title": "Jugadores de Hoy – Lista de Seguimiento Antes del Partido | Futballero",
+    "title": "Jugadores de Hoy – Lista de Seguimiento Antes del Partido | Open Football Project",
     "description": "Descubre qué jugadores son más propensos a destacar en los partidos de hoy, según las cuotas de las casas de apuestas y su forma de la temporada, antes del inicio.",
     "jsonld": {
       "name": "Jugadores de Hoy – Lista de Seguimiento Antes del Partido",
@@ -775,35 +775,35 @@
     }
   },
   "matchseo": {
-    "title": "{{homeTeam}} vs {{awayTeam}} – Resultado en Vivo, Estadísticas y Detalles | Futballero",
-    "description": "{{homeTeam}} vs {{awayTeam}} – resultado en vivo, estadísticas, alineaciones y detalles del partido en Futballero.",
+    "title": "{{homeTeam}} vs {{awayTeam}} – Resultado en Vivo, Estadísticas y Detalles | Open Football Project",
+    "description": "{{homeTeam}} vs {{awayTeam}} – resultado en vivo, estadísticas, alineaciones y detalles del partido en Open Football Project.",
     "jsonld": {
-      "name": "{{homeTeam}} vs {{awayTeam}} detalles y estadísticas | Futballero",
+      "name": "{{homeTeam}} vs {{awayTeam}} detalles y estadísticas | Open Football Project",
       "description": "Estadísticas completas del partido, incluyendo equipos, marcadores, estadio, liga, temporada, resultados y análisis de rendimiento.",
       "location": "En todo el mundo"
     }
   },
   "matchesseo": {
-    "title": "Partidos de Fútbol de {{country}} {{selectedDate}} – Resultados en Vivo | Futballero",
+    "title": "Partidos de Fútbol de {{country}} {{selectedDate}} – Resultados en Vivo | Open Football Project",
     "description": "Explora los partidos de fútbol de las principales ligas y torneos del mundo. Mantente al día con resultados en tiempo real y estadísticas detalladas de competiciones globales.",
     "jsonld": {
-      "name": "Partidos:{{selectedDate}} | {{country}} | Futballero",
+      "name": "Partidos:{{selectedDate}} | {{country}} | Open Football Project",
       "description": "Partidos de fútbol en vivo y finalizados de torneos internacionales y de clubes, con resultados, análisis y estadísticas de rendimiento.",
       "location": "En todo el mundo"
     }
   },
   "teamseo": {
-    "title": "{{teamName}} – Calendario, Resultados y Estadísticas del Equipo | Futballero",
-    "description": "Sigue los partidos, resultados, plantilla y estadísticas de {{teamName}} en Futballero.",
+    "title": "{{teamName}} – Calendario, Resultados y Estadísticas del Equipo | Open Football Project",
+    "description": "Sigue los partidos, resultados, plantilla y estadísticas de {{teamName}} en Open Football Project.",
     "jsonld": {
-      "name": "Detalles del equipo {{teamName}} | Futballero",
+      "name": "Detalles del equipo {{teamName}} | Open Football Project",
       "description": "Información detallada del equipo, incluyendo plantilla, estadio, partidos jugados y por jugar, estadísticas de jugadores y análisis de rendimiento.",
       "location": "En todo el mundo"
     }
   },
   "playerseo": {
     "title": "Historial de {{playerName}} | Transferencias y Trofeos",
-    "description": "Descubre el historial completo de {{playerName}} en el fútbol, con transferencias, trofeos y trayectoria profesional en Futballero.",
+    "description": "Descubre el historial completo de {{playerName}} en el fútbol, con transferencias, trofeos y trayectoria profesional en Open Football Project.",
     "jsonld": {
       "description": "Trayectoria profesional de {{playerName}} en el fútbol, incluyendo transferencias y trofeos.",
       "knows": {
@@ -836,11 +836,11 @@
     "fieldRequired": "Campo Requerido"
   },
   "feedbackseo": {
-    "title": "Tu Opinión | Futballero",
-    "description": "Compartí tus impresiones sobre Futballero. Contanos qué te gustó y qué podría mejorar.",
+    "title": "Tu Opinión | Open Football Project",
+    "description": "Compartí tus impresiones sobre Open Football Project. Contanos qué te gustó y qué podría mejorar.",
     "jsonld": {
-      "name": "Opiniones Futballero",
-      "description": "Compartí tus impresiones y ayudanos a mejorar Futballero, la plataforma gratuita de estadísticas de fútbol."
+      "name": "Opiniones Open Football Project",
+      "description": "Compartí tus impresiones y ayudanos a mejorar Open Football Project, la plataforma gratuita de estadísticas de fútbol."
     }
   },
   "toast": {

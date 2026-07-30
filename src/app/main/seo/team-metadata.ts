@@ -5,13 +5,13 @@ const teamSeoData = (
   teamName: string,
   t: TFunction<"translation", undefined>
 ) => {
-  const pageUrl = `https://futballero.com/team/${teamid}`;
+  const pageUrl = `https://footballproject.org/team/${teamid}`;
 
   return {
     title: t("teamseo.title", { teamName }),
     description: t("teamseo.description", { teamName }),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",

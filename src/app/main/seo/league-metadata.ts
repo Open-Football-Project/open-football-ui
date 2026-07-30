@@ -7,14 +7,14 @@ const leagueSeoData = (
   path?: string
 ) => {
   const pageUrl = path
-    ? `https://futballero.com/${path}/${leagueId}`
-    : `https://futballero.com/league/${leagueId}`;
+    ? `https://footballproject.org/${path}/${leagueId}`
+    : `https://footballproject.org/league/${leagueId}`;
 
   return {
     title: t("leagueSeo.title", { leagueName }),
     description: t("leagueSeo.description", { leagueName }),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",

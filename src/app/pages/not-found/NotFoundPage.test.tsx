@@ -51,7 +51,7 @@ describe("NotFoundPage", () => {
   it("uses the actual current path as the canonical, not a hardcoded /404", () => {
     renderPage("/quizzes");
     expect(mocks.seo.mock.calls[0][0].url).toBe(
-      "https://futballero.com/quizzes"
+      "https://footballproject.org/quizzes"
     );
   });
 });

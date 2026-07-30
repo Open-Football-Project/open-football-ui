@@ -1,13 +1,13 @@
 import { TFunction } from "i18next";
 
 const leaguesAllSeoData = (t: TFunction<"translation", undefined>) => {
-  const pageUrl = "https://futballero.com/leaguesall";
+  const pageUrl = "https://footballproject.org/leaguesall";
 
   return {
     title: t("leaguesAllSeo.title"),
     description: t("leaguesAllSeo.description"),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -20,7 +20,7 @@ const leaguesAllSeoData = (t: TFunction<"translation", undefined>) => {
       publisher: {
         "@type": "Organization",
         name: t("leaguesAllSeo.jsonld.publisherName"),
-        url: "https://futballero.com",
+        url: "https://footballproject.org",
       },
     },
   };

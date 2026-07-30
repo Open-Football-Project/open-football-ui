@@ -4,21 +4,21 @@ const aboutSeoData = (t: TFunction<"translation", undefined>) => {
   return {
     title: t("aboutseo.title"),
     description: t("aboutseo.description"),
-    url: "https://futballero.com/about",
-    image: "https://futballero.com/logo.png",
+    url: "https://footballproject.org/about",
+    image: "https://footballproject.org/logo.png",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "AboutPage",
       name: t("aboutseo.jsonld.name"),
       description: t("aboutseo.jsonld.description"),
-      url: "https://futballero.com/about",
+      url: "https://footballproject.org/about",
       publisher: {
         "@type": "Organization",
-        name: "Futballero",
-        url: "https://futballero.com",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
         logo: {
           "@type": "ImageObject",
-          url: "https://futballero.com/logo.png",
+          url: "https://footballproject.org/logo.png",
         },
       },
     },

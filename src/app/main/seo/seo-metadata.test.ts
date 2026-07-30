@@ -38,7 +38,7 @@ describe("match-metadata jsonLd", () => {
       "2026-04-10T20:00:00Z",
       t,
     );
-    expect((result.jsonLd as any).organizer.url).toBe("https://futballero.com");
+    expect((result.jsonLd as any).organizer.url).toBe("https://footballproject.org");
   });
 
   it("homeTeam and awayTeam are SportsTeam schema objects", () => {
@@ -131,7 +131,7 @@ describe("matches-metadata jsonLd", () => {
 
   it("publisher url is the site root", () => {
     const result = matchesSeoData("2026-04-03", "World", t);
-    expect((result.jsonLd as any).publisher.url).toBe("https://futballero.com");
+    expect((result.jsonLd as any).publisher.url).toBe("https://footballproject.org");
   });
 });
 
@@ -148,7 +148,7 @@ describe("leaguesall-metadata jsonLd", () => {
 
   it("publisher url is the site root, not the page url", () => {
     const result = leaguesAllSeoData(t);
-    expect((result.jsonLd as any).publisher.url).toBe("https://futballero.com");
+    expect((result.jsonLd as any).publisher.url).toBe("https://footballproject.org");
   });
 });
 
@@ -167,12 +167,12 @@ describe("charts-metadata jsonLd", () => {
 
   it("url points at /charts when no fixtureId is given", () => {
     const result = chartsSeoData(undefined, t);
-    expect(result.url).toBe("https://futballero.com/charts");
+    expect(result.url).toBe("https://footballproject.org/charts");
   });
 
   it("url points at /charts/:fixtureId when a fixtureId is given", () => {
     const result = chartsSeoData("123", t);
-    expect(result.url).toBe("https://futballero.com/charts/123");
+    expect(result.url).toBe("https://footballproject.org/charts/123");
   });
 });
 
@@ -184,12 +184,12 @@ describe("today-players-metadata jsonLd", () => {
 
   it("url points at /today-players when no fixtureId is given", () => {
     const result = todayPlayersSeoData(undefined, t);
-    expect(result.url).toBe("https://futballero.com/today-players");
+    expect(result.url).toBe("https://footballproject.org/today-players");
   });
 
   it("url points at /today-players/:fixtureId when a fixtureId is given", () => {
     const result = todayPlayersSeoData("123", t);
-    expect(result.url).toBe("https://futballero.com/today-players/123");
+    expect(result.url).toBe("https://footballproject.org/today-players/123");
   });
 });
 
@@ -203,7 +203,7 @@ describe("team-metadata jsonLd", () => {
 describe("about-metadata jsonLd", () => {
   it("publisher url is the site root, not the about page url", () => {
     const result = aboutSeoData(t);
-    expect((result.jsonLd as any).publisher.url).toBe("https://futballero.com");
+    expect((result.jsonLd as any).publisher.url).toBe("https://footballproject.org");
   });
 });
 

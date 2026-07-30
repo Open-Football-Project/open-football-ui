@@ -5,13 +5,13 @@ const playerSeoData = (
   playerName: string,
   t: TFunction<"translation", undefined>
 ) => {
-  const pageUrl = `https://futballero.com/player/${playerId}`;
+  const pageUrl = `https://footballproject.org/player/${playerId}`;
 
   return {
     title: t("playerseo.title", { playerName }),
     description: t("playerseo.description", { playerName }),
     url: pageUrl,
-    image: "https://futballero.com/logo.png",
+    image: "https://footballproject.org/logo.png",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -22,8 +22,8 @@ const playerSeoData = (
 
       affiliation: {
         "@type": "Organization",
-        name: "Futballero",
-        url: "https://futballero.com",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
       },
 
       knowsAbout: [
