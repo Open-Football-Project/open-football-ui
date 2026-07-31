@@ -274,7 +274,7 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
               {t("charts.mode_indicators", { defaultValue: "Indicators" })}
             </button>
           </div>
-          {mode === ChartsPageMode.Odds && (
+          {!isOddsNotAvailable && mode === ChartsPageMode.Odds && (
             <button
               type="button"
               data-testid="odds-market-menu-toggle"
@@ -286,13 +286,14 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
             </button>
           )}
         </div>
-        <Controls
+        {matchDroplistOptions.length > 0 && <Controls
           useDrop0
           drop0Label={t("charts.pick_match", { defaultValue: "Select match" })}
           selectedDrop0={selectedDrop0}
           setDrop0={setDrop0}
           drop0Options={matchDroplistOptions}
         />
+        }
         {renderContent()}
         {mode === ChartsPageMode.Odds && isMarketMenuOpen && (
           <>

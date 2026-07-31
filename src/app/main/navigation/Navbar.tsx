@@ -68,7 +68,7 @@ const Navbar = () => {
 
         <Link
           to="/"
-          className="ml-3 text-lg font-bold text-white tracking-wide hover:text-brand-bluelight transition-colors duration-200 shrink-0 lg:hidden"
+          className="ml-3 text-sm font-bold text-white tracking-wide hover:text-brand-bluelight transition-colors duration-200 shrink-0 lg:hidden"
         >
           Open Football Project
         </Link>
