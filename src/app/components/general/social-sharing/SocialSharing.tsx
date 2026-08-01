@@ -33,7 +33,7 @@ export const SocialSharing = ({
           trackEvent(AnalyticsEvent.SHARE_CONTENT);
           handleShare();
         }}
-        className="flex items-center gap-2 bg-brand-gray hover:bg-neutral-800 text-white text-xs font-semibold px-4 py-2 rounded-full transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed"
+        className="relative inline-flex items-center justify-center gap-2 bg-brand-gray hover:bg-neutral-800 text-white text-[10px] sm:text-xs font-semibold rounded-full shadow-md transition-all duration-300 px-3 py-1 min-w-[60px] disabled:opacity-40 disabled:cursor-not-allowed"
       >
         <FaXTwitter className="w-3.5 h-3.5" />
         {t("common.share", { defaultValue: "Share" })}
@@ -41,7 +41,7 @@ export const SocialSharing = ({
       <button
         onClick={onDownload}
         disabled={downloading}
-        className="flex items-center gap-2 bg-brand-yellow text-brand-darkBg text-xs font-semibold px-4 py-2 rounded-full hover:opacity-90 transition-opacity disabled:opacity-40 disabled:cursor-not-allowed"
+        className="relative inline-flex items-center justify-center gap-2 bg-brand-yellow text-brand-darkBg text-[10px] sm:text-xs font-semibold rounded-full shadow-md transition-all duration-300 px-3 py-1 min-w-[60px] hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed"
       >
         {downloading ? "…" : t("common.download", { defaultValue: "Download" })}
       </button>
