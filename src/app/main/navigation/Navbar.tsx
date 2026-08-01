@@ -9,7 +9,10 @@ const Navbar = () => {
   const sidebarRef = useRef<HTMLDivElement>(null);
   const burgerRef = useRef<HTMLButtonElement>(null);
   const { t, i18n } = useTranslation();
-
+  const isSpanish = i18n.language.includes("es");
+  const brandName = isSpanish ? "TribuGOL" : "Open Football Project";
+  const byParentProject = "by Open Football Project"
+  
   useEffect(() => {
     document.body.style.overflow = sidebarOpen ? "hidden" : "";
 
@@ -68,9 +71,12 @@ const Navbar = () => {
 
         <Link
           to="/"
-          className="ml-3 text-sm font-bold text-white tracking-wide hover:text-brand-bluelight transition-colors duration-200 shrink-0 lg:hidden"
+          className="ml-3 flex flex-col items-start leading-tight text-white hover:text-brand-bluelight transition-colors duration-200 shrink-0 lg:hidden"
         >
-          Open Football Project
+          <span className="text-sm font-bold tracking-wide">{brandName}</span>
+          {isSpanish && (
+            <span className="text-[9px] font-normal text-white/60">{byParentProject}</span>
+          )}
         </Link>
 
         <div className="flex-1 flex justify-center">
@@ -167,7 +173,12 @@ const Navbar = () => {
         onTouchEnd={handleTouchEnd}
       >
         <div className="p-4 flex justify-between items-center border-b border-white/20">
-          <h2 className="text-base font-bold text-white">Open Football Project</h2>
+          <div className="flex flex-col leading-tight">
+            <h2 className="text-base font-bold text-white">{brandName}</h2>
+            {isSpanish && (
+              <span className="text-[9px] font-normal text-white/60">{byParentProject}</span>
+            )}
+          </div>
           <button className="text-sm text-white" onClick={closeSideBar}>
             ✕
           </button>
