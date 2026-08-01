@@ -274,29 +274,21 @@ export const DetailsMainInfo = ({
             📅 {getFormattedDate(date)}, {getFormattedTime(date)}
           </p>
 
-          <div className="flex items-center gap-2">
-            {isLiveNow ? (
-              <MatchButton isLiveNow={isLiveNow} fixtureId={fixtureId} />
-            ) : (
-              <p
-                data-testid="match-status"
-                className="text-xs text-brand-orange"
-              >
-                {t(`matchstatuslong.${matchLongStatusToKey(statusLong)}`, {
-                  defaultValue: statusLong,
-                })}
-              </p>
-            )}
-          </div>
-
-          {(isCharteableMatchNow || isTopGuysAvailable) && (
-            <div className="flex items-center justify-center gap-2">
-              {isCharteableMatchNow && <ChartButton fixtureId={fixtureId} />}
-              {isTopGuysAvailable && <TopGuysButton fixtureId={fixtureId} />}
-            </div>
+          {!isLiveNow && (
+            <p
+              data-testid="match-status"
+              className="text-xs text-brand-orange"
+            >
+              {t(`matchstatuslong.${matchLongStatusToKey(statusLong)}`, {
+                defaultValue: statusLong,
+              })}
+            </p>
           )}
         </div>
-        <div className="mt-4 pt-3 border-t border-brand-darkBg">
+        <div className="mt-4 pt-3 border-t border-brand-darkBg flex items-center justify-center gap-2 flex-wrap">
+          {isLiveNow && <MatchButton isLiveNow={isLiveNow} fixtureId={fixtureId} />}
+          {isCharteableMatchNow && <ChartButton fixtureId={fixtureId} />}
+          {isTopGuysAvailable && <TopGuysButton fixtureId={fixtureId} />}
           <SocialSharing
             handleShare={handleShare}
             handleDownload={handleDownload}

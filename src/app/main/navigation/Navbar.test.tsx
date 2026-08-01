@@ -11,11 +11,15 @@ vi.mock("./side-menu/SideNavMenu", () => ({
   ),
 }));
 
+const i18nMock = vi.hoisted(() => ({ language: "en" }));
+
 vi.mock("react-i18next", () => ({
   useTranslation: () => ({
     t: (key: string) => key,
     i18n: {
-      language: "en",
+      get language() {
+        return i18nMock.language;
+      },
       changeLanguage: vi.fn(),
     },
   }),
@@ -24,6 +28,7 @@ vi.mock("react-i18next", () => ({
 describe("Navbar", () => {
   beforeEach(() => {
     document.body.style.overflow = "";
+    i18nMock.language = "en";
   });
 
   it("renders main navigation links", () => {
@@ -85,7 +90,7 @@ describe("Navbar", () => {
     expect(document.body.style.overflow).toBe("hidden");
 
     const sidebar = screen.getByRole("heading", { name: /Open Football Project/i })
-      .parentElement!.parentElement!;
+      .parentElement!.parentElement!.parentElement!;
 
     fireEvent.touchStart(sidebar, { touches: [{ clientX: 200 }] });
     fireEvent.touchEnd(sidebar, { changedTouches: [{ clientX: 140 }] });
@@ -104,11 +109,35 @@ describe("Navbar", () => {
     expect(document.body.style.overflow).toBe("hidden");
 
     const sidebar = screen.getByRole("heading", { name: /Open Football Project/i })
-      .parentElement!.parentElement!;
+      .parentElement!.parentElement!.parentElement!;
 
     fireEvent.touchStart(sidebar, { touches: [{ clientX: 200 }] });
     fireEvent.touchEnd(sidebar, { changedTouches: [{ clientX: 150 }] });
 
     expect(document.body.style.overflow).toBe("hidden");
+  });
+
+  it("shows the TribuGOL brand name with a small byline crediting Open Football Project when Spanish is selected", () => {
+    i18nMock.language = "es";
+
+    render(
+      <MemoryRouter>
+        <Navbar />
+      </MemoryRouter>,
+    );
+
+    expect(screen.getAllByText("TribuGOL").length).toBeGreaterThan(0);
+    expect(screen.getAllByText("by Open Football Project").length).toBeGreaterThan(0);
+  });
+
+  it("shows Open Football Project with no byline when English is selected", () => {
+    render(
+      <MemoryRouter>
+        <Navbar />
+      </MemoryRouter>,
+    );
+
+    expect(screen.getAllByText("Open Football Project").length).toBeGreaterThan(0);
+    expect(screen.queryByText("by Open Football Project")).not.toBeInTheDocument();
   });
 });

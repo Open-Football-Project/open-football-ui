@@ -1,4 +1,6 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { FaCaretRight } from "react-icons/fa6";
 import { MarketOddsReason, SeasonFormReason, TodayPlayerScore, translatePlayerPosition } from "open-football-project-core";
 
 import profile from "../../../assets/images/player.png";
@@ -75,7 +77,16 @@ const TodayPlayerCard = ({ playerScore, teamName }: TodayPlayerCardProps) => {
     : seasonFormReasonItems(reason as SeasonFormReason);
 
   return (
-    <div className="w-full bg-brand-darkBg rounded-lg p-4 flex flex-col sm:flex-row items-center sm:items-start gap-4">
+    <div className="relative w-full bg-brand-darkBg rounded-lg p-4 flex flex-col sm:flex-row items-center sm:items-start gap-4">
+      {player.id != null && (
+        <Link
+          to={`/player/${player.id}`}
+          aria-label={`${player.name} player history`}
+          className="absolute top-2 right-2 p-1.5 flex items-center justify-center rounded-full bg-brand-card text-brand-white hover:bg-brand-dona hover:text-brand-orange transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-yellow"
+        >
+          <FaCaretRight className="w-4 h-4" />
+        </Link>
+      )}
       <div className="flex flex-col items-center flex-shrink-0 sm:w-24 text-center">
         <img
           src={player.photo || profile}
