@@ -38,6 +38,7 @@ jobs:
           VITE_IP_CHECK_HOST: ${{ secrets.IP_CHECK_HOST }}
           VITE_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
           VITE_SHOW_BANNERS: ${{ secrets.SHOW_BANNERS }}
+          VITE_BTC_ADDRESS: ${{ secrets.BTC_ADDRESS }}
         run: npm test
 
       - name: Log into container registry
@@ -56,6 +57,7 @@ jobs:
             --build-arg IP_CHECK_HOST=${{ secrets.IP_CHECK_HOST }} \
             --build-arg GA_MEASUREMENT_ID=${{ secrets.GA_MEASUREMENT_ID }} \
             --build-arg SHOW_BANNERS=${{ secrets.SHOW_BANNERS }} \
+            --build-arg BTC_ADDRESS=${{ secrets.BTC_ADDRESS }} \
             -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest \
             -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
             .

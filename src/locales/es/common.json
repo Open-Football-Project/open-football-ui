@@ -12,7 +12,8 @@
     "today_players": "Jugadores de Hoy",
     "leagues": "Ligas",
     "about": "Información",
-    "feedback": "Opiniones"
+    "feedback": "Opiniones",
+    "support_us": "Apóyanos"
   },
   "navigationTitles": {
     "mainmenu": "Menú principal",
@@ -218,7 +219,13 @@
     "t3": "Nuestra Misión",
     "text3": "Todo aficionado merece datos de fútbol rápidos y confiables, sin muros de pago ni ruido. Nuestra misión es facilitar la exploración del fútbol mundial y hacer la experiencia más disfrutable. Ya sea que consultes los marcadores de la Premier League, repases la Copa Argentina o sigas a tu equipo de la MLS, Open Football Project convierte estadísticas complejas en visuales claras que muestran las historias detrás de los números.",
     "t4": "Contribuí y Apoyá el Proyecto",
-    "text4": "Open Football Project se mantiene de forma independiente, sin respaldo corporativo, y crece gracias a su comunidad. ¿Encontraste un error o tenés una idea? Los aportes son bienvenidos en github.com/Open-Football-Project. Si el proyecto te resulta útil, también podés apoyar su desarrollo directamente —mirá las opciones de donación más abajo. El fútbol nunca se detiene, y nosotros tampoco."
+    "text4": "Open Football Project se mantiene de forma independiente, sin respaldo corporativo, y crece gracias a su comunidad. ¿Encontraste un error o tenés una idea? Los aportes son bienvenidos en github.com/Open-Football-Project. El fútbol nunca se detiene, y nosotros tampoco."
+  },
+  "supportus": {
+    "head": "Apoyá a Open Football Project",
+    "text": "Open Football Project es gratis e independiente. Si te resulta útil, una donación en Bitcoin ayuda a cubrir sus costos de funcionamiento. Cualquier aporte se agradece.",
+    "addressLabel": "Dirección de Bitcoin para donaciones",
+    "copyButton": "Copiar dirección de Bitcoin"
   },
   "leaguespage": {
     "head": "Ligas de Fútbol por País y Competiciones Internacionales",
@@ -667,6 +674,14 @@
       "description": "Open Football Project es una app diseñada por fanáticos para los fanáticos..."
     }
   },
+  "supportusseo": {
+    "title": "Apoyá a Open Football Project | Donaciones en Bitcoin",
+    "description": "Open Football Project es un proyecto gratuito e independiente. Si te resulta útil, una donación en Bitcoin ayuda a cubrir sus costos de funcionamiento. Toda contribución es bienvenida.",
+    "jsonld": {
+      "name": "Apoyá a Open Football Project",
+      "description": "Página de donaciones en Bitcoin para Open Football Project, una plataforma de fútbol independiente y con poca publicidad."
+    }
+  },
   "guessPlayerSeo": {
     "title": "{{teamName}} | Quiz de Jugadores | Open Football Project",
     "description": "{{teamName}} | Pon a prueba tus conocimientos identificando a los jugadores según pistas, traspasos y logros.",
@@ -849,7 +864,9 @@
     "downloadReady": "¡Descargado!",
     "downloadFailed": "Error al descargar",
     "voteSubmitted": "¡Voto enviado!",
-    "voteFailed": "No se pudo enviar el voto"
+    "voteFailed": "No se pudo enviar el voto",
+    "addressCopied": "¡Dirección copiada!",
+    "copyFailed": "No se pudo copiar la dirección"
   },
 
   "aria": {
