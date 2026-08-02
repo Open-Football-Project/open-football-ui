@@ -21,6 +21,12 @@ vi.mock("../../utils/analytics/analytics", () => ({
   AnalyticsEvent: { BTC_ADDRESS_COPIED: "btc_address_copied" },
 }));
 
+vi.mock("qrcode.react", () => ({
+  QRCodeSVG: ({ value }: { value: string }) => (
+    <svg data-testid="btc-qr-code" data-value={value} />
+  ),
+}));
+
 describe("SupportUsPage", () => {
   beforeEach(() => {
     vi.resetAllMocks();
@@ -71,5 +77,32 @@ describe("SupportUsPage", () => {
       screen.getByRole("button", { name: /supportus.copyButton/i })
     );
     expect(showInfo).toHaveBeenCalledWith("toast.copyFailed");
+  });
+
+  it("renders the QR code for the bitcoin URI by default", () => {
+    render(<SupportUsPage />);
+    expect(screen.getByTestId("btc-qr-code")).toHaveAttribute(
+      "data-value",
+      `bitcoin:${FAKE_BTC_ADDRESS}?message=Open%20Football%20Project`
+    );
+  });
+
+  it("hides the QR code when the toggle is clicked", async () => {
+    render(<SupportUsPage />);
+    await userEvent.click(
+      screen.getByRole("button", { name: /supportus.hideQrCode/i })
+    );
+    expect(screen.queryByTestId("btc-qr-code")).not.toBeInTheDocument();
+  });
+
+  it("shows the QR code again when the toggle is clicked a second time", async () => {
+    render(<SupportUsPage />);
+    await userEvent.click(
+      screen.getByRole("button", { name: /supportus.hideQrCode/i })
+    );
+    await userEvent.click(
+      screen.getByRole("button", { name: /supportus.showQrCode/i })
+    );
+    expect(screen.getByTestId("btc-qr-code")).toBeInTheDocument();
   });
 });

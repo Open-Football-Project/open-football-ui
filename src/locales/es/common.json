@@ -225,7 +225,9 @@
     "head": "Apoyá a Open Football Project",
     "text": "Open Football Project es gratis e independiente. Si te resulta útil, una donación en Bitcoin ayuda a cubrir sus costos de funcionamiento. Cualquier aporte se agradece.",
     "addressLabel": "Dirección de Bitcoin para donaciones",
-    "copyButton": "Copiar dirección de Bitcoin"
+    "copyButton": "Copiar dirección de Bitcoin",
+    "showQrCode": "Mostrar código QR",
+    "hideQrCode": "Ocultar código QR"
   },
   "leaguespage": {
     "head": "Ligas de Fútbol por País y Competiciones Internacionales",
