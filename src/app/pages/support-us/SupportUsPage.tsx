@@ -18,7 +18,7 @@ const SupportUsPage = () => {
     } catch {
       showInfo(t("toast.copyFailed"));
     }
-  }, [t]);
+  }, [t, btcAddress]);
 
   return (
     <Seo {...supportUsSeoData(t)}>
