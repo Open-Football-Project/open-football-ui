@@ -25,6 +25,7 @@ async function generateSitemap() {
     { url: "/leaguesall", changefreq: "weekly", priority: 0.7 },
     { url: "/about", changefreq: "monthly", priority: 0.4 },
     { url: "/feedback", changefreq: "monthly", priority: 0.3 },
+    { url: "/support-us", changefreq: "monthly", priority: 0.3 },
   ];
 
   staticRoutes.forEach((route) => sitemap.write({ ...route, lastmod }));
