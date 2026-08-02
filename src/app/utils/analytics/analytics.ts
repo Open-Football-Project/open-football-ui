@@ -16,6 +16,7 @@ export enum AnalyticsEvent {
   TAB_SWITCHED = "tab_switched",
   KNOCKOUT_NAVIGATED = "knockout_navigated",
   MENU_TOGGLED = "menu_toggled",
+  BTC_ADDRESS_COPIED = "btc_address_copied",
 }
 
 export const trackEvent = (event: AnalyticsEvent, params: Record<string, string> = {}) => {

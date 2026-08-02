@@ -136,6 +136,13 @@ const Navbar = () => {
             >
               {t("navbar.feedback")}
             </Link>
+
+            <Link
+              to="/support-us"
+              className="text-lg px-1 hover:text-brand-bluelight transition-colors"
+            >
+              {t("navbar.support_us")}
+            </Link>
           </div>
         </div>
 

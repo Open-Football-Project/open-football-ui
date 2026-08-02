@@ -25,6 +25,7 @@ import FeedbackPage from "../pages/feedback/FeedbackPage";
 import NotFoundPage from "../pages/not-found/NotFoundPage";
 import ChartsPage from "../pages/charts/ChartsPage";
 import TodayPlayersPage from "../pages/today-players/TodayPlayersPage";
+import SupportUsPage from "../pages/support-us/SupportUsPage";
 
 import { Toaster } from "sonner";
 import ScrollToTopButton from "../utils/scroll-to-top/ScrollToTopButton";
@@ -129,6 +130,7 @@ function App() {
                   }
                 />
                 <Route path="/about" element={<About />} />
+                <Route path="/support-us" element={<SupportUsPage />} />
                 <Route
                   path="/feedback"
                   element={<FeedbackPage apiService={apiService} />}

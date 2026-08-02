@@ -12,7 +12,8 @@
     "today_players": "Today's Players",
     "leagues": "Leagues",
     "about": "About",
-    "feedback": "Feedback"
+    "feedback": "Feedback",
+    "support_us": "Support Us"
   },
   "navigationTitles": {
     "mainmenu": "App Navigation",
@@ -218,7 +219,15 @@
     "t3": "Our Mission",
     "text3": "Every fan deserves fast and reliable football data, free from paywalls and clutter. Our mission is to make global football easier to understand and more enjoyable to follow. Whether you are checking Premier League scores, revisiting Copa Argentina highlights or tracking your MLS team, Open Football Project converts complex statistics into clear visuals that reveal the stories behind the numbers.",
     "t4": "Contribute & Support the Project",
-    "text4": "Open Football Project runs independently, with no corporate backing — and it grows through its community. Found a bug or have an idea? Contributions are welcome at github.com/Open-Football-Project. If the project's useful to you, you can also support its development directly — see the donation options below. Football never stops, and neither do we."
+    "text4": "Open Football Project runs independently, with no corporate backing — and it grows through its community. Found a bug or have an idea? Contributions are welcome at github.com/Open-Football-Project. Football never stops, and neither do we."
+  },
+  "supportus": {
+    "head": "Support Open Football Project",
+    "text": "Open Football Project is free and independent. If you find it useful, consider making a Bitcoin donation to help cover its running costs. Every contribution is appreciated.",
+    "addressLabel": "Bitcoin donation address",
+    "copyButton": "Copy Bitcoin address",
+    "showQrCode": "Show QR code",
+    "hideQrCode": "Hide QR code"
   },
   "leaguespage": {
     "head": "All Football Leagues by Country & International Competitions",
@@ -639,6 +648,14 @@
       "publisherName": "Open Football Project"
     }
   },
+  "supportusseo": {
+    "title": "Support Open Football Project | Bitcoin Donations",
+    "description": "Support Open Football Project's independent, ad-light football coverage with a Bitcoin donation.",
+    "jsonld": {
+      "name": "Support Open Football Project",
+      "description": "Bitcoin donation page for Open Football Project, an independent, ad-light football platform."
+    }
+  },
   "guessPlayerSeo": {
     "title": "{{teamName}} — Player Quiz | Open Football Project",
     "description": "Player Quiz for {{teamName}}! Test your football knowledge by identifying players based on clues, transfers, and achievements. A fun interactive quiz for true fans.",
@@ -821,7 +838,9 @@
     "downloadReady": "Downloaded!",
     "downloadFailed": "Download failed",
     "voteSubmitted": "Vote submitted!",
-    "voteFailed": "Could not submit vote"
+    "voteFailed": "Could not submit vote",
+    "addressCopied": "Address copied!",
+    "copyFailed": "Could not copy address"
   },
 
   "aria": {

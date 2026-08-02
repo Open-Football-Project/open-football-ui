@@ -46,6 +46,7 @@ describe("Navbar", () => {
     expect(screen.getByText(/About/i)).toBeInTheDocument();
     expect(screen.getByText(/Live/i)).toBeInTheDocument();
     expect(screen.getByText(/Feedback/i)).toBeInTheDocument();
+    expect(screen.getByText(/support_us/i)).toBeInTheDocument();
     expect(screen.getByTestId("side-bar-menu")).toBeInTheDocument();
   });
 

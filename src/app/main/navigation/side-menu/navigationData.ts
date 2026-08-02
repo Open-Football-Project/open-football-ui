@@ -41,6 +41,7 @@ export const navigationData: NavData[] = [
       { title: "navbar.leagues", route: "/leaguesall", isTranslated: true },
       { title: "navbar.about", route: "/about", isTranslated: true },
       { title: "navbar.feedback", route: "/feedback", isTranslated: true },
+      { title: "navbar.support_us", route: "/support-us", isTranslated: true },
     ],
   },
 
