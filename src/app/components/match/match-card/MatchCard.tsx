@@ -44,15 +44,15 @@ const MatchCard = forwardRef<HTMLAnchorElement, MatchCardProps>(
 
     return (
       <li className="bg-brand-darkBg rounded-lg p-2 w-full flex flex-col gap-1 hover:shadow-lg transition">
-        <div className="flex items-center gap-2">
-          <div className="flex flex-col items-center justify-center text-brand-yellow shrink-0">
-            <StatusOrTime
-              isFinished={match.isFinished}
-              statusShort={match.statusShort}
-              utcDate={match.date}
-            />
-          </div>
+        <div className="flex justify-end">
+          <StatusOrTime
+            isFinished={match.isFinished}
+            statusShort={match.statusShort}
+            utcDate={match.date}
+          />
+        </div>
 
+        <div className="flex items-center gap-2">
           <div className="flex items-center justify-center gap-1 sm:gap-4 flex-1 min-w-0">
             <div className="flex items-center gap-1 sm:gap-2 flex-1 justify-end min-w-0">
               <span className="text-[10px] sm:text-xs uppercase font-semibold text-brand-white truncate">
@@ -82,28 +82,19 @@ const MatchCard = forwardRef<HTMLAnchorElement, MatchCardProps>(
               </span>
             </div>
           </div>
-
-          <div className="flex items-center shrink-0 w-[60px] justify-center">
-            <MatchButton
-              ref={ref}
-              tabIndex={tabIndex}
-              className={className}
-              isLiveNow={match.isLiveNow}
-              fixtureId={match.fixtureId}
-            />
-          </div>
         </div>
 
-        {(isCharteableMatchNow || isTopGuysAvailable) && (
-          <div className="flex items-center justify-center gap-2">
-            {isCharteableMatchNow && (
-              <ChartButton fixtureId={match.fixtureId} />
-            )}
-            {isTopGuysAvailable && (
-              <TopGuysButton fixtureId={match.fixtureId} />
-            )}
-          </div>
-        )}
+        <div className="flex items-center justify-center gap-2 mt-2">
+          {isCharteableMatchNow && <ChartButton fixtureId={match.fixtureId} />}
+          {isTopGuysAvailable && <TopGuysButton fixtureId={match.fixtureId} />}
+          <MatchButton
+            ref={ref}
+            tabIndex={tabIndex}
+            className={className}
+            isLiveNow={match.isLiveNow}
+            fixtureId={match.fixtureId}
+          />
+        </div>
       </li>
     );
   },
