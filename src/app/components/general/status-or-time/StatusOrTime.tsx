@@ -32,10 +32,9 @@ const StatusOrTime = ({
           "
         >
           <span data-testid="match-day">
-           {getFormattedDate(utcDate, "dd/MM")}
+            {getFormattedDate(utcDate, "dd/MM")}
           </span>
           <span className="hidden md:inline">•</span>
-
           <span data-testid="match-time">{getFormattedTime(utcDate)}</span>
         </p>
       )}

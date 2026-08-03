@@ -30,13 +30,15 @@ export const LiveMatchCard = ({ match, selectedMatchId, selectMatch, apiService 
       onClick={() => selectMatch(match.id)}
       className={`p-3 cursor-pointer transition-all duration-200 transform hover:scale-[1.02] flex flex-col gap-1 ${cardBg}`}
     >
-      <div className="flex items-center gap-2">
-        <div
-          className={`flex flex-col items-center justify-center shrink-0 w-10 text-[10px] sm:text-xs font-bold ${isSelected ? "text-brand-white" : "text-brand-yellow"}`}
+      <div className="flex justify-end">
+        <span
+          className={`text-[10px] sm:text-xs font-bold ${isSelected ? "text-brand-white" : "text-brand-yellow"}`}
         >
           {match.elapsedTime ? `${Math.floor(match.elapsedTime)}'` : "-"}
-        </div>
+        </span>
+      </div>
 
+      <div className="flex items-center gap-2">
         <div className="flex items-center justify-center gap-2 flex-1 min-w-0">
           <div className="flex items-center gap-1 flex-[1.1] justify-end truncate">
             <span className="text-[9px] sm:text-[11px] uppercase font-semibold truncate">
@@ -56,21 +58,13 @@ export const LiveMatchCard = ({ match, selectedMatchId, selectMatch, apiService 
             </span>
           </div>
         </div>
-
-        <div
-          data-testid="details-link"
-          className="flex items-center justify-center shrink-0 w-[60px]"
-        >
-          <MatchButton isLiveNow={false} fixtureId={match.id} />
-        </div>
       </div>
 
-      {(isCharteableMatchNow || isTopGuysAvailable) && (
-        <div className="flex items-center justify-center gap-2">
-          {isCharteableMatchNow && <ChartButton fixtureId={match.id} />}
-          {isTopGuysAvailable && <TopGuysButton fixtureId={match.id} />}
-        </div>
-      )}
+      <div className="flex items-center justify-center gap-2 mt-2">
+        {isCharteableMatchNow && <ChartButton fixtureId={match.id} />}
+        {isTopGuysAvailable && <TopGuysButton fixtureId={match.id} />}
+        <MatchButton isLiveNow={false} fixtureId={match.id} />
+      </div>
 
       <div className="absolute bottom-0 left-0 w-full h-1 overflow-hidden rounded-b-lg">
         <div className="w-[200%] h-full bg-gradient-to-r from-brand-aqua via-brand-royalblue to-brand-aqualight animate-slide" />
