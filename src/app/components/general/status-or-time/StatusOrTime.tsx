@@ -35,7 +35,6 @@ const StatusOrTime = ({
             {getFormattedDate(utcDate, "dd/MM")}
           </span>
           <span className="hidden md:inline">•</span>
-
           <span data-testid="match-time">{getFormattedTime(utcDate)}</span>
         </p>
       )}
