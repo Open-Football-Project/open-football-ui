@@ -152,7 +152,7 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
 
   if (loadingChartMatches) {
     return (
-      <Seo {...chartsSeoData(fixtureId, t)} robots="noindex, nofollow">
+      <Seo {...chartsSeoData(fixtureId, t)}>
         <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
           <NoData loading />
         </div>
@@ -164,7 +164,7 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
 
   if (noMatchesAnywhere) {
     return (
-      <Seo {...chartsSeoData(fixtureId, t)} robots="noindex, nofollow">
+      <Seo {...chartsSeoData(fixtureId, t)}>
         <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
           {noMatchesNoData()}
         </div>

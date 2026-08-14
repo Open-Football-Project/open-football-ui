@@ -42,10 +42,7 @@ const TodayPlayersPage = ({ apiService, bannerProps }: TodayPlayersPageProps) =>
   } = useTodayPlayersStatus(apiService, fixtureId);
 
   return (
-    <Seo
-      {...todayPlayersSeoData(fixtureId, t)}
-      robots={isTodayPlayersAvailable ? undefined : "noindex, nofollow"}
-    >
+    <Seo {...todayPlayersSeoData(fixtureId, t)}>
       {loadingTodayPlayers ? (
         <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
           <NoData loading />
