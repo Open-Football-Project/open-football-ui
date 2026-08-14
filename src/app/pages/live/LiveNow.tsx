@@ -45,7 +45,7 @@ const LiveNow = ({ apiService, bannerProps }: LiveMatchesProps) => {
       <Seo {...liveNowSeoData(fixtureId, t)}>
         <div className="w-full justify-between px-2 sm:px-12 py-6">
           <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
-            <p className="mx-auto"> {t("livepage.h1")}</p>
+            <h1 className="mx-auto"> {t("livepage.h1")}</h1>
           </div>
           <SubHeader
             title={t("livepage.subheadertitle")}
@@ -67,7 +67,7 @@ const LiveNow = ({ apiService, bannerProps }: LiveMatchesProps) => {
     <Seo {...liveNowSeoData(fixtureId, t)}>
       <div className="w-full justify-between px-2 sm:px-12 py-6">
         <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
-          <p className="mx-auto"> {t("livepage.h1")}</p>
+          <h1 className="mx-auto"> {t("livepage.h1")}</h1>
         </div>
         <SubHeader
           title={t("livepage.subheadertitle")}

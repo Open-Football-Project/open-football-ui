@@ -399,6 +399,7 @@
     "nodatamsg": "No results. Try a different date, timeframe, or country."
   },
   "charts": {
+    "h1": "Live Match Odds, Momentum, Control & Goal Threat Charts",
     "no_live_matches": "No matches available right now",
     "no_live_matches_image_alt": "No charts available",
     "pick_match": "Select match",
@@ -733,6 +734,7 @@
     }
   },
   "todayplayers": {
+    "h1": "Today's Top Players by Betting Odds & Season Form",
     "subheadertitle": "Today's Players",
     "pick_league": "Select league",
     "pick_fixture": "Select match",
