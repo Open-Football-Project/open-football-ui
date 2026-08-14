@@ -741,24 +741,21 @@
     "title": "Fútbol en Vivo – Estadísticas, Alineaciones y Cronología | Open Football Project",
     "description": "Marcadores en vivo, actualizaciones de partidos, formaciones y estadísticas detalladas de ligas de todo el mundo.",
     "jsonld": {
-      "name": "Partidos de Fútbol en Vivo",
-      "location": "En todo el mundo"
+      "name": "Partidos de Fútbol en Vivo"
     }
   },
   "chartsseo": {
     "title": "Cuotas y Gráficos de Fútbol en Vivo – Momentum, Control y Amenaza de Gol | Open Football Project",
     "description": "Sigue el movimiento de las cuotas en vivo y los gráficos de momentum, control y amenaza de gol en tiempo real durante los partidos.",
     "jsonld": {
-      "name": "Cuotas y Gráficos de Fútbol en Vivo",
-      "location": "En todo el mundo"
+      "name": "Cuotas y Gráficos de Fútbol en Vivo"
     }
   },
   "todayplayersseo": {
     "title": "Jugadores de Hoy – Lista de Seguimiento Antes del Partido | Open Football Project",
     "description": "Descubre qué jugadores son más propensos a destacar en los partidos de hoy, según las cuotas de las casas de apuestas y su forma de la temporada, antes del inicio.",
     "jsonld": {
-      "name": "Jugadores de Hoy – Lista de Seguimiento Antes del Partido",
-      "location": "En todo el mundo"
+      "name": "Jugadores de Hoy – Lista de Seguimiento Antes del Partido"
     }
   },
   "todayplayers": {

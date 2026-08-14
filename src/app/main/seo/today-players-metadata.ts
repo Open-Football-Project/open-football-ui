@@ -16,13 +16,14 @@ const todayPlayersSeoData = (
 
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "SportsEvent",
+      "@type": "CollectionPage",
       name: t("todayplayersseo.jsonld.name"),
-      sport: "Football",
+      description: t("todayplayersseo.description"),
       url: pageUrl,
-      location: {
-        "@type": "Place",
-        name: t("todayplayersseo.jsonld.location"),
+      publisher: {
+        "@type": "Organization",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
       },
     },
   };

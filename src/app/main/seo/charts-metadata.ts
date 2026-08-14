@@ -14,13 +14,14 @@ const chartsSeoData = (
 
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "SportsEvent",
+      "@type": "CollectionPage",
       name: t("chartsseo.jsonld.name"),
-      sport: "Football",
+      description: t("chartsseo.description"),
       url: pageUrl,
-      location: {
-        "@type": "Place",
-        name: t("chartsseo.jsonld.location"),
+      publisher: {
+        "@type": "Organization",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
       },
     },
   };
