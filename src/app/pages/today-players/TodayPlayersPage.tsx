@@ -42,29 +42,39 @@ const TodayPlayersPage = ({ apiService, bannerProps }: TodayPlayersPageProps) =>
   } = useTodayPlayersStatus(apiService, fixtureId);
 
   return (
-    <Seo
-      {...todayPlayersSeoData(fixtureId, t)}
-      robots={isTodayPlayersAvailable ? undefined : "noindex, nofollow"}
-    >
+    <Seo {...todayPlayersSeoData(fixtureId, t)}>
       {loadingTodayPlayers ? (
-        <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
-          <NoData loading />
+        <div className="w-full px-2 sm:px-12 py-6">
+          <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
+            <h1 className="mx-auto">{t("todayplayers.h1")}</h1>
+          </div>
+          <div className="w-full flex items-center justify-center min-h-[60vh]">
+            <NoData loading />
+          </div>
         </div>
       ) : !isTodayPlayersAvailable ? (
-        <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
-          <NoData
-            message={t("todayplayers.no_data", {
-              defaultValue: "No player data available right now",
-            })}
-            messageColor="text-white"
-            image={todayPlayersNotAvailableImg}
-            imageAlt={t("todayplayers.no_data_image_alt", {
-              defaultValue: "No player data available",
-            })}
-          />
+        <div className="w-full px-2 sm:px-12 py-6">
+          <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
+            <h1 className="mx-auto">{t("todayplayers.h1")}</h1>
+          </div>
+          <div className="w-full flex items-center justify-center min-h-[60vh]">
+            <NoData
+              message={t("todayplayers.no_data", {
+                defaultValue: "No player data available right now",
+              })}
+              messageColor="text-white"
+              image={todayPlayersNotAvailableImg}
+              imageAlt={t("todayplayers.no_data_image_alt", {
+                defaultValue: "No player data available",
+              })}
+            />
+          </div>
         </div>
       ) : (
         <div className="w-full px-2 sm:px-12 py-6">
+          <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
+            <h1 className="mx-auto">{t("todayplayers.h1")}</h1>
+          </div>
           <SubHeader
             title={t("todayplayers.subheadertitle", { defaultValue: "Today's Players" })}
             apiService={apiService}

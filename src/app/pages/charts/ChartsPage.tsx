@@ -152,9 +152,14 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
 
   if (loadingChartMatches) {
     return (
-      <Seo {...chartsSeoData(fixtureId, t)} robots="noindex, nofollow">
-        <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
-          <NoData loading />
+      <Seo {...chartsSeoData(fixtureId, t)}>
+        <div className="w-full px-2 sm:px-12 py-6">
+          <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
+            <h1 className="mx-auto">{t("charts.h1")}</h1>
+          </div>
+          <div className="w-full flex items-center justify-center min-h-[60vh]">
+            <NoData loading />
+          </div>
         </div>
       </Seo>
     );
@@ -164,9 +169,14 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
 
   if (noMatchesAnywhere) {
     return (
-      <Seo {...chartsSeoData(fixtureId, t)} robots="noindex, nofollow">
-        <div className="w-full flex items-center justify-center min-h-[60vh] px-2 sm:px-12">
-          {noMatchesNoData()}
+      <Seo {...chartsSeoData(fixtureId, t)}>
+        <div className="w-full px-2 sm:px-12 py-6">
+          <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
+            <h1 className="mx-auto">{t("charts.h1")}</h1>
+          </div>
+          <div className="w-full flex items-center justify-center min-h-[60vh]">
+            {noMatchesNoData()}
+          </div>
         </div>
       </Seo>
     );
@@ -240,6 +250,9 @@ const ChartsPage = ({ apiService, bannerProps, apiHost, apiMock }: ChartsPagePro
   return (
     <Seo {...chartsSeoData(fixtureId, t)}>
       <div className="w-full px-2 sm:px-12 py-6">
+        <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
+          <h1 className="mx-auto">{t("charts.h1")}</h1>
+        </div>
         <SubHeader
           title={t("charts.subheadertitle", { defaultValue: "Live Football Charts" })}
           apiService={apiService}

@@ -116,7 +116,7 @@ describe("TodayPlayersPage", () => {
     expect(mocks.useTodayPlayersStatus).toHaveBeenCalledWith(apiService, "201");
   });
 
-  it("renders NoData loading and wraps in noindex Seo while today-players are loading", () => {
+  it("renders NoData loading while today-players are loading", () => {
     mocks.seo.mockClear();
     mocks.useTodayPlayersStatus.mockReturnValue(emptyStatus({ loadingTodayPlayers: true }));
 
@@ -126,10 +126,9 @@ describe("TodayPlayersPage", () => {
     expect(screen.queryByTestId("today-players-page")).not.toBeInTheDocument();
     expect(screen.queryByTestId("subheader")).not.toBeInTheDocument();
     expect(screen.queryByTestId("controls")).not.toBeInTheDocument();
-    expect(mocks.seo.mock.calls[0][0]).toMatchObject({ robots: "noindex, nofollow" });
   });
 
-  it("renders a no-data illustration and wraps in noindex Seo when nothing is cached", () => {
+  it("renders a no-data illustration when nothing is cached", () => {
     mocks.seo.mockClear();
     mocks.useTodayPlayersStatus.mockReturnValue(emptyStatus());
 
@@ -140,7 +139,6 @@ describe("TodayPlayersPage", () => {
     expect(screen.queryByTestId("today-players-page")).not.toBeInTheDocument();
     expect(screen.queryByTestId("subheader")).not.toBeInTheDocument();
     expect(screen.queryByTestId("controls")).not.toBeInTheDocument();
-    expect(mocks.seo.mock.calls[0][0]).toMatchObject({ robots: "noindex, nofollow" });
   });
 
   const playerScore = (id: number, name: string) => ({

@@ -647,24 +647,6 @@ describe("ChartsPage, SubHeader", () => {
 });
 
 describe("ChartsPage, Seo", () => {
-  it("wraps the loading state in Seo with noindex robots", () => {
-    mocks.seo.mockClear();
-    setMocks({ charts: emptyChartsStatus({ loadingChartMatches: true }) });
-
-    render(<ChartsPage apiService={apiService} bannerProps={bannerProps} apiHost={apiHost} apiMock={apiMock} />);
-
-    expect(mocks.seo.mock.calls[0][0]).toMatchObject({ robots: "noindex, nofollow" });
-  });
-
-  it("wraps the full no-matches state in Seo with noindex robots", () => {
-    mocks.seo.mockClear();
-    setMocks();
-
-    render(<ChartsPage apiService={apiService} bannerProps={bannerProps} apiHost={apiHost} apiMock={apiMock} />);
-
-    expect(mocks.seo.mock.calls[0][0]).toMatchObject({ robots: "noindex, nofollow" });
-  });
-
   it("wraps the main content in Seo without forcing noindex", () => {
     mocks.seo.mockClear();
     setMocks({

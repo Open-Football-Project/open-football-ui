@@ -400,6 +400,7 @@
     "nodatamsg": "Sin resultados. Prueba otra fecha, franja Horaria o país."
   },
   "charts": {
+    "h1": "Cuotas en Vivo, Momentum, Control y Amenaza de Gol",
     "no_live_matches": "No hay partidos disponibles en este momento",
     "no_live_matches_image_alt": "Sin gráficos disponibles",
     "pick_match": "Selecciona un partido",
@@ -761,6 +762,7 @@
     }
   },
   "todayplayers": {
+    "h1": "Los Mejores Jugadores de Hoy por Cuotas y Forma de Temporada",
     "subheadertitle": "Jugadores de Hoy",
     "pick_league": "Selecciona una liga",
     "pick_fixture": "Selecciona un partido",

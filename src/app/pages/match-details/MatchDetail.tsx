@@ -69,7 +69,6 @@ export default function MatchDetail({
         title={t("matchdetails.title")}
         description={t("matchdetails.head")}
         url={`https://footballproject.org/match/${id ?? ""}`}
-        robots="noindex, nofollow"
       >
         <NoData loading={loadingMatchDetail} skeleton={<MatchDetailSkeleton />} />
       </Seo>
@@ -81,7 +80,6 @@ export default function MatchDetail({
         title={t("matchdetails.title")}
         description={t("matchdetails.head")}
         url={`https://footballproject.org/match/${id ?? ""}`}
-        robots="noindex, nofollow"
       >
         <div className="w-full px-2 sm:px-12 py-6">
           <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
@@ -119,7 +117,7 @@ export default function MatchDetail({
       ]} />
       <div className="w-full justify-between px-2 sm:px-12 py-6 space-y-6">
         <div className="text-center text-brand-aqualight bg-brand-aqua/15 border border-brand-aqua/30 px-4 py-2 mb-2 text-lg leading-tight rounded-lg">
-          <p className="mx-auto">{t("matchdetails.head")}</p>
+          <h1 className="mx-auto">{homeTeam.name} vs {awayTeam.name} – {t("matchdetails.head")}</h1>
         </div>
         <SubHeader
           title={t("matchdetails.title")}
