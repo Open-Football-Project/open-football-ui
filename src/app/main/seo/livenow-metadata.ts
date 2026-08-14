@@ -14,13 +14,14 @@ const liveNowSeoData = (
 
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "SportsEvent",
+      "@type": "CollectionPage",
       name: t("livenowseo.jsonld.name"),
-      sport: "Football",
+      description: t("livenowseo.description"),
       url: pageUrl,
-      location: {
-        "@type": "Place",
-        name: t("livenowseo.jsonld.location"),
+      publisher: {
+        "@type": "Organization",
+        name: "Open Football Project",
+        url: "https://footballproject.org",
       },
     },
   };

@@ -713,24 +713,21 @@
     "title": "Live Football Scores – Match Stats, Lineups & Timeline | Open Football Project",
     "description": "Live football scores, match updates, formations, and detailed stats from leagues worldwide.",
     "jsonld": {
-      "name": "Live Football Matches",
-      "location": "Worldwide"
+      "name": "Live Football Matches"
     }
   },
   "chartsseo": {
     "title": "Live Football Odds & Match Charts – Momentum, Control & Goal Threat | Open Football Project",
     "description": "Track live football odds movement and real-time momentum, control and goal threat charts as matches unfold.",
     "jsonld": {
-      "name": "Live Football Odds and Match Charts",
-      "location": "Worldwide"
+      "name": "Live Football Odds and Match Charts"
     }
   },
   "todayplayersseo": {
     "title": "Today's Players – Pre-Match Watchlist by Fixture | Open Football Project",
     "description": "See which players are most likely to matter in today's matches, based on bookmaker odds and season form, before kickoff.",
     "jsonld": {
-      "name": "Today's Players – Pre-Match Watchlist",
-      "location": "Worldwide"
+      "name": "Today's Players – Pre-Match Watchlist"
     }
   },
   "todayplayers": {
