@@ -217,29 +217,3 @@ describe("LiveNow Component", () => {
   });
 });
 
-describe("LiveNow, Seo in empty state", () => {
-  const mockApiService = {} as any;
-  const bannerProps: BannerProps = {
-    bannersService: {} as any,
-    storage: {} as any,
-    countryApiHost: "http://localhost",
-  };
-
-  it("renders Seo with noindex when no leagues are available", () => {
-    mocks.seo.mockClear();
-    mocks.useLiveNowStatus.mockReturnValue({
-      selectedCountry: null,
-      setSelectedCountry: vi.fn(),
-      selectedLeagueId: null,
-      setSelectedLeagueId: vi.fn(),
-      countries: [],
-      leagues: [],
-      selectedLeague: null,
-      selectedLeagueMatches: [],
-    });
-
-    render(<LiveNow apiService={mockApiService} bannerProps={bannerProps} />);
-
-    expect(mocks.seo.mock.calls[0][0]).toMatchObject({ robots: "noindex, nofollow" });
-  });
-});

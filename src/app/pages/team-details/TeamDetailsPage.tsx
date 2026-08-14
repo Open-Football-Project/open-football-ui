@@ -46,7 +46,6 @@ const TeamDetailsPage = ({
     return (
       <Seo
         {...teamSeoData(Number(id), teamDetails?.teamName ?? "Football", t)}
-        robots="noindex, nofollow"
       >
         <NoData loading={loadingTeamDetails} skeleton={<TeamDetailSkeleton />} />
       </Seo>

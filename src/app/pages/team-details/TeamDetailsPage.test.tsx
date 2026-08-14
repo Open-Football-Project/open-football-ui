@@ -116,19 +116,6 @@ describe("TeamDetailsPage", () => {
     expect(screen.getByTestId("no-data")).toHaveTextContent("Loading...");
   });
 
-  it("renders Seo with noindex while team data is loading", () => {
-    (useTeamDetail as Mock).mockReturnValue(
-      mockTeamDetail({ loadingTeamDetails: true })
-    );
-
-    renderPage();
-
-    expect(mocks.seo).toHaveBeenCalled();
-    expect(mocks.seo.mock.calls[0][0]).toMatchObject({
-      robots: "noindex, nofollow",
-    });
-  });
-
   it("renders team info, fixture and squad when data is available", () => {
     (useTeamDetail as Mock).mockReturnValue(mockTeamDetail());
 

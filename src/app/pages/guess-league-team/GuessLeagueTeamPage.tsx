@@ -48,7 +48,6 @@ const GuessLeagueTeamPage = ({
     return (
       <Seo
         {...guessTheTeamGameSeoData(Number(id), t("quiz.football_quizzes"), t)}
-        robots="noindex, nofollow"
       >
         <NoData loading={true} skeleton={<GenericContentSkeleton />} />
       </Seo>
@@ -62,7 +61,6 @@ const GuessLeagueTeamPage = ({
           leagueInfo?.name ?? t("quiz.football_quizzes"),
           t
         )}
-        robots="noindex, nofollow"
       >
         <NoData
           isBigMessage={true}
