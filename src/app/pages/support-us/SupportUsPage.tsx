@@ -11,6 +11,7 @@ const SupportUsPage = () => {
   const { t } = useTranslation();
   const btcAddress = import.meta.env.VITE_BTC_ADDRESS;
   const btcUri = `bitcoin:${btcAddress}?message=Open%20Football%20Project`;
+  const kofiUrl = import.meta.env.VITE_KOFI_URL;
   const [showQrCode, setShowQrCode] = useState(true);
 
   const handleCopy = useCallback(async () => {
@@ -32,38 +33,68 @@ const SupportUsPage = () => {
           </h1>
           <p className="text-lg leading-relaxed mb-8">{t("supportus.text")}</p>
 
-          {showQrCode && (
-            <div className="bg-brand-white p-4 rounded-lg inline-block mb-4">
-              <QRCodeSVG value={btcUri} size={220} />
-            </div>
+          {kofiUrl && (
+            <>
+              <div className="bg-brand-card rounded-lg p-6">
+                <h2 className="text-xl font-semibold text-brand-white mb-2">
+                  {t("supportus.kofiTitle")}
+                </h2>
+                <p className="mb-6">{t("supportus.kofiText")}</p>
+                <a
+                  href={kofiUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-brand-yellow text-brand-darkBg font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  {t("supportus.kofiButton")}
+                </a>
+              </div>
+
+              <p className="my-6 text-sm uppercase tracking-wide text-brand-lightGray/70">
+                {t("supportus.or")}
+              </p>
+            </>
           )}
 
-          <p className="text-sm uppercase tracking-wide text-brand-lightGray/70 mb-2">
-            {t("supportus.addressLabel")}
-          </p>
-          <span className="select-all font-mono text-brand-white bg-brand-gridblue px-3 py-2 rounded-lg break-all inline-block mb-4">
-            {btcAddress}
-          </span>
+          <div className="bg-brand-card rounded-lg p-6">
+            <h2 className="text-xl font-semibold text-brand-white mb-2">
+              {t("supportus.btcTitle")}
+            </h2>
+            <p className="mb-6">{t("supportus.btcText")}</p>
 
-          <div className="flex items-center justify-center gap-3">
-            <button
-              type="button"
-              onClick={handleCopy}
-              aria-label={t("supportus.copyButton")}
-              className="p-2 flex items-center rounded-full justify-center text-brand-white hover:bg-brand-dona hover:text-brand-orange"
-            >
-              <Copy size={18} />
-            </button>
-            <button
-              type="button"
-              onClick={() => setShowQrCode((current) => !current)}
-              aria-label={t(
-                showQrCode ? "supportus.hideQrCode" : "supportus.showQrCode"
-              )}
-              className="p-2 flex items-center rounded-full justify-center text-brand-white hover:bg-brand-dona hover:text-brand-orange"
-            >
-              <QrCode size={18} />
-            </button>
+            {showQrCode && (
+              <div className="bg-brand-white p-4 rounded-lg inline-block mb-4">
+                <QRCodeSVG value={btcUri} size={220} />
+              </div>
+            )}
+
+            <p className="text-sm uppercase tracking-wide text-brand-lightGray/70 mb-2">
+              {t("supportus.addressLabel")}
+            </p>
+            <span className="select-all font-mono text-brand-white bg-brand-gridblue px-3 py-2 rounded-lg break-all inline-block mb-4">
+              {btcAddress}
+            </span>
+
+            <div className="flex items-center justify-center gap-3">
+              <button
+                type="button"
+                onClick={handleCopy}
+                aria-label={t("supportus.copyButton")}
+                className="p-2 flex items-center rounded-full justify-center text-brand-white hover:bg-brand-dona hover:text-brand-orange"
+              >
+                <Copy size={18} />
+              </button>
+              <button
+                type="button"
+                onClick={() => setShowQrCode((current) => !current)}
+                aria-label={t(
+                  showQrCode ? "supportus.hideQrCode" : "supportus.showQrCode"
+                )}
+                className="p-2 flex items-center rounded-full justify-center text-brand-white hover:bg-brand-dona hover:text-brand-orange"
+              >
+                <QrCode size={18} />
+              </button>
+            </div>
           </div>
         </div>
       </section>

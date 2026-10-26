@@ -58,6 +58,7 @@ jobs:
             --build-arg GA_MEASUREMENT_ID=${{ secrets.GA_MEASUREMENT_ID }} \
             --build-arg SHOW_BANNERS=${{ secrets.SHOW_BANNERS }} \
             --build-arg BTC_ADDRESS=${{ secrets.BTC_ADDRESS }} \
+            --build-arg KOFI_URL=${{ secrets.KOFI_URL }} \
             -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest \
             -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
             .

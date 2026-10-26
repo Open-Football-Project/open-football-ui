@@ -222,8 +222,14 @@
     "text4": "Open Football Project runs independently, with no corporate backing — and it grows through its community. Found a bug or have an idea? Contributions are welcome at github.com/Open-Football-Project. Football never stops, and neither do we."
   },
   "supportus": {
-    "head": "Support Open Football Project",
-    "text": "Open Football Project is free and independent. If you find it useful, consider making a Bitcoin donation to help cover its running costs. Every contribution is appreciated.",
+    "head": "Thanks for using Open Football Project",
+    "text": "We built Open Football Project so fans everywhere can follow live scores and match stats for free, with no paywall and no sign-up. If you like what we've made, you can help us keep it running. Thank you!",
+    "kofiTitle": "Option 1 · Card or PayPal",
+    "kofiText": "The easy way. Opens our secure Ko-fi page.",
+    "kofiButton": "Help us keep Open Football running at its best",
+    "or": "or",
+    "btcTitle": "Option 2 · Bitcoin",
+    "btcText": "Only if you already use Bitcoin. Scan the QR code or copy the address.",
     "addressLabel": "Bitcoin donation address",
     "copyButton": "Copy Bitcoin address",
     "showQrCode": "Show QR code",
@@ -650,11 +656,11 @@
     }
   },
   "supportusseo": {
-    "title": "Support Open Football Project | Bitcoin Donations",
-    "description": "Support Open Football Project's independent, ad-light football coverage with a Bitcoin donation.",
+    "title": "Support Open Football Project | Donate by Card, PayPal or Bitcoin",
+    "description": "Help keep Open Football Project free and open source. Donate by card or PayPal through Ko-fi, or with Bitcoin.",
     "jsonld": {
       "name": "Support Open Football Project",
-      "description": "Bitcoin donation page for Open Football Project, an independent, ad-light football platform."
+      "description": "Donation page for Open Football Project, a free, open-source football platform. Card, PayPal or Bitcoin."
     }
   },
   "guessPlayerSeo": {

@@ -6,6 +6,7 @@ import { showSuccess, showInfo } from "../../utils/toast/toast";
 import { trackEvent, AnalyticsEvent } from "../../utils/analytics/analytics";
 
 const FAKE_BTC_ADDRESS = "bc1qtestaddress0000000000000000000000000";
+const FAKE_KOFI_URL = "https://ko-fi.com/testpage";
 
 vi.mock("../../main/seo/Seo", () => ({
   default: ({ children }: any) => <>{children}</>,
@@ -31,6 +32,7 @@ describe("SupportUsPage", () => {
   beforeEach(() => {
     vi.resetAllMocks();
     vi.stubEnv("VITE_BTC_ADDRESS", FAKE_BTC_ADDRESS);
+    vi.stubEnv("VITE_KOFI_URL", FAKE_KOFI_URL);
     Object.defineProperty(navigator, "clipboard", {
       value: { writeText: vi.fn().mockResolvedValue(undefined) },
       writable: true,
@@ -42,6 +44,24 @@ describe("SupportUsPage", () => {
     render(<SupportUsPage />);
     expect(screen.getByText("supportus.head")).toBeInTheDocument();
     expect(screen.getByText("supportus.text")).toBeInTheDocument();
+  });
+
+  it("renders the Ko-fi link from the env var, opening in a new tab", () => {
+    render(<SupportUsPage />);
+    const link = screen.getByRole("link", { name: /supportus.kofiButton/i });
+    expect(link).toHaveAttribute("href", FAKE_KOFI_URL);
+    expect(link).toHaveAttribute("target", "_blank");
+    expect(link).toHaveAttribute("rel", "noopener noreferrer");
+  });
+
+  it("hides the Ko-fi option when the env var is empty, keeping Bitcoin", () => {
+    vi.stubEnv("VITE_KOFI_URL", "");
+    render(<SupportUsPage />);
+    expect(
+      screen.queryByRole("link", { name: /supportus.kofiButton/i })
+    ).not.toBeInTheDocument();
+    expect(screen.queryByText("supportus.or")).not.toBeInTheDocument();
+    expect(screen.getByText(FAKE_BTC_ADDRESS)).toBeInTheDocument();
   });
 
   it("renders the BTC address from the env var as selectable text", () => {
