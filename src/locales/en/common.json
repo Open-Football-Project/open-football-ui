@@ -656,11 +656,11 @@
     }
   },
   "supportusseo": {
-    "title": "Support Open Football Project | Bitcoin Donations",
-    "description": "Support Open Football Project's independent, ad-light football coverage with a Bitcoin donation.",
+    "title": "Support Open Football Project | Donate by Card, PayPal or Bitcoin",
+    "description": "Help keep Open Football Project free and open source. Donate by card or PayPal through Ko-fi, or with Bitcoin.",
     "jsonld": {
       "name": "Support Open Football Project",
-      "description": "Bitcoin donation page for Open Football Project, an independent, ad-light football platform."
+      "description": "Donation page for Open Football Project, a free, open-source football platform. Card, PayPal or Bitcoin."
     }
   },
   "guessPlayerSeo": {

@@ -684,11 +684,11 @@
     }
   },
   "supportusseo": {
-    "title": "Apoyá a Open Football Project | Donaciones en Bitcoin",
-    "description": "Open Football Project es un proyecto gratuito e independiente. Si te resulta útil, una donación en Bitcoin ayuda a cubrir sus costos de funcionamiento. Toda contribución es bienvenida.",
+    "title": "Apoyá a Open Football Project | Doná con tarjeta, PayPal o Bitcoin",
+    "description": "Ayudanos a mantener Open Football Project gratis y de código abierto. Doná con tarjeta o PayPal a través de Ko-fi, o con Bitcoin.",
     "jsonld": {
       "name": "Apoyá a Open Football Project",
-      "description": "Página de donaciones en Bitcoin para Open Football Project, una plataforma de fútbol independiente y con poca publicidad."
+      "description": "Página de donaciones de Open Football Project, una plataforma de fútbol gratuita y de código abierto. Tarjeta, PayPal o Bitcoin."
     }
   },
   "guessPlayerSeo": {
