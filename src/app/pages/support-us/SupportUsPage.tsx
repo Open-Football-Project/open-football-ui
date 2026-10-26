@@ -33,24 +33,28 @@ const SupportUsPage = () => {
           </h1>
           <p className="text-lg leading-relaxed mb-8">{t("supportus.text")}</p>
 
-          <div className="bg-brand-card rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-brand-white mb-2">
-              {t("supportus.kofiTitle")}
-            </h2>
-            <p className="mb-6">{t("supportus.kofiText")}</p>
-            <a
-              href={kofiUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-brand-yellow text-brand-darkBg font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
-            >
-              {t("supportus.kofiButton")}
-            </a>
-          </div>
+          {kofiUrl && (
+            <>
+              <div className="bg-brand-card rounded-lg p-6">
+                <h2 className="text-xl font-semibold text-brand-white mb-2">
+                  {t("supportus.kofiTitle")}
+                </h2>
+                <p className="mb-6">{t("supportus.kofiText")}</p>
+                <a
+                  href={kofiUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-brand-yellow text-brand-darkBg font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  {t("supportus.kofiButton")}
+                </a>
+              </div>
 
-          <p className="my-6 text-sm uppercase tracking-wide text-brand-lightGray/70">
-            {t("supportus.or")}
-          </p>
+              <p className="my-6 text-sm uppercase tracking-wide text-brand-lightGray/70">
+                {t("supportus.or")}
+              </p>
+            </>
+          )}
 
           <div className="bg-brand-card rounded-lg p-6">
             <h2 className="text-xl font-semibold text-brand-white mb-2">

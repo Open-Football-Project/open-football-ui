@@ -54,6 +54,16 @@ describe("SupportUsPage", () => {
     expect(link).toHaveAttribute("rel", "noopener noreferrer");
   });
 
+  it("hides the Ko-fi option when the env var is empty, keeping Bitcoin", () => {
+    vi.stubEnv("VITE_KOFI_URL", "");
+    render(<SupportUsPage />);
+    expect(
+      screen.queryByRole("link", { name: /supportus.kofiButton/i })
+    ).not.toBeInTheDocument();
+    expect(screen.queryByText("supportus.or")).not.toBeInTheDocument();
+    expect(screen.getByText(FAKE_BTC_ADDRESS)).toBeInTheDocument();
+  });
+
   it("renders the BTC address from the env var as selectable text", () => {
     render(<SupportUsPage />);
     expect(screen.getByText(FAKE_BTC_ADDRESS)).toBeInTheDocument();
